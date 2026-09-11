@@ -1,0 +1,351 @@
+location_zone,latitude,longitude,hour,day_of_week,incident_type,severity
+Bengaluru - Jayanagar,12.993903,77.645856,23,1,theft,2
+Bengaluru - Indiranagar,13.026523,77.579713,15,1,vandalism,2
+Bengaluru - HSR Layout,12.906315,77.524272,22,3,theft,2
+Bengaluru - HSR Layout,13.016561,77.54069,10,6,suspicious_activity,1
+Bengaluru - Electronic City,12.976256,77.699236,17,3,burglary,1
+Bengaluru - Whitefield,13.017111,77.558777,19,2,theft,1
+Bengaluru - MG Road,13.045193,77.57997,4,0,burglary,1
+Bengaluru - MG Road,12.987556,77.666756,5,3,traffic_accident,1
+Bengaluru - MG Road,13.031325,77.607181,12,6,suspicious_activity,2
+Bengaluru - Hebbal,12.982779,77.556672,12,5,burglary,2
+Bengaluru - Electronic City,12.930712,77.680633,18,1,theft,2
+Bengaluru - Whitefield,13.018298,77.704998,2,3,vandalism,2
+Bengaluru - HSR Layout,12.909317,77.649836,8,6,vandalism,2
+Bengaluru - Jayanagar,12.902274,77.628924,20,1,suspicious_activity,1
+Bengaluru - Jayanagar,12.930181,77.527407,17,2,suspicious_activity,1
+Bengaluru - MG Road,12.937819,77.5759,14,0,harassment,1
+Bengaluru - Electronic City,12.922101,77.549189,23,3,traffic_accident,1
+Bengaluru - Electronic City,12.907627,77.524735,20,3,traffic_accident,3
+Bengaluru - MG Road,13.026271,77.559989,20,2,harassment,1
+Bengaluru - Jayanagar,13.030714,77.542033,6,0,burglary,1
+Bengaluru - Jayanagar,13.040576,77.706442,20,6,suspicious_activity,1
+Bengaluru - Jayanagar,12.970428,77.607667,9,6,suspicious_activity,2
+Bengaluru - HSR Layout,13.044255,77.696772,0,4,vandalism,1
+Bengaluru - Jayanagar,13.001708,77.523672,17,3,traffic_accident,1
+Bengaluru - Jayanagar,12.909131,77.521971,22,4,harassment,1
+Bengaluru - HSR Layout,13.033817,77.582294,0,4,burglary,1
+Bengaluru - Hebbal,13.029339,77.648308,2,5,theft,2
+Bengaluru - MG Road,12.916003,77.680644,14,6,vandalism,1
+Bengaluru - Whitefield,13.015997,77.626743,7,0,burglary,1
+Bengaluru - HSR Layout,13.033199,77.702914,21,3,harassment,2
+Bengaluru - Jayanagar,12.932498,77.662014,11,4,burglary,3
+Bengaluru - HSR Layout,12.949983,77.668996,16,0,suspicious_activity,1
+Bengaluru - Whitefield,12.9058,77.659406,21,0,vandalism,2
+Bengaluru - Indiranagar,13.00825,77.53791,13,6,burglary,1
+Bengaluru - Whitefield,12.941115,77.70659,16,5,burglary,2
+Bengaluru - HSR Layout,12.987939,77.632948,5,2,vandalism,1
+Bengaluru - Hebbal,12.955758,77.71752,13,4,theft,1
+Bengaluru - Jayanagar,12.949529,77.683612,7,0,vandalism,1
+Bengaluru - Hebbal,13.046067,77.70791,4,6,vandalism,1
+Bengaluru - Hebbal,12.99464,77.619717,12,4,burglary,1
+Bengaluru - Jayanagar,12.901185,77.602278,0,4,traffic_accident,3
+Bengaluru - MG Road,12.90179,77.666007,9,6,suspicious_activity,3
+Bengaluru - Electronic City,12.919281,77.550006,20,1,traffic_accident,3
+Bengaluru - HSR Layout,12.983704,77.651402,8,0,harassment,2
+Bengaluru - MG Road,12.997789,77.660792,11,0,theft,1
+Bengaluru - Jayanagar,12.960757,77.578498,12,4,vandalism,3
+Bengaluru - MG Road,12.96606,77.631475,4,6,traffic_accident,1
+Bengaluru - Indiranagar,12.94764,77.59057,7,2,burglary,1
+Bengaluru - MG Road,12.962873,77.682172,20,6,harassment,1
+Bengaluru - Jayanagar,12.952531,77.681418,1,2,theft,1
+Bengaluru - Indiranagar,12.999121,77.560199,21,2,vandalism,2
+Bengaluru - Jayanagar,12.905405,77.604825,13,5,burglary,3
+Bengaluru - Hebbal,12.914352,77.531982,7,0,harassment,1
+Bengaluru - Hebbal,13.049759,77.660454,2,0,harassment,2
+Bengaluru - Indiranagar,12.961372,77.603377,6,2,burglary,1
+Bengaluru - Hebbal,12.965676,77.703566,0,4,harassment,2
+Bengaluru - Indiranagar,12.963764,77.626206,1,2,theft,1
+Bengaluru - Indiranagar,12.934664,77.596547,5,6,theft,1
+Bengaluru - HSR Layout,13.014497,77.654643,12,4,theft,2
+Bengaluru - Electronic City,12.950923,77.698497,5,0,vandalism,2
+Bengaluru - Hebbal,12.957,77.569656,19,2,harassment,3
+Bengaluru - Indiranagar,12.983543,77.524745,13,2,burglary,1
+Bengaluru - Electronic City,13.006416,77.524645,1,0,theft,2
+Bengaluru - MG Road,12.947355,77.625533,0,2,vandalism,1
+Bengaluru - Whitefield,12.95482,77.635938,18,5,burglary,1
+Bengaluru - Indiranagar,12.998584,77.615367,9,2,suspicious_activity,2
+Bengaluru - Indiranagar,12.905553,77.663985,16,0,vandalism,1
+Bengaluru - Indiranagar,12.990435,77.715773,17,0,traffic_accident,2
+Bengaluru - Whitefield,13.029541,77.666859,17,0,theft,1
+Bengaluru - Hebbal,12.930283,77.620951,23,6,suspicious_activity,3
+Bengaluru - Jayanagar,12.981193,77.61197,19,2,theft,1
+Bengaluru - Electronic City,12.988651,77.571584,8,3,theft,1
+Bengaluru - HSR Layout,12.919267,77.531327,10,2,theft,1
+Bengaluru - Jayanagar,12.967939,77.632036,1,5,suspicious_activity,2
+Bengaluru - Hebbal,12.932376,77.642027,11,3,harassment,3
+Bengaluru - Jayanagar,12.969626,77.610995,18,5,suspicious_activity,3
+Bengaluru - Hebbal,13.010683,77.618924,1,0,vandalism,1
+Bengaluru - Indiranagar,12.949048,77.536165,20,2,suspicious_activity,2
+Bengaluru - HSR Layout,12.99238,77.609985,16,4,burglary,2
+Bengaluru - Electronic City,12.903546,77.590424,14,2,vandalism,3
+Bengaluru - MG Road,12.924018,77.70402,21,3,harassment,2
+Bengaluru - Koramangala,12.927062,77.646409,2,3,suspicious_activity,3
+Bengaluru - Jayanagar,12.910591,77.668837,9,3,burglary,1
+Bengaluru - Jayanagar,12.967951,77.521713,22,6,traffic_accident,2
+Bengaluru - Electronic City,12.937208,77.585851,12,4,traffic_accident,2
+Bengaluru - Indiranagar,12.953907,77.612884,11,0,suspicious_activity,1
+Bengaluru - MG Road,12.98373,77.585271,23,1,burglary,2
+Bengaluru - Indiranagar,12.907411,77.57777,11,5,vandalism,2
+Bengaluru - Jayanagar,12.92265,77.671549,22,1,vandalism,1
+Bengaluru - Koramangala,13.02076,77.665109,6,1,suspicious_activity,1
+Bengaluru - MG Road,12.943578,77.526591,5,2,suspicious_activity,1
+Bengaluru - Indiranagar,12.913428,77.523357,0,0,harassment,1
+Bengaluru - Hebbal,13.034373,77.583985,0,5,burglary,1
+Bengaluru - Electronic City,12.927643,77.667766,12,3,vandalism,3
+Bengaluru - HSR Layout,12.934621,77.538472,7,1,suspicious_activity,2
+Bengaluru - MG Road,13.010566,77.646802,12,3,traffic_accident,3
+Bengaluru - Whitefield,13.02739,77.703688,4,3,burglary,3
+Bengaluru - Koramangala,12.989696,77.524727,6,2,vandalism,1
+Bengaluru - Jayanagar,12.99476,77.63984,13,3,traffic_accident,1
+Bengaluru - Whitefield,12.93219,77.548615,12,2,theft,2
+Bengaluru - HSR Layout,12.906106,77.710968,14,1,burglary,2
+Bengaluru - MG Road,13.013768,77.551795,7,4,vandalism,2
+Bengaluru - Electronic City,13.03835,77.640318,14,3,vandalism,3
+Bengaluru - Hebbal,12.952599,77.682785,12,4,burglary,2
+Bengaluru - Koramangala,12.945559,77.624099,10,5,vandalism,1
+Bengaluru - Whitefield,12.987504,77.593724,8,4,suspicious_activity,2
+Bengaluru - MG Road,12.959324,77.694776,3,6,harassment,2
+Bengaluru - Indiranagar,13.026314,77.690651,2,6,harassment,2
+Bengaluru - HSR Layout,13.015835,77.670173,0,1,traffic_accident,1
+Bengaluru - Electronic City,12.996687,77.642629,14,6,suspicious_activity,2
+Bengaluru - Jayanagar,12.938608,77.64391,16,4,harassment,2
+Bengaluru - Jayanagar,13.046923,77.638909,9,2,traffic_accident,3
+Bengaluru - MG Road,12.915828,77.69116,13,6,harassment,1
+Bengaluru - Electronic City,13.004803,77.704761,13,2,suspicious_activity,1
+Bengaluru - Jayanagar,13.030033,77.611852,8,6,burglary,1
+Bengaluru - Jayanagar,12.998421,77.547637,22,4,harassment,1
+Bengaluru - HSR Layout,12.952822,77.662681,7,3,harassment,3
+Bengaluru - Jayanagar,12.918958,77.705267,3,6,theft,1
+Bengaluru - Whitefield,12.966525,77.564913,21,4,traffic_accident,1
+Bengaluru - Koramangala,12.929142,77.59698,9,1,burglary,1
+Bengaluru - Electronic City,13.017122,77.624665,1,3,vandalism,1
+Bengaluru - Whitefield,12.962606,77.595965,13,0,vandalism,1
+Bengaluru - HSR Layout,12.910269,77.679326,13,2,vandalism,1
+Bengaluru - Electronic City,12.972151,77.697391,7,2,vandalism,1
+Bengaluru - MG Road,13.046921,77.595416,2,3,harassment,1
+Bengaluru - Electronic City,12.964885,77.567212,10,4,vandalism,1
+Bengaluru - Jayanagar,12.998217,77.564944,22,5,theft,1
+Bengaluru - MG Road,12.946264,77.691875,19,5,harassment,2
+Bengaluru - Jayanagar,12.962546,77.526997,17,6,suspicious_activity,3
+Bengaluru - Koramangala,13.009029,77.532277,15,4,vandalism,3
+Bengaluru - Koramangala,12.930446,77.542234,16,3,burglary,2
+Bengaluru - Jayanagar,12.966665,77.709375,20,4,burglary,3
+Bengaluru - Koramangala,12.959406,77.642517,0,3,theft,3
+Bengaluru - Hebbal,12.900222,77.640608,0,2,traffic_accident,1
+Bengaluru - Hebbal,12.982481,77.569896,1,5,burglary,1
+Bengaluru - Whitefield,12.967462,77.584449,6,6,burglary,1
+Bengaluru - Electronic City,12.991858,77.692326,14,3,vandalism,3
+Bengaluru - Electronic City,12.964188,77.711398,3,1,traffic_accident,3
+Bengaluru - Jayanagar,13.010221,77.581862,1,2,harassment,1
+Bengaluru - MG Road,12.932312,77.549031,20,5,theft,2
+Bengaluru - Electronic City,12.965877,77.570002,7,6,traffic_accident,1
+Bengaluru - Indiranagar,13.013069,77.598965,8,3,suspicious_activity,1
+Bengaluru - Whitefield,12.935109,77.676438,10,4,harassment,1
+Bengaluru - Koramangala,12.913336,77.686804,12,4,theft,2
+Bengaluru - Indiranagar,13.019148,77.68012,7,1,suspicious_activity,1
+Bengaluru - Electronic City,13.031788,77.705032,0,0,traffic_accident,3
+Bengaluru - Koramangala,12.957694,77.663724,1,5,burglary,2
+Bengaluru - Hebbal,12.940531,77.611432,14,2,harassment,1
+Bengaluru - MG Road,12.979337,77.572793,0,2,vandalism,2
+Bengaluru - Hebbal,12.928993,77.617969,12,0,vandalism,2
+Bengaluru - MG Road,12.920754,77.598883,21,2,harassment,2
+Bengaluru - Electronic City,12.998283,77.630769,8,4,burglary,1
+Bengaluru - Electronic City,13.020493,77.563589,5,5,burglary,2
+Bengaluru - Whitefield,12.957172,77.528881,10,4,vandalism,1
+Bengaluru - Koramangala,12.978909,77.616109,14,6,suspicious_activity,1
+Bengaluru - Whitefield,12.946874,77.688581,11,3,traffic_accident,1
+Bengaluru - Jayanagar,12.952917,77.593496,22,3,burglary,1
+Bengaluru - Jayanagar,13.035243,77.718598,15,3,theft,2
+Bengaluru - Koramangala,12.981991,77.665185,21,1,theft,1
+Bengaluru - HSR Layout,13.022626,77.536501,7,0,traffic_accident,2
+Bengaluru - HSR Layout,12.944766,77.661051,3,0,traffic_accident,1
+Bengaluru - Jayanagar,13.011601,77.606566,20,6,traffic_accident,2
+Bengaluru - Whitefield,13.006595,77.64399,13,6,harassment,2
+Bengaluru - MG Road,12.973856,77.636529,4,6,suspicious_activity,2
+Bengaluru - MG Road,12.93306,77.674751,15,5,suspicious_activity,1
+Bengaluru - Indiranagar,12.935354,77.628537,14,1,vandalism,2
+Bengaluru - MG Road,13.049738,77.623001,23,0,harassment,1
+Bengaluru - MG Road,12.918662,77.668133,21,6,suspicious_activity,2
+Bengaluru - Hebbal,12.978336,77.705697,21,0,traffic_accident,1
+Bengaluru - Hebbal,12.943108,77.668043,18,4,vandalism,1
+Bengaluru - Koramangala,13.00332,77.619667,11,0,burglary,2
+Bengaluru - Indiranagar,12.975958,77.67755,8,5,harassment,3
+Bengaluru - Koramangala,13.048278,77.607137,0,3,suspicious_activity,1
+Bengaluru - Hebbal,12.928782,77.620311,3,1,traffic_accident,1
+Bengaluru - Electronic City,12.988809,77.68006,5,0,harassment,2
+Bengaluru - Electronic City,12.921095,77.633322,16,6,suspicious_activity,2
+Bengaluru - Jayanagar,12.992749,77.640216,6,0,theft,1
+Bengaluru - HSR Layout,12.985396,77.521957,8,3,harassment,1
+Bengaluru - Electronic City,13.026163,77.53868,0,3,burglary,1
+Bengaluru - Koramangala,13.049799,77.627812,22,2,harassment,1
+Bengaluru - Indiranagar,12.938073,77.562942,5,0,traffic_accident,2
+Bengaluru - Electronic City,12.908149,77.702481,22,6,suspicious_activity,2
+Bengaluru - Jayanagar,12.935484,77.620405,7,3,theft,2
+Bengaluru - Whitefield,12.930204,77.708123,15,6,traffic_accident,2
+Bengaluru - MG Road,12.909865,77.67663,12,3,suspicious_activity,3
+Bengaluru - Electronic City,13.025166,77.524943,23,0,suspicious_activity,1
+Bengaluru - Indiranagar,13.035753,77.631673,7,6,harassment,3
+Bengaluru - Jayanagar,13.007409,77.707577,14,2,suspicious_activity,1
+Bengaluru - Jayanagar,13.038603,77.653036,21,4,traffic_accident,1
+Bengaluru - Whitefield,12.947561,77.520284,22,0,theft,2
+Bengaluru - Whitefield,12.915683,77.554404,4,6,harassment,3
+Bengaluru - Jayanagar,13.049053,77.541251,13,6,vandalism,1
+Bengaluru - HSR Layout,12.951661,77.627528,13,4,burglary,2
+Bengaluru - Electronic City,12.9287,77.620937,11,1,suspicious_activity,2
+Bengaluru - Indiranagar,12.934167,77.683227,2,0,burglary,2
+Bengaluru - Jayanagar,13.030812,77.71609,9,6,harassment,2
+Bengaluru - Jayanagar,13.034166,77.537977,21,5,burglary,2
+Bengaluru - HSR Layout,12.943358,77.62614,12,4,harassment,2
+Bengaluru - Indiranagar,13.029623,77.611591,12,3,burglary,2
+Bengaluru - Jayanagar,13.016791,77.616339,5,0,traffic_accident,3
+Bengaluru - Whitefield,13.005369,77.699341,22,3,vandalism,1
+Bengaluru - HSR Layout,13.003344,77.543518,21,0,harassment,1
+Bengaluru - Jayanagar,12.913031,77.551404,3,6,theft,1
+Bengaluru - Indiranagar,13.002,77.633351,13,3,suspicious_activity,1
+Bengaluru - Jayanagar,12.917827,77.708942,3,2,burglary,3
+Bengaluru - Hebbal,12.938365,77.680355,9,4,harassment,2
+Bengaluru - Hebbal,13.008203,77.533691,6,1,traffic_accident,1
+Bengaluru - HSR Layout,12.977253,77.660013,1,1,suspicious_activity,1
+Bengaluru - Electronic City,13.021379,77.528115,4,5,harassment,1
+Bengaluru - MG Road,12.970959,77.694902,4,4,suspicious_activity,1
+Bengaluru - Hebbal,12.931571,77.586967,20,2,traffic_accident,3
+Bengaluru - Electronic City,13.007345,77.675239,22,5,theft,2
+Bengaluru - Indiranagar,12.910717,77.600215,4,6,burglary,1
+Bengaluru - MG Road,12.984752,77.619776,15,4,theft,2
+Bengaluru - Electronic City,13.013221,77.522428,13,4,traffic_accident,2
+Bengaluru - MG Road,12.925827,77.58227,10,0,harassment,2
+Bengaluru - Koramangala,12.922952,77.64652,11,0,theft,1
+Bengaluru - Jayanagar,13.028797,77.640144,15,4,vandalism,2
+Bengaluru - HSR Layout,12.903585,77.686728,11,3,vandalism,2
+Bengaluru - HSR Layout,13.02099,77.545654,1,6,theft,1
+Bengaluru - HSR Layout,12.969817,77.628121,5,6,suspicious_activity,2
+Bengaluru - Jayanagar,13.039366,77.633664,20,4,theft,1
+Bengaluru - MG Road,12.992191,77.592382,19,0,suspicious_activity,1
+Bengaluru - Electronic City,12.923962,77.552394,9,5,vandalism,1
+Bengaluru - Jayanagar,13.042164,77.668672,4,3,traffic_accident,3
+Bengaluru - Koramangala,12.957988,77.560492,18,0,theft,3
+Bengaluru - Indiranagar,12.965224,77.558087,1,4,vandalism,2
+Bengaluru - Whitefield,13.003875,77.670006,5,6,traffic_accident,1
+Bengaluru - Hebbal,12.982748,77.555469,14,4,theft,2
+Bengaluru - Electronic City,12.949759,77.595399,4,0,harassment,2
+Bengaluru - Hebbal,13.030738,77.592299,4,3,burglary,3
+Bengaluru - HSR Layout,12.934326,77.599238,6,1,harassment,3
+Bengaluru - Jayanagar,12.924256,77.636169,14,2,harassment,1
+Bengaluru - Hebbal,12.954189,77.618801,13,6,traffic_accident,3
+Bengaluru - Whitefield,12.986132,77.590592,12,5,burglary,3
+Bengaluru - Electronic City,12.955581,77.71587,6,3,theft,2
+Bengaluru - Indiranagar,12.903337,77.709406,14,2,vandalism,1
+Bengaluru - Jayanagar,12.902831,77.611838,11,2,suspicious_activity,1
+Bengaluru - Electronic City,13.009834,77.673858,13,5,suspicious_activity,1
+Bengaluru - MG Road,13.039572,77.559715,11,3,burglary,1
+Bengaluru - MG Road,12.953454,77.592294,4,6,traffic_accident,2
+Bengaluru - MG Road,12.93138,77.558803,11,3,suspicious_activity,3
+Bengaluru - MG Road,13.047076,77.612708,17,2,traffic_accident,2
+Bengaluru - Jayanagar,13.019883,77.715239,21,2,suspicious_activity,1
+Bengaluru - Jayanagar,12.90875,77.667561,0,0,harassment,2
+Bengaluru - Indiranagar,13.041226,77.700101,2,4,burglary,1
+Bengaluru - Electronic City,12.957916,77.653126,11,3,burglary,2
+Bengaluru - Hebbal,13.007133,77.618163,10,2,traffic_accident,1
+Bengaluru - Koramangala,12.971263,77.67635,17,5,harassment,1
+Bengaluru - Electronic City,13.016785,77.667895,19,6,burglary,1
+Bengaluru - Electronic City,12.959986,77.581241,7,1,burglary,2
+Bengaluru - Electronic City,12.923851,77.636049,3,4,harassment,1
+Bengaluru - MG Road,12.909871,77.716239,17,5,harassment,1
+Bengaluru - Indiranagar,13.024313,77.707337,9,2,burglary,1
+Bengaluru - Hebbal,13.040627,77.669974,7,4,burglary,1
+Bengaluru - Electronic City,12.906088,77.530668,15,5,suspicious_activity,1
+Bengaluru - HSR Layout,13.042212,77.703493,9,4,theft,3
+Bengaluru - Jayanagar,13.020111,77.664828,18,1,vandalism,3
+Bengaluru - Koramangala,13.007575,77.611811,20,5,suspicious_activity,1
+Bengaluru - Electronic City,12.949831,77.607385,15,3,traffic_accident,1
+Bengaluru - Indiranagar,12.90054,77.707446,6,3,vandalism,3
+Bengaluru - HSR Layout,13.027411,77.707754,19,5,theft,3
+Bengaluru - HSR Layout,12.902794,77.71311,19,6,vandalism,1
+Bengaluru - Koramangala,13.032454,77.589275,11,3,traffic_accident,2
+Bengaluru - Hebbal,12.904308,77.587665,5,1,suspicious_activity,3
+Bengaluru - Electronic City,13.002463,77.637249,11,0,theft,1
+Bengaluru - Hebbal,12.983756,77.661657,17,4,suspicious_activity,3
+Bengaluru - Koramangala,12.905845,77.522946,19,6,traffic_accident,1
+Bengaluru - Whitefield,13.013403,77.531114,16,3,harassment,3
+Bengaluru - MG Road,12.92,77.575796,0,4,suspicious_activity,2
+Bengaluru - Jayanagar,13.035271,77.535374,8,1,burglary,3
+Bengaluru - MG Road,13.025009,77.615878,19,1,traffic_accident,2
+Bengaluru - MG Road,13.031796,77.528897,13,3,harassment,1
+Bengaluru - Indiranagar,13.009687,77.586189,7,1,harassment,1
+Bengaluru - Jayanagar,13.048019,77.709036,17,1,suspicious_activity,1
+Bengaluru - HSR Layout,12.987681,77.567337,10,3,vandalism,1
+Bengaluru - Jayanagar,13.032798,77.648963,19,6,suspicious_activity,2
+Bengaluru - Electronic City,13.030814,77.675171,22,2,traffic_accident,1
+Bengaluru - HSR Layout,12.964031,77.587806,23,5,harassment,2
+Bengaluru - HSR Layout,12.910873,77.635051,18,5,suspicious_activity,2
+Bengaluru - HSR Layout,12.985362,77.530306,1,4,traffic_accident,1
+Bengaluru - HSR Layout,12.964648,77.615094,16,3,suspicious_activity,1
+Bengaluru - HSR Layout,13.033645,77.624342,4,1,harassment,2
+Bengaluru - Whitefield,13.036339,77.644405,10,0,harassment,1
+Bengaluru - Indiranagar,12.979893,77.685157,23,3,vandalism,2
+Bengaluru - Indiranagar,12.96897,77.667528,21,3,theft,1
+Bengaluru - MG Road,12.990399,77.57938,9,4,harassment,3
+Bengaluru - Hebbal,12.904622,77.620942,3,6,traffic_accident,1
+Bengaluru - Koramangala,12.97721,77.662492,0,3,vandalism,1
+Bengaluru - Jayanagar,13.010023,77.58014,7,5,harassment,2
+Bengaluru - Hebbal,13.007588,77.556941,13,4,theft,3
+Bengaluru - MG Road,13.033147,77.57423,5,3,traffic_accident,1
+Bengaluru - Koramangala,12.972986,77.525623,16,3,theft,1
+Bengaluru - Hebbal,12.964361,77.704112,2,3,harassment,1
+Bengaluru - Whitefield,13.01156,77.613934,0,4,suspicious_activity,1
+Bengaluru - Electronic City,12.962404,77.656529,1,1,burglary,2
+Bengaluru - Whitefield,13.024615,77.717275,11,5,suspicious_activity,3
+Bengaluru - Koramangala,12.946813,77.710434,17,2,harassment,1
+Bengaluru - Indiranagar,13.00962,77.610361,2,5,traffic_accident,1
+Bengaluru - HSR Layout,13.037187,77.602299,5,5,suspicious_activity,1
+Bengaluru - HSR Layout,12.921456,77.621985,14,3,suspicious_activity,3
+Bengaluru - Indiranagar,12.959106,77.639903,3,6,harassment,1
+Bengaluru - Hebbal,13.028294,77.705991,22,5,harassment,1
+Bengaluru - Indiranagar,13.001444,77.627016,0,1,burglary,3
+Bengaluru - Koramangala,12.904796,77.627567,6,4,burglary,2
+Bengaluru - Indiranagar,13.014088,77.652332,8,6,suspicious_activity,2
+Bengaluru - Electronic City,12.942108,77.678199,0,1,vandalism,2
+Bengaluru - HSR Layout,12.907439,77.663675,9,0,traffic_accident,2
+Bengaluru - Koramangala,12.92775,77.547194,11,0,theft,1
+Bengaluru - Whitefield,13.027564,77.635755,17,6,burglary,2
+Bengaluru - Electronic City,12.906814,77.620121,16,0,vandalism,1
+Bengaluru - MG Road,12.910892,77.603977,9,0,suspicious_activity,1
+Bengaluru - Hebbal,12.901566,77.663799,15,2,theft,2
+Bengaluru - HSR Layout,12.924351,77.593017,0,3,theft,2
+Bengaluru - Indiranagar,12.936661,77.591225,15,5,vandalism,1
+Bengaluru - Jayanagar,12.930748,77.581883,6,4,theft,1
+Bengaluru - Whitefield,12.92176,77.596292,16,1,theft,2
+Bengaluru - HSR Layout,12.973484,77.612245,5,3,traffic_accident,1
+Bengaluru - Koramangala,12.969086,77.674268,9,1,burglary,2
+Bengaluru - Indiranagar,13.001839,77.70057,18,0,theft,2
+Bengaluru - Whitefield,12.995767,77.671255,22,6,harassment,1
+Bengaluru - Koramangala,12.935313,77.669334,22,5,harassment,1
+Bengaluru - Hebbal,13.006491,77.573905,7,2,suspicious_activity,3
+Bengaluru - Hebbal,12.972346,77.540983,18,4,traffic_accident,3
+Bengaluru - HSR Layout,13.029357,77.561368,10,4,burglary,2
+Bengaluru - Indiranagar,12.908218,77.667281,11,1,theft,2
+Bengaluru - Indiranagar,12.907328,77.67519,4,5,suspicious_activity,3
+Bengaluru - Electronic City,13.022524,77.659713,4,6,suspicious_activity,1
+Bengaluru - Indiranagar,12.975783,77.529957,21,5,burglary,1
+Bengaluru - MG Road,13.041242,77.523746,18,2,theft,1
+Bengaluru - Koramangala,13.047685,77.659596,17,6,suspicious_activity,2
+Bengaluru - Indiranagar,12.913872,77.597266,10,3,traffic_accident,2
+Bengaluru - HSR Layout,13.033284,77.564969,7,4,vandalism,1
+Bengaluru - Jayanagar,13.004038,77.614353,13,3,traffic_accident,1
+Bengaluru - Indiranagar,13.031279,77.612884,4,4,burglary,2
+Bengaluru - HSR Layout,12.91487,77.549325,10,5,harassment,1
+Bengaluru - Indiranagar,12.987772,77.530192,4,4,harassment,2
+Bengaluru - Jayanagar,12.916073,77.70183,19,0,suspicious_activity,1
+Bengaluru - MG Road,13.008956,77.539996,9,2,theft,3
+Bengaluru - Jayanagar,13.039134,77.584301,3,0,vandalism,3
+Bengaluru - Indiranagar,12.920893,77.605816,3,0,harassment,1
+Bengaluru - Hebbal,13.021366,77.584624,21,5,suspicious_activity,1
+Bengaluru - Indiranagar,13.007488,77.536713,16,1,burglary,2
+Bengaluru - Hebbal,12.989335,77.713407,23,5,suspicious_activity,1
+Bengaluru - HSR Layout,12.986455,77.715056,18,4,traffic_accident,2
+Bengaluru - Whitefield,12.921697,77.60002,1,5,harassment,1
+Bengaluru - Hebbal,13.0202,77.68141,17,5,vandalism,3
+Bengaluru - Whitefield,13.032553,77.560451,0,3,vandalism,1
+Bengaluru - Jayanagar,12.959381,77.633392,21,5,theft,3
+Bengaluru - Whitefield,13.029241,77.564978,23,2,vandalism,3

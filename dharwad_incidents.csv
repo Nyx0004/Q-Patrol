@@ -1,0 +1,351 @@
+location_zone,latitude,longitude,hour,day_of_week,incident_type,severity
+Dharwad - Line Bazar,15.441397,75.00476,10,2,vandalism,3
+Dharwad - Navalur,15.44621,75.005386,17,6,suspicious_activity,2
+Dharwad - Saptapur,15.447874,75.02019,12,4,burglary,1
+Dharwad - KCD Circle,15.445349,74.999547,11,0,burglary,2
+Dharwad - Vidyagiri,15.437927,75.025753,22,1,suspicious_activity,1
+Dharwad - Sattur,15.449758,75.004038,10,6,burglary,1
+Dharwad - Sattur,15.465601,75.039631,14,4,traffic_accident,1
+Dharwad - Vidyagiri,15.449946,75.006132,6,6,traffic_accident,3
+Dharwad - Navalur,15.453331,75.017783,13,4,suspicious_activity,1
+Dharwad - Navalur,15.440618,75.005819,6,2,suspicious_activity,1
+Dharwad - Sattur,15.476547,75.031199,14,0,traffic_accident,2
+Dharwad - Line Bazar,15.457844,75.024152,0,1,harassment,2
+Dharwad - Line Bazar,15.460053,74.985999,10,0,suspicious_activity,2
+Dharwad - Line Bazar,15.436768,75.028524,12,6,burglary,1
+Dharwad - Sattur,15.451708,74.984464,11,1,traffic_accident,1
+Dharwad - Saptapur,15.43192,74.984676,1,3,vandalism,1
+Dharwad - KCD Circle,15.467279,75.001535,9,4,vandalism,2
+Dharwad - KCD Circle,15.433753,74.999444,21,6,theft,2
+Dharwad - Line Bazar,15.472209,75.030499,19,6,burglary,2
+Dharwad - Vidyagiri,15.476802,75.030419,4,6,burglary,1
+Dharwad - Navalur,15.47796,74.987062,14,2,burglary,1
+Dharwad - Saptapur,15.432346,75.014687,22,5,suspicious_activity,2
+Dharwad - Vidyagiri,15.43211,75.030556,14,4,traffic_accident,2
+Dharwad - Vidyagiri,15.446157,75.004492,6,3,theft,2
+Dharwad - Navalur,15.441791,75.027246,8,2,vandalism,3
+Dharwad - Vidyagiri,15.461722,75.012886,3,4,suspicious_activity,1
+Dharwad - KCD Circle,15.451836,74.996075,17,2,suspicious_activity,3
+Dharwad - Sattur,15.459723,74.997571,15,0,vandalism,1
+Dharwad - KCD Circle,15.452225,75.012231,19,5,vandalism,1
+Dharwad - Vidyagiri,15.463475,75.002514,7,0,harassment,3
+Dharwad - Saptapur,15.449325,75.004251,20,2,vandalism,1
+Dharwad - Line Bazar,15.452384,75.005819,19,1,harassment,1
+Dharwad - Vidyagiri,15.443769,74.98302,0,5,suspicious_activity,1
+Dharwad - Saptapur,15.435775,75.025718,22,3,suspicious_activity,2
+Dharwad - Line Bazar,15.442885,75.010195,6,1,theft,1
+Dharwad - Navalur,15.465399,74.98294,19,5,burglary,1
+Dharwad - Saptapur,15.430409,75.024607,15,3,traffic_accident,1
+Dharwad - Line Bazar,15.476883,75.017164,19,5,burglary,1
+Dharwad - Line Bazar,15.443124,74.986699,7,3,burglary,1
+Dharwad - Vidyagiri,15.451005,74.995513,19,4,suspicious_activity,2
+Dharwad - Saptapur,15.441541,75.009168,23,2,suspicious_activity,1
+Dharwad - Vidyagiri,15.472426,75.032976,14,3,harassment,3
+Dharwad - Vidyagiri,15.449732,75.018576,22,5,harassment,1
+Dharwad - Vidyagiri,15.442288,75.03244,13,4,harassment,2
+Dharwad - Navalur,15.45396,74.999728,1,2,suspicious_activity,1
+Dharwad - Vidyagiri,15.451578,74.99904,0,4,harassment,1
+Dharwad - Navalur,15.473979,74.994238,3,5,burglary,1
+Dharwad - KCD Circle,15.443912,75.029098,14,2,burglary,3
+Dharwad - Vidyagiri,15.469903,75.009374,0,2,traffic_accident,2
+Dharwad - Saptapur,15.430639,75.036292,18,0,burglary,1
+Dharwad - Sattur,15.443869,74.987964,16,2,suspicious_activity,3
+Dharwad - Saptapur,15.471635,75.013922,23,2,harassment,1
+Dharwad - Line Bazar,15.442827,75.029676,1,6,suspicious_activity,1
+Dharwad - Sattur,15.444585,75.036592,13,0,theft,1
+Dharwad - KCD Circle,15.434736,74.986185,21,2,harassment,1
+Dharwad - KCD Circle,15.43994,74.986772,7,0,vandalism,1
+Dharwad - Navalur,15.457275,74.993982,5,6,theft,2
+Dharwad - KCD Circle,15.451428,74.985601,4,0,suspicious_activity,1
+Dharwad - KCD Circle,15.430174,75.020037,7,3,suspicious_activity,2
+Dharwad - Line Bazar,15.470176,75.018937,20,0,theft,1
+Dharwad - Saptapur,15.438588,75.038507,21,6,traffic_accident,1
+Dharwad - Saptapur,15.476794,75.031168,16,6,traffic_accident,1
+Dharwad - Vidyagiri,15.445134,75.003188,10,3,vandalism,2
+Dharwad - Saptapur,15.458787,75.038051,3,6,traffic_accident,1
+Dharwad - Line Bazar,15.461848,75.018223,19,2,vandalism,1
+Dharwad - Sattur,15.435737,75.035835,11,4,suspicious_activity,1
+Dharwad - KCD Circle,15.454037,75.032438,4,3,vandalism,1
+Dharwad - Sattur,15.466349,74.991615,16,3,traffic_accident,1
+Dharwad - Line Bazar,15.441402,75.028758,15,6,harassment,2
+Dharwad - Vidyagiri,15.453788,74.982544,18,4,suspicious_activity,1
+Dharwad - Navalur,15.461741,75.035858,3,2,suspicious_activity,2
+Dharwad - Sattur,15.439713,75.01839,13,0,theft,1
+Dharwad - Navalur,15.432604,75.027719,22,6,harassment,3
+Dharwad - Saptapur,15.454006,75.006936,18,4,harassment,3
+Dharwad - Vidyagiri,15.438591,75.009594,19,6,suspicious_activity,3
+Dharwad - Saptapur,15.437232,75.010959,0,1,burglary,1
+Dharwad - Navalur,15.449439,75.000909,17,3,traffic_accident,1
+Dharwad - Saptapur,15.45715,75.039297,19,2,traffic_accident,3
+Dharwad - Saptapur,15.439708,74.988074,21,1,harassment,1
+Dharwad - Line Bazar,15.451058,75.017291,5,2,traffic_accident,1
+Dharwad - Sattur,15.470467,74.981263,18,2,burglary,2
+Dharwad - Saptapur,15.453335,75.029596,3,2,theft,3
+Dharwad - Navalur,15.434077,75.039898,6,5,harassment,1
+Dharwad - Vidyagiri,15.436706,75.032939,22,5,vandalism,1
+Dharwad - Vidyagiri,15.430867,75.002436,11,4,theft,2
+Dharwad - Saptapur,15.469745,75.007473,14,1,burglary,1
+Dharwad - Navalur,15.44419,75.015119,17,5,vandalism,1
+Dharwad - Line Bazar,15.474892,75.026358,16,5,theft,3
+Dharwad - Navalur,15.459701,75.018339,1,5,suspicious_activity,1
+Dharwad - Navalur,15.460717,75.032019,5,0,suspicious_activity,1
+Dharwad - Saptapur,15.448284,74.985364,8,4,harassment,1
+Dharwad - Saptapur,15.434219,75.009513,20,3,harassment,1
+Dharwad - Saptapur,15.450544,74.986604,21,2,theft,1
+Dharwad - KCD Circle,15.438957,75.034018,9,1,burglary,2
+Dharwad - Navalur,15.441248,75.02227,12,1,vandalism,3
+Dharwad - Navalur,15.474847,75.026988,8,4,burglary,3
+Dharwad - KCD Circle,15.440652,75.034461,10,4,vandalism,1
+Dharwad - Navalur,15.438142,75.00792,15,1,traffic_accident,2
+Dharwad - Saptapur,15.451553,75.032155,12,1,traffic_accident,1
+Dharwad - Vidyagiri,15.478768,75.023105,15,5,traffic_accident,3
+Dharwad - Sattur,15.474509,74.996451,14,2,theft,1
+Dharwad - Vidyagiri,15.471203,74.995646,12,1,theft,1
+Dharwad - Vidyagiri,15.470287,75.007371,15,0,burglary,3
+Dharwad - Navalur,15.454119,75.015335,13,6,traffic_accident,1
+Dharwad - KCD Circle,15.479121,74.980704,14,6,theft,2
+Dharwad - KCD Circle,15.467407,74.993547,13,4,burglary,1
+Dharwad - KCD Circle,15.461793,74.994377,19,0,vandalism,3
+Dharwad - Saptapur,15.449782,75.018562,23,0,burglary,1
+Dharwad - Sattur,15.439219,74.980954,3,0,burglary,1
+Dharwad - KCD Circle,15.434128,75.01103,16,1,suspicious_activity,1
+Dharwad - Line Bazar,15.46134,75.012082,9,5,theft,3
+Dharwad - Sattur,15.471366,74.999273,20,0,burglary,2
+Dharwad - KCD Circle,15.474293,75.017055,12,1,burglary,2
+Dharwad - Sattur,15.43676,74.99093,23,2,harassment,1
+Dharwad - Navalur,15.435443,75.007748,19,4,burglary,2
+Dharwad - Navalur,15.475051,74.984608,20,1,vandalism,3
+Dharwad - Line Bazar,15.439943,75.023969,11,0,harassment,1
+Dharwad - Sattur,15.477768,75.001026,20,4,suspicious_activity,1
+Dharwad - Sattur,15.477604,75.026802,8,2,theft,2
+Dharwad - KCD Circle,15.473165,75.008718,4,2,harassment,1
+Dharwad - Sattur,15.448819,74.997141,12,3,traffic_accident,3
+Dharwad - KCD Circle,15.437457,75.016241,1,3,harassment,1
+Dharwad - KCD Circle,15.466878,75.012852,12,6,vandalism,2
+Dharwad - KCD Circle,15.445882,74.98815,19,5,vandalism,1
+Dharwad - KCD Circle,15.462064,74.980218,8,2,theft,2
+Dharwad - Navalur,15.468212,74.999487,12,4,theft,2
+Dharwad - KCD Circle,15.46684,75.006826,19,5,burglary,2
+Dharwad - Sattur,15.460241,75.023315,21,0,theft,3
+Dharwad - Line Bazar,15.430057,75.016789,1,0,suspicious_activity,3
+Dharwad - Sattur,15.441843,75.007031,8,3,suspicious_activity,2
+Dharwad - Saptapur,15.477006,74.998388,12,1,harassment,1
+Dharwad - Navalur,15.456093,74.99627,18,4,suspicious_activity,2
+Dharwad - Navalur,15.446885,74.995184,20,5,traffic_accident,1
+Dharwad - Saptapur,15.450419,75.035323,22,1,traffic_accident,2
+Dharwad - Sattur,15.475632,75.024672,14,3,traffic_accident,1
+Dharwad - Saptapur,15.457844,75.020231,12,5,burglary,1
+Dharwad - KCD Circle,15.439763,74.980834,7,2,traffic_accident,3
+Dharwad - Sattur,15.441397,75.020484,9,2,traffic_accident,2
+Dharwad - Vidyagiri,15.430446,75.030269,10,4,harassment,1
+Dharwad - Vidyagiri,15.459702,74.988523,14,5,traffic_accident,3
+Dharwad - Navalur,15.433207,74.981752,22,2,traffic_accident,1
+Dharwad - Vidyagiri,15.476704,74.98412,22,5,suspicious_activity,3
+Dharwad - Line Bazar,15.451482,74.980288,13,1,harassment,1
+Dharwad - Saptapur,15.456961,74.988171,23,4,theft,1
+Dharwad - Line Bazar,15.434182,74.997083,3,5,theft,1
+Dharwad - Sattur,15.435652,75.00635,17,0,harassment,1
+Dharwad - Saptapur,15.440715,75.019756,14,1,theft,1
+Dharwad - Line Bazar,15.452764,75.019285,4,3,traffic_accident,3
+Dharwad - KCD Circle,15.461906,74.989173,2,6,suspicious_activity,1
+Dharwad - Sattur,15.479573,75.006445,0,6,vandalism,2
+Dharwad - KCD Circle,15.464187,74.999823,21,0,traffic_accident,3
+Dharwad - Sattur,15.445791,74.999492,17,3,burglary,1
+Dharwad - Navalur,15.439095,74.994787,6,5,vandalism,2
+Dharwad - Saptapur,15.46696,75.014387,23,3,vandalism,1
+Dharwad - Line Bazar,15.447132,74.984477,1,4,burglary,1
+Dharwad - Line Bazar,15.449139,74.995173,23,4,vandalism,2
+Dharwad - Saptapur,15.443665,74.992278,20,0,harassment,1
+Dharwad - Line Bazar,15.450882,75.003622,13,1,harassment,2
+Dharwad - Navalur,15.458145,74.994778,8,5,traffic_accident,1
+Dharwad - Sattur,15.462291,74.9871,14,6,vandalism,3
+Dharwad - Navalur,15.477181,74.98008,5,6,harassment,2
+Dharwad - Sattur,15.462651,74.980532,3,5,traffic_accident,2
+Dharwad - Navalur,15.475696,75.032769,22,0,suspicious_activity,2
+Dharwad - Line Bazar,15.44966,74.985119,8,6,burglary,1
+Dharwad - Vidyagiri,15.479107,75.038483,7,6,harassment,1
+Dharwad - KCD Circle,15.448848,75.017137,13,5,vandalism,3
+Dharwad - KCD Circle,15.472547,74.99171,1,2,suspicious_activity,3
+Dharwad - Vidyagiri,15.471987,74.98425,16,6,burglary,3
+Dharwad - Sattur,15.463414,74.981562,18,4,burglary,1
+Dharwad - Line Bazar,15.470733,75.002259,9,3,vandalism,2
+Dharwad - Vidyagiri,15.476113,75.002503,13,0,suspicious_activity,1
+Dharwad - KCD Circle,15.477531,75.012728,14,1,burglary,1
+Dharwad - Saptapur,15.470925,75.029887,22,1,traffic_accident,2
+Dharwad - KCD Circle,15.470596,75.00321,23,6,harassment,2
+Dharwad - KCD Circle,15.46767,75.018226,10,6,burglary,1
+Dharwad - Line Bazar,15.447726,75.02728,5,0,vandalism,3
+Dharwad - Line Bazar,15.454929,74.988495,18,1,burglary,1
+Dharwad - Sattur,15.433522,75.039606,18,6,harassment,2
+Dharwad - Sattur,15.477073,74.981048,19,0,vandalism,3
+Dharwad - Saptapur,15.445809,74.991474,9,1,theft,3
+Dharwad - Vidyagiri,15.476971,74.989203,0,4,traffic_accident,1
+Dharwad - KCD Circle,15.451654,74.994361,19,4,vandalism,2
+Dharwad - Vidyagiri,15.475061,74.989918,1,1,traffic_accident,3
+Dharwad - Saptapur,15.4534,74.98422,14,3,harassment,1
+Dharwad - Navalur,15.477388,75.017926,22,2,traffic_accident,1
+Dharwad - Sattur,15.458384,74.985688,13,5,traffic_accident,1
+Dharwad - Navalur,15.477586,75.034697,5,5,vandalism,2
+Dharwad - KCD Circle,15.46432,74.986887,7,1,traffic_accident,1
+Dharwad - Navalur,15.445126,74.981767,10,0,theft,2
+Dharwad - Sattur,15.455483,75.037774,0,2,theft,1
+Dharwad - Saptapur,15.472949,74.988597,22,2,traffic_accident,1
+Dharwad - Navalur,15.458619,75.002149,16,0,harassment,1
+Dharwad - Saptapur,15.430783,74.984529,18,5,vandalism,1
+Dharwad - Saptapur,15.474737,75.005316,2,2,traffic_accident,2
+Dharwad - Sattur,15.435907,75.003182,3,1,traffic_accident,2
+Dharwad - KCD Circle,15.479814,75.030257,0,0,traffic_accident,1
+Dharwad - Saptapur,15.46807,75.024371,23,5,burglary,3
+Dharwad - Navalur,15.460359,75.024422,15,4,vandalism,1
+Dharwad - Sattur,15.477804,75.018837,1,5,suspicious_activity,1
+Dharwad - Sattur,15.475043,75.018621,7,4,traffic_accident,2
+Dharwad - Navalur,15.46616,75.024704,19,0,vandalism,1
+Dharwad - Sattur,15.450628,75.0156,0,4,suspicious_activity,2
+Dharwad - Sattur,15.434776,75.028282,4,5,traffic_accident,2
+Dharwad - Saptapur,15.444807,75.02177,13,0,suspicious_activity,3
+Dharwad - Line Bazar,15.462482,75.028147,21,5,vandalism,3
+Dharwad - Navalur,15.437063,74.982382,3,6,vandalism,2
+Dharwad - KCD Circle,15.438903,75.014236,3,1,harassment,3
+Dharwad - KCD Circle,15.467236,74.999935,8,6,traffic_accident,1
+Dharwad - Vidyagiri,15.465965,75.008445,2,2,theft,1
+Dharwad - Navalur,15.468343,75.015737,21,0,suspicious_activity,1
+Dharwad - Navalur,15.442874,74.992451,18,1,burglary,3
+Dharwad - KCD Circle,15.473552,75.032369,20,2,suspicious_activity,2
+Dharwad - KCD Circle,15.45864,75.007668,21,6,traffic_accident,1
+Dharwad - Line Bazar,15.461859,75.022279,8,5,burglary,1
+Dharwad - Vidyagiri,15.479113,75.022357,10,6,harassment,1
+Dharwad - Sattur,15.470501,74.98508,13,0,traffic_accident,2
+Dharwad - Sattur,15.449641,74.980347,16,4,harassment,1
+Dharwad - Navalur,15.431901,74.982306,14,6,suspicious_activity,1
+Dharwad - Sattur,15.474021,75.02998,18,5,burglary,2
+Dharwad - Saptapur,15.451091,75.012701,22,1,burglary,1
+Dharwad - Navalur,15.455558,75.002759,2,2,harassment,1
+Dharwad - KCD Circle,15.479912,75.020748,5,6,vandalism,3
+Dharwad - KCD Circle,15.463763,75.03381,5,6,suspicious_activity,3
+Dharwad - Sattur,15.452404,75.013585,11,5,theft,1
+Dharwad - KCD Circle,15.475904,75.035792,12,3,harassment,2
+Dharwad - Vidyagiri,15.450983,75.00179,6,4,harassment,2
+Dharwad - Saptapur,15.471352,75.035111,4,4,traffic_accident,2
+Dharwad - Saptapur,15.433655,74.993245,1,0,burglary,1
+Dharwad - Sattur,15.457012,75.010181,20,5,harassment,3
+Dharwad - Vidyagiri,15.458641,75.011918,1,4,burglary,3
+Dharwad - Saptapur,15.451878,74.982988,6,1,theft,3
+Dharwad - Vidyagiri,15.448687,75.037147,22,6,suspicious_activity,2
+Dharwad - Vidyagiri,15.461143,74.994084,23,3,traffic_accident,2
+Dharwad - Sattur,15.446186,75.039066,17,3,theft,3
+Dharwad - Line Bazar,15.447205,74.991103,0,4,traffic_accident,1
+Dharwad - Saptapur,15.469844,75.007766,12,5,harassment,3
+Dharwad - Vidyagiri,15.463836,75.001325,2,3,vandalism,1
+Dharwad - Line Bazar,15.456202,75.015179,11,1,burglary,1
+Dharwad - Line Bazar,15.439247,74.986537,3,0,harassment,1
+Dharwad - Line Bazar,15.435863,75.008789,0,0,traffic_accident,2
+Dharwad - Vidyagiri,15.438306,75.018388,3,1,suspicious_activity,2
+Dharwad - Vidyagiri,15.461712,75.005429,21,2,vandalism,1
+Dharwad - Navalur,15.457768,74.988018,23,5,theft,3
+Dharwad - Sattur,15.478432,75.030834,16,2,traffic_accident,1
+Dharwad - KCD Circle,15.47484,75.005738,18,2,harassment,3
+Dharwad - KCD Circle,15.470786,75.012605,6,4,suspicious_activity,1
+Dharwad - Navalur,15.473571,75.033352,11,2,burglary,2
+Dharwad - Saptapur,15.465723,75.023026,7,1,vandalism,3
+Dharwad - Navalur,15.457337,75.016022,1,3,burglary,1
+Dharwad - Vidyagiri,15.456138,75.020343,18,2,vandalism,3
+Dharwad - Navalur,15.451101,74.989162,18,3,theft,1
+Dharwad - Line Bazar,15.467499,75.036165,3,0,theft,2
+Dharwad - Saptapur,15.46299,75.0231,16,0,suspicious_activity,1
+Dharwad - Saptapur,15.448529,75.016626,20,5,vandalism,1
+Dharwad - Sattur,15.444195,74.985917,7,1,traffic_accident,1
+Dharwad - KCD Circle,15.464242,74.98676,7,0,vandalism,1
+Dharwad - Saptapur,15.473762,75.017334,23,6,traffic_accident,1
+Dharwad - Sattur,15.467971,75.0022,9,3,harassment,1
+Dharwad - Saptapur,15.435942,74.983919,12,5,theft,1
+Dharwad - Sattur,15.448646,74.981836,9,0,theft,1
+Dharwad - Saptapur,15.441261,74.991026,7,0,suspicious_activity,1
+Dharwad - Navalur,15.447335,75.013721,10,5,burglary,2
+Dharwad - Saptapur,15.440399,74.992861,11,2,vandalism,2
+Dharwad - Sattur,15.434691,75.022473,2,5,suspicious_activity,2
+Dharwad - Line Bazar,15.449085,75.025772,4,5,vandalism,1
+Dharwad - KCD Circle,15.471078,75.021671,17,3,traffic_accident,3
+Dharwad - Saptapur,15.44237,75.009017,1,2,traffic_accident,1
+Dharwad - Vidyagiri,15.454072,75.021915,23,1,traffic_accident,1
+Dharwad - Saptapur,15.439102,74.995993,5,3,suspicious_activity,1
+Dharwad - Vidyagiri,15.465243,74.99129,23,5,suspicious_activity,1
+Dharwad - KCD Circle,15.474175,75.032011,19,6,theft,1
+Dharwad - Sattur,15.466033,75.02232,6,6,suspicious_activity,1
+Dharwad - Saptapur,15.464127,75.009181,7,6,harassment,1
+Dharwad - Saptapur,15.446358,74.981095,11,6,vandalism,3
+Dharwad - Vidyagiri,15.435931,75.037538,10,0,harassment,1
+Dharwad - Sattur,15.442459,75.019996,5,6,harassment,2
+Dharwad - Vidyagiri,15.473582,74.98591,0,0,burglary,1
+Dharwad - Navalur,15.465855,74.984771,13,4,traffic_accident,1
+Dharwad - Vidyagiri,15.462946,75.023622,12,6,theft,2
+Dharwad - Saptapur,15.477292,75.000077,15,3,traffic_accident,1
+Dharwad - KCD Circle,15.474634,75.005598,4,6,burglary,2
+Dharwad - Sattur,15.448084,74.99377,16,0,theft,3
+Dharwad - Navalur,15.456541,74.984518,19,0,theft,1
+Dharwad - Vidyagiri,15.434948,74.980259,3,4,traffic_accident,2
+Dharwad - KCD Circle,15.460921,75.032223,11,2,burglary,3
+Dharwad - Sattur,15.438272,75.033692,22,5,traffic_accident,2
+Dharwad - Vidyagiri,15.479276,75.028857,2,6,theft,1
+Dharwad - Saptapur,15.456122,75.030297,14,3,theft,2
+Dharwad - Line Bazar,15.447642,74.988572,1,1,traffic_accident,1
+Dharwad - Navalur,15.466523,74.981531,20,6,harassment,1
+Dharwad - KCD Circle,15.471382,75.015896,4,2,traffic_accident,2
+Dharwad - Line Bazar,15.450015,75.018844,11,5,traffic_accident,1
+Dharwad - Saptapur,15.437363,75.006987,16,0,traffic_accident,1
+Dharwad - Saptapur,15.442672,75.000386,6,1,harassment,1
+Dharwad - KCD Circle,15.47197,75.02352,7,5,burglary,1
+Dharwad - KCD Circle,15.438811,75.020214,6,3,burglary,3
+Dharwad - Navalur,15.444968,74.996164,15,1,suspicious_activity,2
+Dharwad - Sattur,15.455026,75.03367,18,6,burglary,1
+Dharwad - Line Bazar,15.457302,74.980128,20,5,traffic_accident,2
+Dharwad - Vidyagiri,15.436249,74.997664,22,3,theft,1
+Dharwad - Navalur,15.440089,75.023729,12,1,vandalism,1
+Dharwad - Line Bazar,15.479944,74.999903,5,4,traffic_accident,3
+Dharwad - KCD Circle,15.459452,75.036576,8,4,vandalism,3
+Dharwad - Line Bazar,15.451724,75.018031,8,0,traffic_accident,1
+Dharwad - Vidyagiri,15.449396,75.038031,19,2,burglary,1
+Dharwad - Line Bazar,15.457727,75.020893,9,6,theft,1
+Dharwad - Line Bazar,15.442082,75.010073,2,4,harassment,1
+Dharwad - Line Bazar,15.443685,74.984668,14,3,suspicious_activity,1
+Dharwad - KCD Circle,15.478505,75.012012,5,0,suspicious_activity,1
+Dharwad - KCD Circle,15.430993,74.982765,22,2,suspicious_activity,1
+Dharwad - Saptapur,15.467172,75.022611,1,0,theft,1
+Dharwad - Saptapur,15.450145,75.024681,3,6,suspicious_activity,2
+Dharwad - Saptapur,15.449199,75.035722,7,5,vandalism,1
+Dharwad - Saptapur,15.473116,75.014503,2,0,vandalism,1
+Dharwad - Vidyagiri,15.47494,74.992438,7,4,vandalism,1
+Dharwad - Line Bazar,15.436102,75.020277,19,1,burglary,1
+Dharwad - Vidyagiri,15.469684,75.010445,18,5,burglary,1
+Dharwad - Saptapur,15.431374,74.993663,20,5,harassment,1
+Dharwad - Line Bazar,15.4559,74.984854,4,6,traffic_accident,1
+Dharwad - Sattur,15.430343,75.034509,3,0,burglary,3
+Dharwad - Sattur,15.466341,74.985907,11,3,theft,1
+Dharwad - Line Bazar,15.44253,75.020585,12,4,harassment,3
+Dharwad - Navalur,15.438026,75.0231,20,2,harassment,1
+Dharwad - Navalur,15.442139,74.993193,6,1,burglary,2
+Dharwad - KCD Circle,15.454881,75.029,1,4,suspicious_activity,1
+Dharwad - Vidyagiri,15.447004,74.990668,11,5,harassment,2
+Dharwad - Navalur,15.433708,75.011729,17,3,vandalism,1
+Dharwad - Sattur,15.479549,75.004373,3,4,theft,1
+Dharwad - KCD Circle,15.443739,75.019067,2,2,vandalism,1
+Dharwad - Saptapur,15.474656,74.983169,22,3,traffic_accident,1
+Dharwad - Navalur,15.444153,75.035863,10,6,vandalism,1
+Dharwad - Sattur,15.464403,75.017557,3,3,suspicious_activity,2
+Dharwad - Navalur,15.452965,75.028852,15,2,theft,3
+Dharwad - KCD Circle,15.457849,75.034921,21,6,suspicious_activity,2
+Dharwad - Saptapur,15.454819,75.001704,15,1,theft,2
+Dharwad - Saptapur,15.478807,74.980727,21,5,theft,1
+Dharwad - Navalur,15.470088,75.034122,1,1,traffic_accident,2
+Dharwad - Saptapur,15.4316,74.980397,21,6,traffic_accident,2
+Dharwad - Line Bazar,15.437452,74.987894,3,2,theft,1
+Dharwad - Navalur,15.436339,75.021984,4,1,burglary,1
+Dharwad - Vidyagiri,15.433071,75.020527,4,3,burglary,1
+Dharwad - KCD Circle,15.439532,75.023803,11,0,suspicious_activity,1
+Dharwad - Saptapur,15.438111,74.993619,10,6,burglary,1
+Dharwad - Navalur,15.477641,75.002083,21,6,traffic_accident,1
+Dharwad - Navalur,15.473205,75.024954,5,5,theft,1
+Dharwad - Vidyagiri,15.445826,75.010703,5,3,harassment,1
+Dharwad - Sattur,15.439554,75.032453,2,2,theft,2
+Dharwad - Saptapur,15.464102,74.998665,15,6,theft,1
+Dharwad - KCD Circle,15.467256,75.02651,1,6,suspicious_activity,2
+Dharwad - Line Bazar,15.439672,75.039051,3,4,theft,2

@@ -1,0 +1,351 @@
+location_zone,latitude,longitude,hour,day_of_week,incident_type,severity
+Hubli - Gokul Road,15.33463,75.15043,9,5,vandalism,1
+Hubli - Old Hubli,15.380703,75.1482,3,6,vandalism,2
+Hubli - Old Hubli,15.365314,75.122446,8,0,suspicious_activity,1
+Hubli - Navanagar,15.337489,75.093902,10,1,vandalism,2
+Hubli - Navanagar,15.373734,75.150941,19,0,theft,1
+Hubli - Navanagar,15.384796,75.085049,3,6,burglary,1
+Hubli - Bengeri,15.33832,75.159336,8,6,theft,1
+Hubli - Vidyanagar,15.347056,75.116406,14,6,harassment,1
+Hubli - Navanagar,15.363637,75.158629,8,1,theft,2
+Hubli - Vidyanagar,15.364021,75.120831,11,3,suspicious_activity,2
+Hubli - Vidyanagar,15.372562,75.080215,15,6,traffic_accident,1
+Hubli - Vidyanagar,15.388914,75.154061,17,2,vandalism,3
+Hubli - Gokul Road,15.365875,75.124095,18,1,theft,2
+Hubli - Old Hubli,15.34086,75.089412,23,5,traffic_accident,2
+Hubli - Vidyanagar,15.334194,75.108147,9,1,suspicious_activity,2
+Hubli - Navanagar,15.340909,75.091831,18,5,harassment,1
+Hubli - Bengeri,15.357232,75.126797,15,3,harassment,1
+Hubli - Navanagar,15.351782,75.098445,15,4,harassment,2
+Hubli - Bengeri,15.349426,75.097923,21,0,theft,2
+Hubli - Vidyanagar,15.357357,75.103311,21,0,harassment,2
+Hubli - Gokul Road,15.339822,75.083495,0,2,burglary,1
+Hubli - Keshwapur,15.340264,75.096177,22,2,theft,1
+Hubli - Bengeri,15.350811,75.085203,20,6,suspicious_activity,1
+Hubli - Navanagar,15.387836,75.090273,7,4,harassment,2
+Hubli - Vidyanagar,15.36496,75.083259,10,6,suspicious_activity,1
+Hubli - Gokul Road,15.354077,75.13571,17,6,harassment,1
+Hubli - Old Hubli,15.342748,75.143684,3,0,vandalism,1
+Hubli - Vidyanagar,15.379845,75.119573,6,0,vandalism,2
+Hubli - Keshwapur,15.372862,75.094827,9,5,suspicious_activity,2
+Hubli - Keshwapur,15.350782,75.082772,9,1,burglary,1
+Hubli - Keshwapur,15.35368,75.115072,5,3,theft,1
+Hubli - Navanagar,15.361329,75.08954,14,3,theft,1
+Hubli - Bengeri,15.337411,75.121648,15,5,vandalism,2
+Hubli - Old Hubli,15.345976,75.144249,2,1,theft,1
+Hubli - Old Hubli,15.340523,75.080184,12,3,theft,1
+Hubli - Bengeri,15.340101,75.12509,2,2,harassment,1
+Hubli - Keshwapur,15.340287,75.109227,19,6,vandalism,3
+Hubli - Keshwapur,15.37797,75.148404,14,6,harassment,3
+Hubli - Navanagar,15.341158,75.110933,22,0,vandalism,1
+Hubli - Vidyanagar,15.338233,75.10058,18,2,suspicious_activity,3
+Hubli - Gokul Road,15.345287,75.138834,19,6,theft,1
+Hubli - Navanagar,15.33776,75.080203,19,4,traffic_accident,2
+Hubli - Navanagar,15.360868,75.095467,0,4,harassment,1
+Hubli - Vidyanagar,15.330488,75.087371,17,6,suspicious_activity,2
+Hubli - Keshwapur,15.38216,75.119023,23,1,traffic_accident,1
+Hubli - Vidyanagar,15.340429,75.157821,23,4,suspicious_activity,1
+Hubli - Navanagar,15.388497,75.101813,0,1,burglary,1
+Hubli - Old Hubli,15.350103,75.107031,4,5,suspicious_activity,1
+Hubli - Vidyanagar,15.357589,75.089194,14,4,burglary,1
+Hubli - Navanagar,15.357813,75.116468,18,3,vandalism,1
+Hubli - Navanagar,15.378439,75.092219,1,0,harassment,2
+Hubli - Bengeri,15.380695,75.09616,16,6,traffic_accident,2
+Hubli - Keshwapur,15.330178,75.158798,20,1,vandalism,2
+Hubli - Navanagar,15.338256,75.127273,5,3,harassment,1
+Hubli - Vidyanagar,15.354196,75.100638,21,5,burglary,1
+Hubli - Bengeri,15.375029,75.141511,22,0,burglary,2
+Hubli - Gokul Road,15.352969,75.152524,15,6,suspicious_activity,2
+Hubli - Bengeri,15.381323,75.130014,6,4,theft,2
+Hubli - Vidyanagar,15.388158,75.146479,15,0,burglary,1
+Hubli - Gokul Road,15.35438,75.111925,16,4,suspicious_activity,1
+Hubli - Keshwapur,15.387583,75.11415,4,2,suspicious_activity,2
+Hubli - Vidyanagar,15.332815,75.15943,3,4,theft,1
+Hubli - Navanagar,15.371699,75.151091,23,3,vandalism,1
+Hubli - Gokul Road,15.36786,75.122415,18,6,theft,1
+Hubli - Keshwapur,15.366934,75.116896,21,5,vandalism,1
+Hubli - Gokul Road,15.371864,75.136513,1,5,harassment,3
+Hubli - Bengeri,15.387632,75.109123,4,2,harassment,2
+Hubli - Gokul Road,15.335559,75.114304,12,4,suspicious_activity,2
+Hubli - Bengeri,15.331575,75.119059,16,5,traffic_accident,1
+Hubli - Vidyanagar,15.354023,75.159797,21,5,harassment,1
+Hubli - Navanagar,15.37921,75.150929,2,5,burglary,1
+Hubli - Gokul Road,15.343524,75.102316,3,0,theft,1
+Hubli - Vidyanagar,15.337669,75.101636,14,6,suspicious_activity,1
+Hubli - Navanagar,15.386711,75.131461,16,3,vandalism,1
+Hubli - Gokul Road,15.34393,75.147571,19,4,burglary,1
+Hubli - Bengeri,15.372695,75.09332,8,4,harassment,1
+Hubli - Vidyanagar,15.36446,75.083383,21,6,vandalism,2
+Hubli - Old Hubli,15.387425,75.103215,22,3,theft,1
+Hubli - Bengeri,15.374687,75.159805,15,2,burglary,2
+Hubli - Vidyanagar,15.332253,75.09753,1,0,vandalism,2
+Hubli - Keshwapur,15.387241,75.14151,0,4,burglary,1
+Hubli - Keshwapur,15.355289,75.137712,8,6,traffic_accident,1
+Hubli - Keshwapur,15.358617,75.103631,17,0,traffic_accident,1
+Hubli - Vidyanagar,15.349782,75.14992,3,0,harassment,1
+Hubli - Keshwapur,15.381516,75.133243,9,2,theft,2
+Hubli - Vidyanagar,15.344523,75.137852,4,2,harassment,2
+Hubli - Vidyanagar,15.34792,75.142128,20,4,burglary,1
+Hubli - Gokul Road,15.358381,75.113009,4,1,burglary,3
+Hubli - Keshwapur,15.340052,75.092846,3,6,traffic_accident,1
+Hubli - Bengeri,15.333747,75.144498,23,5,burglary,3
+Hubli - Vidyanagar,15.359337,75.117589,19,4,theft,1
+Hubli - Gokul Road,15.355988,75.106111,13,1,suspicious_activity,1
+Hubli - Bengeri,15.342704,75.143672,6,3,burglary,3
+Hubli - Keshwapur,15.374796,75.134554,9,2,harassment,1
+Hubli - Keshwapur,15.36279,75.08548,2,0,theft,1
+Hubli - Old Hubli,15.336549,75.09389,18,4,suspicious_activity,1
+Hubli - Gokul Road,15.38919,75.10497,16,5,burglary,2
+Hubli - Bengeri,15.341019,75.097106,9,4,harassment,1
+Hubli - Navanagar,15.338207,75.104164,23,2,vandalism,3
+Hubli - Gokul Road,15.333286,75.153711,2,3,traffic_accident,1
+Hubli - Keshwapur,15.367416,75.096547,22,1,suspicious_activity,2
+Hubli - Keshwapur,15.347267,75.117428,2,6,harassment,1
+Hubli - Gokul Road,15.366415,75.112176,18,4,suspicious_activity,2
+Hubli - Bengeri,15.375507,75.157855,22,6,theft,1
+Hubli - Gokul Road,15.389595,75.11345,19,6,theft,1
+Hubli - Navanagar,15.377835,75.13399,6,4,suspicious_activity,1
+Hubli - Gokul Road,15.365373,75.097426,19,4,theft,2
+Hubli - Keshwapur,15.355536,75.112742,21,2,harassment,1
+Hubli - Vidyanagar,15.335038,75.11091,14,1,burglary,2
+Hubli - Vidyanagar,15.351541,75.081968,7,0,vandalism,2
+Hubli - Vidyanagar,15.369716,75.120591,19,6,harassment,2
+Hubli - Navanagar,15.370241,75.12511,3,6,traffic_accident,2
+Hubli - Vidyanagar,15.343337,75.097912,14,6,traffic_accident,2
+Hubli - Gokul Road,15.385051,75.146329,15,4,theft,1
+Hubli - Gokul Road,15.377423,75.080729,21,5,vandalism,1
+Hubli - Keshwapur,15.347988,75.124613,5,3,harassment,1
+Hubli - Vidyanagar,15.332092,75.124432,0,2,vandalism,1
+Hubli - Gokul Road,15.375253,75.096157,11,2,burglary,1
+Hubli - Old Hubli,15.345215,75.081217,10,3,harassment,2
+Hubli - Gokul Road,15.382135,75.127693,13,5,traffic_accident,2
+Hubli - Vidyanagar,15.33976,75.147861,10,3,vandalism,3
+Hubli - Bengeri,15.36908,75.127273,11,2,harassment,1
+Hubli - Old Hubli,15.350333,75.118747,8,2,harassment,3
+Hubli - Vidyanagar,15.343114,75.129403,10,5,suspicious_activity,1
+Hubli - Old Hubli,15.341332,75.091146,1,1,traffic_accident,1
+Hubli - Navanagar,15.38412,75.114273,8,4,traffic_accident,3
+Hubli - Bengeri,15.33919,75.105688,4,0,harassment,2
+Hubli - Vidyanagar,15.369032,75.157125,13,2,harassment,1
+Hubli - Vidyanagar,15.357463,75.149801,18,1,suspicious_activity,2
+Hubli - Gokul Road,15.377732,75.142425,16,5,harassment,3
+Hubli - Navanagar,15.346123,75.123746,4,3,theft,1
+Hubli - Navanagar,15.374891,75.108302,3,2,theft,1
+Hubli - Vidyanagar,15.367126,75.116619,3,2,theft,1
+Hubli - Keshwapur,15.342146,75.158138,12,3,theft,3
+Hubli - Gokul Road,15.367803,75.13283,16,5,suspicious_activity,1
+Hubli - Bengeri,15.365976,75.144549,12,1,vandalism,1
+Hubli - Vidyanagar,15.355223,75.115847,17,6,theft,1
+Hubli - Navanagar,15.334852,75.095358,1,3,suspicious_activity,2
+Hubli - Bengeri,15.338662,75.157928,6,0,burglary,1
+Hubli - Gokul Road,15.374591,75.155842,3,0,suspicious_activity,1
+Hubli - Bengeri,15.36937,75.140888,2,0,traffic_accident,2
+Hubli - Keshwapur,15.372503,75.110312,18,5,harassment,2
+Hubli - Keshwapur,15.35299,75.105385,10,3,harassment,1
+Hubli - Vidyanagar,15.375584,75.117325,19,3,harassment,2
+Hubli - Old Hubli,15.36378,75.080865,5,3,traffic_accident,1
+Hubli - Navanagar,15.354936,75.150163,23,6,harassment,1
+Hubli - Vidyanagar,15.336689,75.145997,23,5,theft,1
+Hubli - Gokul Road,15.361034,75.122154,12,0,suspicious_activity,1
+Hubli - Navanagar,15.33323,75.150795,2,2,theft,1
+Hubli - Bengeri,15.332098,75.109623,0,3,traffic_accident,3
+Hubli - Keshwapur,15.332799,75.14086,10,6,burglary,1
+Hubli - Old Hubli,15.368888,75.083209,20,6,harassment,1
+Hubli - Navanagar,15.372836,75.123622,11,3,vandalism,2
+Hubli - Old Hubli,15.360672,75.095562,5,2,theft,3
+Hubli - Gokul Road,15.366997,75.087695,14,6,burglary,1
+Hubli - Keshwapur,15.3817,75.082005,13,3,theft,2
+Hubli - Bengeri,15.378728,75.125736,5,1,suspicious_activity,1
+Hubli - Keshwapur,15.373501,75.118459,10,5,suspicious_activity,1
+Hubli - Gokul Road,15.384977,75.127803,5,2,theft,1
+Hubli - Vidyanagar,15.378224,75.090623,12,1,theft,2
+Hubli - Bengeri,15.351165,75.097748,22,3,burglary,1
+Hubli - Navanagar,15.361932,75.142923,22,3,vandalism,3
+Hubli - Old Hubli,15.353486,75.082782,11,0,suspicious_activity,2
+Hubli - Navanagar,15.349707,75.15515,16,4,harassment,1
+Hubli - Vidyanagar,15.386908,75.08625,5,5,burglary,1
+Hubli - Gokul Road,15.34916,75.102162,20,5,theft,2
+Hubli - Gokul Road,15.382772,75.144232,4,5,vandalism,3
+Hubli - Gokul Road,15.354231,75.123821,21,5,theft,1
+Hubli - Keshwapur,15.346896,75.144309,18,2,suspicious_activity,1
+Hubli - Gokul Road,15.340521,75.147587,6,0,vandalism,1
+Hubli - Old Hubli,15.356146,75.140643,12,2,vandalism,3
+Hubli - Bengeri,15.351362,75.090574,18,5,burglary,2
+Hubli - Bengeri,15.364743,75.127441,8,4,harassment,1
+Hubli - Vidyanagar,15.362428,75.127119,20,6,harassment,2
+Hubli - Old Hubli,15.332838,75.131424,23,4,theft,2
+Hubli - Gokul Road,15.353488,75.135214,6,4,theft,2
+Hubli - Old Hubli,15.337196,75.158081,15,5,traffic_accident,3
+Hubli - Vidyanagar,15.35787,75.112969,6,4,burglary,1
+Hubli - Bengeri,15.354035,75.11788,22,6,vandalism,1
+Hubli - Keshwapur,15.350773,75.128576,4,4,vandalism,1
+Hubli - Navanagar,15.380494,75.152601,14,2,vandalism,2
+Hubli - Navanagar,15.362828,75.149943,8,1,theft,1
+Hubli - Navanagar,15.37659,75.090044,0,5,harassment,1
+Hubli - Navanagar,15.370674,75.152972,20,1,traffic_accident,1
+Hubli - Vidyanagar,15.388047,75.155655,1,6,traffic_accident,1
+Hubli - Keshwapur,15.336644,75.153055,0,0,theft,1
+Hubli - Gokul Road,15.350759,75.088376,12,5,harassment,2
+Hubli - Keshwapur,15.336052,75.148907,14,5,harassment,2
+Hubli - Keshwapur,15.356383,75.106652,8,5,traffic_accident,1
+Hubli - Vidyanagar,15.384042,75.085321,15,0,theft,1
+Hubli - Vidyanagar,15.338138,75.106453,6,4,traffic_accident,2
+Hubli - Bengeri,15.372714,75.144396,21,3,burglary,3
+Hubli - Navanagar,15.384435,75.143782,10,1,vandalism,1
+Hubli - Bengeri,15.351039,75.138158,12,6,vandalism,3
+Hubli - Navanagar,15.347065,75.084197,17,3,harassment,2
+Hubli - Bengeri,15.358464,75.130655,9,1,vandalism,3
+Hubli - Keshwapur,15.366351,75.111601,6,6,harassment,1
+Hubli - Keshwapur,15.354252,75.094202,22,5,vandalism,1
+Hubli - Keshwapur,15.352535,75.143785,5,1,vandalism,2
+Hubli - Vidyanagar,15.386396,75.13232,15,0,harassment,1
+Hubli - Gokul Road,15.35764,75.13861,11,2,burglary,1
+Hubli - Keshwapur,15.380072,75.156031,17,3,vandalism,3
+Hubli - Keshwapur,15.388907,75.124639,9,6,traffic_accident,3
+Hubli - Bengeri,15.389092,75.141787,7,0,harassment,2
+Hubli - Bengeri,15.334502,75.130237,14,3,suspicious_activity,1
+Hubli - Bengeri,15.347764,75.108394,12,3,vandalism,3
+Hubli - Vidyanagar,15.339141,75.133717,16,2,suspicious_activity,3
+Hubli - Vidyanagar,15.38653,75.154722,2,6,traffic_accident,1
+Hubli - Bengeri,15.35837,75.102027,8,2,harassment,1
+Hubli - Keshwapur,15.368948,75.080252,6,4,theft,2
+Hubli - Navanagar,15.387704,75.080017,21,3,traffic_accident,1
+Hubli - Gokul Road,15.367872,75.100778,1,6,burglary,1
+Hubli - Vidyanagar,15.365186,75.122902,6,1,vandalism,2
+Hubli - Vidyanagar,15.344164,75.149295,5,6,harassment,1
+Hubli - Navanagar,15.341258,75.085394,10,2,harassment,2
+Hubli - Gokul Road,15.345234,75.142994,18,6,harassment,1
+Hubli - Old Hubli,15.344275,75.115533,13,1,theft,1
+Hubli - Navanagar,15.341552,75.137456,23,2,vandalism,2
+Hubli - Navanagar,15.368802,75.082367,15,3,suspicious_activity,3
+Hubli - Navanagar,15.389255,75.143586,11,5,suspicious_activity,1
+Hubli - Old Hubli,15.33547,75.115586,5,4,harassment,2
+Hubli - Keshwapur,15.373909,75.132577,12,5,suspicious_activity,1
+Hubli - Gokul Road,15.357424,75.125557,15,2,vandalism,1
+Hubli - Bengeri,15.348113,75.131825,2,5,vandalism,3
+Hubli - Keshwapur,15.384353,75.115969,1,2,vandalism,1
+Hubli - Navanagar,15.386782,75.134946,20,6,theft,2
+Hubli - Old Hubli,15.374344,75.128636,10,4,burglary,1
+Hubli - Keshwapur,15.349154,75.129856,17,4,harassment,1
+Hubli - Navanagar,15.387067,75.154511,12,6,burglary,1
+Hubli - Bengeri,15.346158,75.133769,4,0,traffic_accident,3
+Hubli - Navanagar,15.368248,75.107437,13,6,traffic_accident,3
+Hubli - Navanagar,15.35462,75.111345,9,2,burglary,1
+Hubli - Gokul Road,15.385736,75.093719,8,5,traffic_accident,2
+Hubli - Navanagar,15.370919,75.146173,23,1,theft,1
+Hubli - Bengeri,15.342372,75.104444,21,0,harassment,2
+Hubli - Vidyanagar,15.34898,75.112499,4,4,theft,3
+Hubli - Navanagar,15.351376,75.146755,13,1,vandalism,3
+Hubli - Navanagar,15.331748,75.09717,6,4,traffic_accident,1
+Hubli - Old Hubli,15.386004,75.115971,0,0,vandalism,2
+Hubli - Old Hubli,15.357475,75.104685,11,1,burglary,2
+Hubli - Old Hubli,15.373452,75.094159,15,3,traffic_accident,1
+Hubli - Old Hubli,15.342182,75.159176,16,6,theft,1
+Hubli - Navanagar,15.353629,75.086278,7,1,theft,2
+Hubli - Keshwapur,15.373105,75.15143,19,0,theft,2
+Hubli - Old Hubli,15.371103,75.150902,0,2,harassment,1
+Hubli - Vidyanagar,15.335113,75.10234,17,2,vandalism,1
+Hubli - Bengeri,15.356021,75.127692,4,4,traffic_accident,2
+Hubli - Keshwapur,15.367239,75.126938,12,3,traffic_accident,3
+Hubli - Bengeri,15.364235,75.148325,16,1,traffic_accident,1
+Hubli - Old Hubli,15.340321,75.084337,10,3,burglary,1
+Hubli - Navanagar,15.368651,75.148883,10,0,traffic_accident,3
+Hubli - Bengeri,15.351324,75.153222,10,6,traffic_accident,2
+Hubli - Navanagar,15.358912,75.108771,16,4,suspicious_activity,2
+Hubli - Gokul Road,15.350003,75.091012,20,3,traffic_accident,1
+Hubli - Gokul Road,15.35771,75.123792,3,0,harassment,1
+Hubli - Vidyanagar,15.383434,75.118505,1,3,traffic_accident,1
+Hubli - Bengeri,15.364559,75.146066,4,3,vandalism,1
+Hubli - Keshwapur,15.364846,75.127996,23,5,vandalism,3
+Hubli - Old Hubli,15.366456,75.116538,15,4,burglary,1
+Hubli - Vidyanagar,15.369262,75.095158,20,4,traffic_accident,1
+Hubli - Keshwapur,15.334681,75.158802,2,0,traffic_accident,1
+Hubli - Old Hubli,15.382677,75.136005,16,6,burglary,1
+Hubli - Bengeri,15.356117,75.14611,1,4,harassment,2
+Hubli - Gokul Road,15.346684,75.082991,19,3,burglary,3
+Hubli - Vidyanagar,15.386574,75.147719,7,6,harassment,2
+Hubli - Navanagar,15.332085,75.120865,0,0,traffic_accident,2
+Hubli - Old Hubli,15.355997,75.131373,10,4,suspicious_activity,2
+Hubli - Keshwapur,15.344027,75.143833,18,1,harassment,2
+Hubli - Navanagar,15.385719,75.143059,6,1,theft,1
+Hubli - Old Hubli,15.338103,75.092848,8,5,theft,1
+Hubli - Keshwapur,15.358848,75.124518,12,4,burglary,1
+Hubli - Vidyanagar,15.364693,75.11798,4,3,harassment,3
+Hubli - Gokul Road,15.345576,75.109147,0,3,harassment,1
+Hubli - Navanagar,15.34827,75.084084,14,0,burglary,1
+Hubli - Navanagar,15.385858,75.142898,18,1,vandalism,1
+Hubli - Vidyanagar,15.331553,75.092832,16,0,burglary,2
+Hubli - Gokul Road,15.342493,75.135857,22,5,theft,2
+Hubli - Gokul Road,15.349303,75.135942,3,4,theft,1
+Hubli - Bengeri,15.370523,75.110545,9,4,burglary,1
+Hubli - Keshwapur,15.34093,75.122935,17,2,vandalism,1
+Hubli - Navanagar,15.389941,75.142662,15,3,vandalism,1
+Hubli - Old Hubli,15.369617,75.155111,2,1,suspicious_activity,3
+Hubli - Keshwapur,15.363315,75.083836,0,0,harassment,1
+Hubli - Vidyanagar,15.386016,75.107949,5,1,harassment,1
+Hubli - Vidyanagar,15.364159,75.083301,18,1,theft,1
+Hubli - Keshwapur,15.387788,75.136582,18,1,burglary,1
+Hubli - Old Hubli,15.365532,75.148418,18,3,vandalism,1
+Hubli - Navanagar,15.354293,75.088109,9,3,suspicious_activity,1
+Hubli - Gokul Road,15.384783,75.152566,13,3,burglary,2
+Hubli - Keshwapur,15.357545,75.080509,13,5,burglary,3
+Hubli - Vidyanagar,15.347315,75.140864,15,6,vandalism,3
+Hubli - Bengeri,15.341556,75.097,10,2,suspicious_activity,3
+Hubli - Keshwapur,15.375674,75.10732,9,6,suspicious_activity,1
+Hubli - Keshwapur,15.336018,75.128004,18,3,traffic_accident,1
+Hubli - Keshwapur,15.358357,75.090058,6,6,suspicious_activity,2
+Hubli - Old Hubli,15.34462,75.109708,19,5,theft,1
+Hubli - Navanagar,15.362519,75.127257,6,6,traffic_accident,1
+Hubli - Navanagar,15.366248,75.130743,20,5,burglary,2
+Hubli - Bengeri,15.339047,75.141094,2,2,theft,3
+Hubli - Gokul Road,15.37918,75.150725,11,5,harassment,1
+Hubli - Vidyanagar,15.342459,75.112889,10,0,traffic_accident,2
+Hubli - Vidyanagar,15.339509,75.122759,13,2,harassment,1
+Hubli - Old Hubli,15.368697,75.080503,7,2,theft,1
+Hubli - Bengeri,15.388088,75.104615,4,6,traffic_accident,1
+Hubli - Vidyanagar,15.351436,75.103719,6,1,harassment,1
+Hubli - Old Hubli,15.373363,75.140584,17,6,theft,3
+Hubli - Keshwapur,15.379737,75.086097,21,4,traffic_accident,3
+Hubli - Old Hubli,15.335332,75.085482,1,1,vandalism,1
+Hubli - Old Hubli,15.359237,75.092887,17,2,theft,1
+Hubli - Navanagar,15.365121,75.127636,6,4,suspicious_activity,3
+Hubli - Bengeri,15.364231,75.136903,5,0,traffic_accident,3
+Hubli - Vidyanagar,15.361227,75.086666,1,5,vandalism,2
+Hubli - Bengeri,15.343431,75.1335,11,4,harassment,1
+Hubli - Navanagar,15.385135,75.158889,19,3,suspicious_activity,2
+Hubli - Old Hubli,15.385787,75.092637,20,3,vandalism,1
+Hubli - Vidyanagar,15.371193,75.133236,13,6,traffic_accident,3
+Hubli - Bengeri,15.331085,75.113328,0,2,suspicious_activity,1
+Hubli - Old Hubli,15.33148,75.130331,12,0,vandalism,1
+Hubli - Navanagar,15.371962,75.121198,6,4,harassment,1
+Hubli - Vidyanagar,15.357783,75.134807,22,0,vandalism,3
+Hubli - Vidyanagar,15.340339,75.147544,6,4,suspicious_activity,2
+Hubli - Vidyanagar,15.364839,75.151945,14,2,suspicious_activity,1
+Hubli - Keshwapur,15.35314,75.143088,14,3,suspicious_activity,2
+Hubli - Bengeri,15.353281,75.118815,4,6,theft,2
+Hubli - Navanagar,15.388524,75.081365,21,3,harassment,1
+Hubli - Navanagar,15.368856,75.156901,19,0,suspicious_activity,1
+Hubli - Navanagar,15.380137,75.10484,18,4,burglary,2
+Hubli - Vidyanagar,15.334769,75.119549,0,3,suspicious_activity,2
+Hubli - Vidyanagar,15.359091,75.157489,3,4,harassment,1
+Hubli - Keshwapur,15.339642,75.119521,14,4,theft,1
+Hubli - Navanagar,15.351478,75.147808,7,5,traffic_accident,3
+Hubli - Gokul Road,15.359796,75.136791,0,2,vandalism,1
+Hubli - Gokul Road,15.36811,75.108557,18,2,harassment,2
+Hubli - Navanagar,15.360928,75.149291,1,6,traffic_accident,2
+Hubli - Old Hubli,15.339191,75.090273,12,3,burglary,1
+Hubli - Bengeri,15.361365,75.088199,15,3,harassment,3
+Hubli - Vidyanagar,15.342277,75.139228,15,5,suspicious_activity,1
+Hubli - Gokul Road,15.333586,75.15573,16,0,vandalism,2
+Hubli - Vidyanagar,15.38564,75.151619,20,5,vandalism,1
+Hubli - Keshwapur,15.34111,75.143806,9,6,suspicious_activity,1
+Hubli - Vidyanagar,15.366822,75.084853,0,6,harassment,2
+Hubli - Navanagar,15.361954,75.121455,16,1,burglary,1
+Hubli - Navanagar,15.374815,75.132519,21,3,harassment,1
+Hubli - Old Hubli,15.389711,75.09774,3,4,burglary,2
+Hubli - Navanagar,15.386886,75.109906,20,1,harassment,1
+Hubli - Navanagar,15.353839,75.107385,8,5,theft,1
+Hubli - Old Hubli,15.361775,75.087247,18,3,suspicious_activity,1
+Hubli - Keshwapur,15.342253,75.122374,18,5,traffic_accident,2
+Hubli - Navanagar,15.379319,75.122244,22,0,suspicious_activity,1
+Hubli - Navanagar,15.342098,75.105979,6,2,vandalism,2

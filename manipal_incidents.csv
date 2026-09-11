@@ -1,0 +1,351 @@
+location_zone,latitude,longitude,hour,day_of_week,incident_type,severity
+Manipal - Tiger Circle,13.354684,74.795286,22,4,harassment,1
+Manipal - End Point,13.347874,74.789372,17,2,traffic_accident,2
+Manipal - KC Circle,13.354511,74.793496,18,4,burglary,2
+Manipal - KC Circle,13.35046,74.779818,1,3,harassment,3
+Manipal - End Point,13.356695,74.790874,13,5,suspicious_activity,1
+Manipal - KC Circle,13.356669,74.783444,15,2,vandalism,2
+Manipal - Tiger Circle,13.345968,74.785125,11,3,vandalism,1
+Manipal - KC Circle,13.360675,74.797395,1,5,burglary,1
+Manipal - Tiger Circle,13.36492,74.793921,16,1,traffic_accident,1
+Manipal - Vidyaratna Nagar,13.356916,74.778498,16,5,harassment,1
+Manipal - MIT Campus Area,13.363842,74.782297,11,4,suspicious_activity,1
+Manipal - Tiger Circle,13.348668,74.787726,11,0,harassment,2
+Manipal - MIT Campus Area,13.346866,74.775415,3,1,traffic_accident,3
+Manipal - End Point,13.359804,74.786915,3,1,traffic_accident,1
+Manipal - KC Circle,13.353484,74.779449,10,0,harassment,1
+Manipal - Tiger Circle,13.360031,74.784954,1,6,burglary,1
+Manipal - End Point,13.347116,74.787121,9,1,theft,2
+Manipal - Vidyaratna Nagar,13.346319,74.789487,10,1,harassment,2
+Manipal - MIT Campus Area,13.348373,74.791842,5,6,harassment,1
+Manipal - MIT Campus Area,13.355842,74.789469,19,0,harassment,1
+Manipal - Tiger Circle,13.358675,74.779603,8,3,theft,1
+Manipal - Tiger Circle,13.358886,74.797829,19,4,vandalism,2
+Manipal - Vidyaratna Nagar,13.345358,74.787934,20,5,burglary,1
+Manipal - Tiger Circle,13.35918,74.775225,4,0,traffic_accident,1
+Manipal - MIT Campus Area,13.349115,74.788299,12,1,theft,1
+Manipal - End Point,13.361082,74.796078,1,1,traffic_accident,1
+Manipal - Tiger Circle,13.349908,74.775465,20,6,traffic_accident,1
+Manipal - End Point,13.353967,74.780035,4,4,harassment,1
+Manipal - MIT Campus Area,13.357857,74.781326,1,1,traffic_accident,2
+Manipal - MIT Campus Area,13.358979,74.786439,8,1,suspicious_activity,3
+Manipal - Tiger Circle,13.345923,74.779023,6,5,vandalism,3
+Manipal - MIT Campus Area,13.347247,74.794756,0,1,burglary,1
+Manipal - Tiger Circle,13.364995,74.780515,23,6,vandalism,2
+Manipal - Vidyaratna Nagar,13.362553,74.789885,4,4,burglary,3
+Manipal - Vidyaratna Nagar,13.351947,74.795839,4,6,traffic_accident,3
+Manipal - KC Circle,13.362348,74.782286,23,3,burglary,1
+Manipal - KC Circle,13.361703,74.787155,16,1,burglary,1
+Manipal - Vidyaratna Nagar,13.347926,74.794751,16,1,burglary,2
+Manipal - Vidyaratna Nagar,13.356566,74.795986,13,6,harassment,2
+Manipal - Tiger Circle,13.357175,74.77913,11,5,harassment,1
+Manipal - Vidyaratna Nagar,13.359491,74.778781,1,6,theft,3
+Manipal - KC Circle,13.35814,74.790355,7,5,theft,2
+Manipal - Tiger Circle,13.347386,74.781595,11,1,burglary,1
+Manipal - KC Circle,13.36413,74.785017,17,4,harassment,3
+Manipal - Tiger Circle,13.360576,74.792668,22,5,vandalism,2
+Manipal - Tiger Circle,13.348104,74.792227,14,3,traffic_accident,1
+Manipal - End Point,13.353779,74.781916,17,6,suspicious_activity,3
+Manipal - End Point,13.34768,74.780848,7,2,harassment,1
+Manipal - Vidyaratna Nagar,13.345869,74.790173,21,5,harassment,3
+Manipal - Tiger Circle,13.361922,74.776122,12,0,vandalism,2
+Manipal - End Point,13.359547,74.790897,4,0,vandalism,3
+Manipal - KC Circle,13.356682,74.787505,22,0,vandalism,1
+Manipal - MIT Campus Area,13.34566,74.790106,12,4,suspicious_activity,2
+Manipal - Tiger Circle,13.34607,74.797348,1,6,burglary,1
+Manipal - MIT Campus Area,13.362504,74.783178,7,4,traffic_accident,1
+Manipal - MIT Campus Area,13.349372,74.784485,19,4,suspicious_activity,1
+Manipal - MIT Campus Area,13.345807,74.791295,4,2,vandalism,1
+Manipal - Vidyaratna Nagar,13.356131,74.780653,11,0,vandalism,2
+Manipal - KC Circle,13.361963,74.775839,20,0,vandalism,3
+Manipal - Tiger Circle,13.363979,74.789369,19,4,burglary,2
+Manipal - End Point,13.357812,74.781411,8,4,suspicious_activity,3
+Manipal - MIT Campus Area,13.36062,74.787195,23,5,traffic_accident,1
+Manipal - Tiger Circle,13.351653,74.778568,20,4,burglary,1
+Manipal - Vidyaratna Nagar,13.355625,74.782461,18,3,traffic_accident,1
+Manipal - KC Circle,13.349747,74.775894,0,2,harassment,1
+Manipal - Tiger Circle,13.35428,74.793529,3,4,theft,1
+Manipal - KC Circle,13.361822,74.786724,7,1,harassment,2
+Manipal - Tiger Circle,13.356881,74.788715,22,5,suspicious_activity,1
+Manipal - Tiger Circle,13.360671,74.792676,21,1,traffic_accident,1
+Manipal - Vidyaratna Nagar,13.351967,74.783973,23,3,suspicious_activity,2
+Manipal - Tiger Circle,13.361965,74.79328,15,0,traffic_accident,2
+Manipal - KC Circle,13.359856,74.794833,15,0,harassment,1
+Manipal - KC Circle,13.346819,74.776114,21,2,burglary,1
+Manipal - Tiger Circle,13.347137,74.776547,16,3,suspicious_activity,1
+Manipal - MIT Campus Area,13.349673,74.785146,3,0,suspicious_activity,2
+Manipal - Vidyaratna Nagar,13.361007,74.775056,21,1,vandalism,2
+Manipal - Vidyaratna Nagar,13.363263,74.793593,4,6,vandalism,1
+Manipal - Tiger Circle,13.34852,74.79253,13,2,suspicious_activity,1
+Manipal - Vidyaratna Nagar,13.355345,74.796582,1,6,vandalism,1
+Manipal - End Point,13.36257,74.789689,13,1,traffic_accident,1
+Manipal - Vidyaratna Nagar,13.346501,74.797254,13,5,vandalism,1
+Manipal - End Point,13.351352,74.791189,5,3,burglary,1
+Manipal - KC Circle,13.354381,74.797446,10,1,theft,1
+Manipal - Tiger Circle,13.347844,74.78968,14,6,theft,1
+Manipal - KC Circle,13.357468,74.781943,22,1,vandalism,1
+Manipal - End Point,13.353946,74.781672,1,6,harassment,1
+Manipal - End Point,13.345049,74.788072,20,4,burglary,2
+Manipal - Vidyaratna Nagar,13.353726,74.783483,5,5,traffic_accident,2
+Manipal - MIT Campus Area,13.36429,74.785879,15,4,traffic_accident,2
+Manipal - Tiger Circle,13.350121,74.790268,4,0,traffic_accident,1
+Manipal - KC Circle,13.358114,74.789475,18,1,burglary,1
+Manipal - Vidyaratna Nagar,13.355807,74.775742,6,0,burglary,1
+Manipal - End Point,13.352299,74.779124,18,0,theft,2
+Manipal - KC Circle,13.35374,74.777788,5,0,vandalism,2
+Manipal - MIT Campus Area,13.346091,74.786061,4,1,harassment,2
+Manipal - Vidyaratna Nagar,13.357297,74.797227,1,6,vandalism,2
+Manipal - MIT Campus Area,13.356682,74.785685,22,4,burglary,2
+Manipal - MIT Campus Area,13.361167,74.789261,0,2,burglary,3
+Manipal - Vidyaratna Nagar,13.354381,74.776727,18,3,traffic_accident,1
+Manipal - MIT Campus Area,13.354782,74.78005,13,2,traffic_accident,3
+Manipal - End Point,13.35156,74.787764,3,5,suspicious_activity,3
+Manipal - Tiger Circle,13.363422,74.794826,23,6,harassment,1
+Manipal - Vidyaratna Nagar,13.356669,74.775303,5,0,traffic_accident,1
+Manipal - KC Circle,13.349503,74.797518,23,2,suspicious_activity,1
+Manipal - End Point,13.347711,74.780962,11,1,suspicious_activity,2
+Manipal - KC Circle,13.353994,74.775604,1,1,traffic_accident,1
+Manipal - MIT Campus Area,13.350548,74.789763,13,5,traffic_accident,1
+Manipal - End Point,13.357345,74.778601,15,0,theft,2
+Manipal - Tiger Circle,13.352753,74.788404,9,1,traffic_accident,1
+Manipal - End Point,13.352621,74.77931,23,4,vandalism,1
+Manipal - Vidyaratna Nagar,13.350363,74.792679,22,0,traffic_accident,3
+Manipal - KC Circle,13.349538,74.7857,21,3,suspicious_activity,2
+Manipal - Tiger Circle,13.352317,74.785208,20,6,suspicious_activity,1
+Manipal - End Point,13.348928,74.788846,3,0,burglary,2
+Manipal - KC Circle,13.347202,74.795366,22,2,suspicious_activity,2
+Manipal - Tiger Circle,13.364505,74.785152,22,3,traffic_accident,2
+Manipal - KC Circle,13.360777,74.775572,16,0,burglary,2
+Manipal - Tiger Circle,13.358916,74.78241,11,3,traffic_accident,1
+Manipal - Vidyaratna Nagar,13.355778,74.785284,19,1,theft,2
+Manipal - KC Circle,13.35949,74.78003,20,1,harassment,1
+Manipal - Tiger Circle,13.349281,74.793696,9,2,vandalism,3
+Manipal - Vidyaratna Nagar,13.359882,74.782072,6,6,theft,1
+Manipal - End Point,13.363092,74.788557,18,0,burglary,2
+Manipal - MIT Campus Area,13.348329,74.786838,5,3,harassment,1
+Manipal - MIT Campus Area,13.345087,74.777573,8,0,suspicious_activity,2
+Manipal - KC Circle,13.34808,74.787814,14,1,burglary,2
+Manipal - KC Circle,13.352103,74.784606,20,5,traffic_accident,2
+Manipal - End Point,13.350597,74.796301,8,4,theft,2
+Manipal - Vidyaratna Nagar,13.346242,74.778129,10,0,burglary,2
+Manipal - Tiger Circle,13.353895,74.776702,13,0,harassment,2
+Manipal - Tiger Circle,13.351359,74.790077,20,6,burglary,1
+Manipal - MIT Campus Area,13.35179,74.791758,2,4,harassment,2
+Manipal - End Point,13.351797,74.791776,2,6,vandalism,2
+Manipal - Vidyaratna Nagar,13.358423,74.776034,5,5,traffic_accident,2
+Manipal - Tiger Circle,13.346394,74.797917,20,1,vandalism,1
+Manipal - End Point,13.357137,74.795933,8,1,harassment,1
+Manipal - MIT Campus Area,13.363219,74.79683,23,4,vandalism,1
+Manipal - End Point,13.354996,74.776414,8,6,vandalism,2
+Manipal - Tiger Circle,13.358162,74.789359,3,6,traffic_accident,2
+Manipal - Vidyaratna Nagar,13.356073,74.795772,16,6,traffic_accident,2
+Manipal - Vidyaratna Nagar,13.364917,74.777026,4,5,theft,2
+Manipal - End Point,13.359599,74.797392,3,6,suspicious_activity,3
+Manipal - MIT Campus Area,13.355201,74.783039,19,0,harassment,1
+Manipal - Vidyaratna Nagar,13.34509,74.784885,15,6,theft,2
+Manipal - KC Circle,13.355425,74.77999,7,3,harassment,3
+Manipal - Tiger Circle,13.357264,74.777646,19,3,theft,1
+Manipal - Vidyaratna Nagar,13.351497,74.78879,9,3,suspicious_activity,1
+Manipal - Tiger Circle,13.35465,74.794239,17,5,suspicious_activity,1
+Manipal - MIT Campus Area,13.364825,74.794684,9,5,burglary,3
+Manipal - End Point,13.351923,74.793289,4,0,traffic_accident,1
+Manipal - Vidyaratna Nagar,13.347478,74.793416,18,1,burglary,1
+Manipal - MIT Campus Area,13.359035,74.791295,1,0,suspicious_activity,3
+Manipal - KC Circle,13.354414,74.795869,22,2,traffic_accident,1
+Manipal - Vidyaratna Nagar,13.346481,74.783072,0,2,traffic_accident,2
+Manipal - Vidyaratna Nagar,13.362472,74.791412,16,6,burglary,1
+Manipal - MIT Campus Area,13.358263,74.790742,7,2,suspicious_activity,1
+Manipal - KC Circle,13.351006,74.787022,3,5,suspicious_activity,1
+Manipal - MIT Campus Area,13.353956,74.794299,8,3,theft,2
+Manipal - End Point,13.346706,74.779654,20,4,suspicious_activity,1
+Manipal - MIT Campus Area,13.352219,74.78863,12,2,theft,1
+Manipal - Vidyaratna Nagar,13.351815,74.777807,7,2,theft,2
+Manipal - KC Circle,13.351272,74.777987,10,3,traffic_accident,1
+Manipal - Tiger Circle,13.350164,74.782419,13,3,burglary,1
+Manipal - MIT Campus Area,13.363148,74.77864,18,5,traffic_accident,2
+Manipal - MIT Campus Area,13.346232,74.777334,10,4,theft,3
+Manipal - KC Circle,13.347617,74.78865,9,6,traffic_accident,2
+Manipal - MIT Campus Area,13.35277,74.794115,6,3,theft,1
+Manipal - KC Circle,13.349259,74.796539,0,1,vandalism,3
+Manipal - MIT Campus Area,13.360395,74.794937,6,6,burglary,1
+Manipal - MIT Campus Area,13.354767,74.785516,15,6,traffic_accident,2
+Manipal - Tiger Circle,13.362628,74.78915,5,2,suspicious_activity,1
+Manipal - Vidyaratna Nagar,13.345051,74.794982,16,4,harassment,2
+Manipal - KC Circle,13.357966,74.77648,8,6,harassment,1
+Manipal - MIT Campus Area,13.352922,74.782176,11,5,suspicious_activity,1
+Manipal - End Point,13.350664,74.797775,5,4,burglary,1
+Manipal - KC Circle,13.351934,74.794784,8,6,traffic_accident,1
+Manipal - End Point,13.345344,74.77568,18,3,vandalism,2
+Manipal - MIT Campus Area,13.36408,74.792021,19,2,traffic_accident,1
+Manipal - KC Circle,13.364446,74.780522,22,2,vandalism,2
+Manipal - Vidyaratna Nagar,13.357996,74.795959,11,0,suspicious_activity,1
+Manipal - KC Circle,13.362012,74.777606,16,1,burglary,2
+Manipal - MIT Campus Area,13.356608,74.780753,8,6,traffic_accident,1
+Manipal - End Point,13.35678,74.77901,9,4,suspicious_activity,1
+Manipal - Vidyaratna Nagar,13.358516,74.781976,11,3,burglary,3
+Manipal - Tiger Circle,13.357339,74.782155,7,1,theft,3
+Manipal - End Point,13.360371,74.778001,20,3,harassment,1
+Manipal - Vidyaratna Nagar,13.349886,74.797812,4,1,traffic_accident,1
+Manipal - MIT Campus Area,13.36487,74.780874,8,1,harassment,1
+Manipal - KC Circle,13.35589,74.791024,16,1,harassment,1
+Manipal - Tiger Circle,13.360691,74.79373,4,1,vandalism,2
+Manipal - End Point,13.362716,74.797563,9,2,harassment,3
+Manipal - KC Circle,13.359524,74.781778,0,1,suspicious_activity,2
+Manipal - Tiger Circle,13.356065,74.794871,15,2,vandalism,1
+Manipal - End Point,13.361085,74.792024,9,1,harassment,1
+Manipal - MIT Campus Area,13.345971,74.781229,0,5,burglary,1
+Manipal - KC Circle,13.355495,74.783873,4,1,harassment,1
+Manipal - MIT Campus Area,13.357328,74.789472,9,4,suspicious_activity,2
+Manipal - Tiger Circle,13.347364,74.77701,10,6,vandalism,1
+Manipal - KC Circle,13.363453,74.784826,6,1,traffic_accident,2
+Manipal - KC Circle,13.360245,74.780036,9,0,vandalism,2
+Manipal - Vidyaratna Nagar,13.358058,74.783222,19,3,harassment,2
+Manipal - MIT Campus Area,13.359279,74.776125,5,6,harassment,2
+Manipal - KC Circle,13.361482,74.783947,11,5,theft,1
+Manipal - Tiger Circle,13.352918,74.795063,4,3,theft,2
+Manipal - KC Circle,13.345492,74.775881,20,6,suspicious_activity,1
+Manipal - Tiger Circle,13.358907,74.792722,1,0,vandalism,2
+Manipal - KC Circle,13.351983,74.793357,0,0,traffic_accident,1
+Manipal - Tiger Circle,13.354278,74.793282,11,0,theft,1
+Manipal - KC Circle,13.347304,74.78872,22,4,vandalism,1
+Manipal - MIT Campus Area,13.357866,74.797132,15,0,burglary,2
+Manipal - KC Circle,13.358269,74.775109,5,4,suspicious_activity,1
+Manipal - Tiger Circle,13.353375,74.794306,11,4,burglary,1
+Manipal - Tiger Circle,13.357355,74.782912,20,0,vandalism,3
+Manipal - KC Circle,13.348612,74.780951,19,4,suspicious_activity,3
+Manipal - End Point,13.36462,74.77631,10,5,harassment,1
+Manipal - Vidyaratna Nagar,13.346784,74.79056,9,3,traffic_accident,1
+Manipal - End Point,13.362403,74.786681,22,5,harassment,1
+Manipal - Tiger Circle,13.362309,74.775013,21,5,burglary,3
+Manipal - MIT Campus Area,13.34887,74.781806,13,6,theft,1
+Manipal - Vidyaratna Nagar,13.351894,74.794454,14,5,suspicious_activity,3
+Manipal - MIT Campus Area,13.359869,74.775566,9,2,harassment,2
+Manipal - Tiger Circle,13.348679,74.796602,19,0,suspicious_activity,1
+Manipal - Tiger Circle,13.35853,74.786761,13,6,traffic_accident,1
+Manipal - Tiger Circle,13.356416,74.7891,3,2,theft,2
+Manipal - End Point,13.359454,74.782535,13,2,vandalism,3
+Manipal - KC Circle,13.362087,74.792714,11,2,theft,2
+Manipal - MIT Campus Area,13.348974,74.796299,14,0,traffic_accident,2
+Manipal - KC Circle,13.358055,74.775595,8,0,harassment,1
+Manipal - Vidyaratna Nagar,13.352132,74.788695,17,3,harassment,3
+Manipal - KC Circle,13.353111,74.794075,13,5,harassment,3
+Manipal - KC Circle,13.363646,74.797508,14,5,suspicious_activity,2
+Manipal - Tiger Circle,13.348902,74.777113,1,2,suspicious_activity,1
+Manipal - Vidyaratna Nagar,13.362394,74.788568,2,2,theft,1
+Manipal - Tiger Circle,13.362725,74.793263,7,2,vandalism,2
+Manipal - End Point,13.363992,74.779999,6,1,vandalism,1
+Manipal - KC Circle,13.36028,74.791437,8,1,traffic_accident,1
+Manipal - Tiger Circle,13.35756,74.797187,18,0,traffic_accident,2
+Manipal - MIT Campus Area,13.355496,74.779863,14,2,burglary,1
+Manipal - End Point,13.357646,74.794475,5,5,burglary,2
+Manipal - KC Circle,13.364917,74.795117,0,6,suspicious_activity,1
+Manipal - Tiger Circle,13.351463,74.786178,8,4,theft,1
+Manipal - Tiger Circle,13.355536,74.78514,14,4,traffic_accident,1
+Manipal - Vidyaratna Nagar,13.350923,74.789862,11,4,theft,3
+Manipal - Vidyaratna Nagar,13.36014,74.795011,12,4,harassment,1
+Manipal - Vidyaratna Nagar,13.356993,74.785351,1,0,vandalism,2
+Manipal - Tiger Circle,13.361774,74.782866,18,0,vandalism,2
+Manipal - KC Circle,13.350002,74.793225,3,5,traffic_accident,1
+Manipal - KC Circle,13.361992,74.783951,8,3,harassment,2
+Manipal - End Point,13.356881,74.776148,11,0,theft,2
+Manipal - End Point,13.345901,74.782181,7,0,burglary,3
+Manipal - MIT Campus Area,13.356512,74.778925,2,1,suspicious_activity,3
+Manipal - Vidyaratna Nagar,13.362711,74.782759,2,3,suspicious_activity,3
+Manipal - Tiger Circle,13.347774,74.782132,18,3,vandalism,3
+Manipal - Vidyaratna Nagar,13.364297,74.775531,9,2,theft,2
+Manipal - MIT Campus Area,13.361033,74.778446,4,3,suspicious_activity,1
+Manipal - KC Circle,13.364939,74.790278,3,5,vandalism,2
+Manipal - Tiger Circle,13.361633,74.775916,0,5,suspicious_activity,2
+Manipal - KC Circle,13.355407,74.775949,16,0,harassment,1
+Manipal - End Point,13.361618,74.784258,17,1,harassment,1
+Manipal - End Point,13.363721,74.787141,6,1,harassment,2
+Manipal - Tiger Circle,13.350934,74.775566,6,5,theft,3
+Manipal - Tiger Circle,13.359776,74.792016,0,5,suspicious_activity,1
+Manipal - End Point,13.364779,74.788313,17,6,theft,1
+Manipal - Vidyaratna Nagar,13.346134,74.780846,2,4,harassment,1
+Manipal - MIT Campus Area,13.349741,74.785519,20,1,suspicious_activity,1
+Manipal - Tiger Circle,13.36392,74.781472,5,3,traffic_accident,2
+Manipal - End Point,13.355549,74.78801,12,5,traffic_accident,2
+Manipal - Tiger Circle,13.362191,74.785982,2,2,burglary,3
+Manipal - End Point,13.363695,74.787455,23,4,vandalism,3
+Manipal - End Point,13.348823,74.789758,11,5,vandalism,2
+Manipal - MIT Campus Area,13.349931,74.795247,18,0,suspicious_activity,2
+Manipal - KC Circle,13.356736,74.787034,14,1,burglary,1
+Manipal - End Point,13.364405,74.782174,5,3,suspicious_activity,2
+Manipal - KC Circle,13.352379,74.781047,11,3,harassment,1
+Manipal - KC Circle,13.353692,74.797337,11,4,vandalism,2
+Manipal - KC Circle,13.345849,74.79056,8,1,burglary,3
+Manipal - Tiger Circle,13.363107,74.78103,19,1,traffic_accident,1
+Manipal - End Point,13.35665,74.783607,16,6,harassment,1
+Manipal - KC Circle,13.346833,74.776057,10,6,traffic_accident,1
+Manipal - Tiger Circle,13.355272,74.780075,4,5,theft,2
+Manipal - Tiger Circle,13.34643,74.794655,2,4,burglary,1
+Manipal - Vidyaratna Nagar,13.354835,74.775404,12,5,vandalism,3
+Manipal - MIT Campus Area,13.355707,74.783298,6,5,theft,3
+Manipal - End Point,13.351841,74.790609,4,3,suspicious_activity,2
+Manipal - End Point,13.355503,74.797613,8,6,suspicious_activity,1
+Manipal - Tiger Circle,13.346377,74.796237,6,3,harassment,2
+Manipal - End Point,13.356,74.790352,12,3,suspicious_activity,1
+Manipal - Tiger Circle,13.351053,74.784536,20,4,burglary,1
+Manipal - End Point,13.360904,74.796674,5,0,suspicious_activity,1
+Manipal - Tiger Circle,13.36164,74.781669,7,5,burglary,1
+Manipal - KC Circle,13.357076,74.780623,5,4,traffic_accident,2
+Manipal - Tiger Circle,13.363761,74.792224,8,4,traffic_accident,1
+Manipal - MIT Campus Area,13.360793,74.788631,14,4,suspicious_activity,1
+Manipal - KC Circle,13.354238,74.79549,9,1,harassment,2
+Manipal - Vidyaratna Nagar,13.356547,74.779446,11,5,harassment,3
+Manipal - Vidyaratna Nagar,13.345516,74.796892,18,4,harassment,2
+Manipal - Tiger Circle,13.362698,74.785555,23,3,harassment,3
+Manipal - End Point,13.361133,74.777612,10,6,vandalism,2
+Manipal - Vidyaratna Nagar,13.349737,74.787089,18,3,harassment,1
+Manipal - MIT Campus Area,13.359029,74.797883,3,1,traffic_accident,2
+Manipal - KC Circle,13.353247,74.785799,1,5,vandalism,1
+Manipal - KC Circle,13.347146,74.797748,19,5,burglary,1
+Manipal - MIT Campus Area,13.362852,74.791472,12,6,theft,2
+Manipal - MIT Campus Area,13.359223,74.775071,3,3,theft,3
+Manipal - Vidyaratna Nagar,13.36282,74.793625,4,2,suspicious_activity,1
+Manipal - MIT Campus Area,13.351161,74.791081,7,2,suspicious_activity,3
+Manipal - Tiger Circle,13.348253,74.785386,8,3,harassment,2
+Manipal - Vidyaratna Nagar,13.347323,74.793686,10,0,traffic_accident,1
+Manipal - MIT Campus Area,13.349854,74.780101,15,2,burglary,1
+Manipal - Vidyaratna Nagar,13.364096,74.78981,15,0,vandalism,1
+Manipal - Vidyaratna Nagar,13.362225,74.782283,18,3,vandalism,2
+Manipal - Vidyaratna Nagar,13.356673,74.791817,21,2,harassment,1
+Manipal - Vidyaratna Nagar,13.357496,74.776103,11,0,suspicious_activity,2
+Manipal - Vidyaratna Nagar,13.352149,74.789393,3,2,harassment,1
+Manipal - MIT Campus Area,13.362902,74.777918,14,1,theft,2
+Manipal - Vidyaratna Nagar,13.362601,74.793094,12,2,theft,1
+Manipal - KC Circle,13.351754,74.785515,17,5,traffic_accident,1
+Manipal - End Point,13.348854,74.790116,2,4,traffic_accident,1
+Manipal - KC Circle,13.346928,74.786271,17,0,suspicious_activity,1
+Manipal - Tiger Circle,13.34754,74.797977,12,3,burglary,3
+Manipal - MIT Campus Area,13.34666,74.792614,15,0,suspicious_activity,1
+Manipal - Vidyaratna Nagar,13.354227,74.775102,10,5,traffic_accident,1
+Manipal - KC Circle,13.360721,74.795592,3,4,harassment,1
+Manipal - Vidyaratna Nagar,13.35673,74.791098,21,5,burglary,1
+Manipal - MIT Campus Area,13.353803,74.791706,11,6,harassment,2
+Manipal - Vidyaratna Nagar,13.354704,74.795628,10,2,suspicious_activity,1
+Manipal - End Point,13.358374,74.796459,19,1,suspicious_activity,2
+Manipal - KC Circle,13.35953,74.790172,16,5,burglary,3
+Manipal - End Point,13.352768,74.788562,16,3,theft,2
+Manipal - Tiger Circle,13.360929,74.776886,18,3,burglary,2
+Manipal - MIT Campus Area,13.364571,74.791444,22,3,theft,1
+Manipal - Tiger Circle,13.348606,74.794823,14,6,suspicious_activity,1
+Manipal - Vidyaratna Nagar,13.359712,74.783597,8,0,traffic_accident,2
+Manipal - End Point,13.364751,74.795403,18,5,suspicious_activity,2
+Manipal - Tiger Circle,13.352592,74.783387,19,0,traffic_accident,1
+Manipal - MIT Campus Area,13.352158,74.79676,15,0,harassment,1
+Manipal - End Point,13.35483,74.788777,2,5,traffic_accident,1
+Manipal - MIT Campus Area,13.362906,74.793892,22,4,harassment,1
+Manipal - KC Circle,13.352588,74.795367,23,4,vandalism,2
+Manipal - End Point,13.36384,74.776834,18,4,vandalism,2
+Manipal - Vidyaratna Nagar,13.358105,74.786378,7,1,harassment,3
+Manipal - Vidyaratna Nagar,13.352866,74.797186,22,0,burglary,3
+Manipal - Vidyaratna Nagar,13.345475,74.783647,14,0,harassment,1
+Manipal - End Point,13.354808,74.78582,11,3,theft,2
+Manipal - Tiger Circle,13.35786,74.782677,13,4,theft,1
+Manipal - KC Circle,13.3645,74.785915,2,6,burglary,1
+Manipal - MIT Campus Area,13.351648,74.782825,6,5,suspicious_activity,1
+Manipal - Tiger Circle,13.355175,74.785703,21,0,traffic_accident,2
+Manipal - End Point,13.347428,74.777943,15,3,burglary,1
+Manipal - Tiger Circle,13.364714,74.79251,13,5,burglary,2

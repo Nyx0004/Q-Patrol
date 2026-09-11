@@ -1,0 +1,351 @@
+location_zone,latitude,longitude,hour,day_of_week,incident_type,severity
+Shivmogga - Gopala,13.907677,75.558312,10,5,harassment,3
+Shivmogga - Savalanga Road,13.918444,75.566696,2,4,suspicious_activity,1
+Shivmogga - BH Road,13.950969,75.530867,9,3,theft,2
+Shivmogga - Gopala,13.912543,75.548934,14,2,theft,1
+Shivmogga - Tilak Nagar,13.927736,75.545042,11,1,traffic_accident,2
+Shivmogga - BH Road,13.914757,75.58316,6,6,burglary,2
+Shivmogga - BH Road,13.949183,75.588431,7,1,suspicious_activity,1
+Shivmogga - Gopala,13.908093,75.557189,8,3,suspicious_activity,1
+Shivmogga - Savalanga Road,13.932489,75.568168,13,6,traffic_accident,2
+Shivmogga - Savalanga Road,13.903661,75.530097,10,2,burglary,2
+Shivmogga - Tilak Nagar,13.914232,75.539028,14,2,vandalism,2
+Shivmogga - Vinoba Nagar,13.940165,75.566054,23,0,vandalism,1
+Shivmogga - Tilak Nagar,13.94799,75.532712,7,5,harassment,1
+Shivmogga - Vinoba Nagar,13.924256,75.586808,15,5,traffic_accident,1
+Shivmogga - Savalanga Road,13.940907,75.577425,13,0,harassment,1
+Shivmogga - Tilak Nagar,13.939174,75.597088,12,6,vandalism,1
+Shivmogga - Savalanga Road,13.905103,75.559652,4,1,harassment,2
+Shivmogga - Gopala,13.912574,75.588601,7,4,theft,1
+Shivmogga - Gopala,13.943788,75.561861,0,2,suspicious_activity,1
+Shivmogga - Gopala,13.93066,75.575531,20,1,burglary,3
+Shivmogga - Tilak Nagar,13.909678,75.568435,18,3,harassment,1
+Shivmogga - Tilak Nagar,13.906739,75.542088,18,6,suspicious_activity,1
+Shivmogga - Gopala,13.943098,75.593902,20,1,burglary,1
+Shivmogga - Savalanga Road,13.923628,75.543792,10,4,suspicious_activity,1
+Shivmogga - Gopala,13.919221,75.530562,20,0,burglary,1
+Shivmogga - BH Road,13.92395,75.55977,21,2,suspicious_activity,1
+Shivmogga - Tilak Nagar,13.915871,75.54315,4,3,theft,2
+Shivmogga - Savalanga Road,13.916785,75.558108,23,3,suspicious_activity,1
+Shivmogga - Savalanga Road,13.921498,75.598539,13,5,harassment,2
+Shivmogga - Vinoba Nagar,13.917554,75.557678,8,6,vandalism,1
+Shivmogga - Tilak Nagar,13.944965,75.599585,5,6,theft,1
+Shivmogga - BH Road,13.91164,75.599076,10,5,theft,2
+Shivmogga - Savalanga Road,13.939778,75.545901,8,0,suspicious_activity,1
+Shivmogga - Gopala,13.912788,75.583958,17,1,vandalism,2
+Shivmogga - Tilak Nagar,13.959238,75.590068,20,6,burglary,2
+Shivmogga - Tilak Nagar,13.918295,75.531837,23,0,traffic_accident,1
+Shivmogga - Vinoba Nagar,13.922336,75.557173,21,1,suspicious_activity,1
+Shivmogga - Gopala,13.90285,75.58837,7,0,theft,1
+Shivmogga - Gopala,13.950851,75.590485,18,2,suspicious_activity,1
+Shivmogga - Tilak Nagar,13.928322,75.557699,0,2,vandalism,2
+Shivmogga - Vinoba Nagar,13.913422,75.540145,6,1,suspicious_activity,3
+Shivmogga - Tilak Nagar,13.910233,75.55896,0,2,vandalism,2
+Shivmogga - Vinoba Nagar,13.926188,75.589017,11,4,vandalism,1
+Shivmogga - Savalanga Road,13.919876,75.55857,10,2,harassment,1
+Shivmogga - Savalanga Road,13.917519,75.577688,19,6,suspicious_activity,2
+Shivmogga - Vinoba Nagar,13.90737,75.549757,10,3,traffic_accident,1
+Shivmogga - Tilak Nagar,13.937625,75.569009,5,4,vandalism,1
+Shivmogga - Tilak Nagar,13.910143,75.587013,2,4,traffic_accident,1
+Shivmogga - Tilak Nagar,13.940933,75.566738,4,2,vandalism,2
+Shivmogga - Tilak Nagar,13.918629,75.538059,17,4,traffic_accident,1
+Shivmogga - BH Road,13.935074,75.594648,20,3,harassment,3
+Shivmogga - Savalanga Road,13.912423,75.595752,7,0,vandalism,1
+Shivmogga - Savalanga Road,13.912353,75.568137,11,4,traffic_accident,1
+Shivmogga - Savalanga Road,13.923108,75.539707,7,5,vandalism,1
+Shivmogga - Gopala,13.928322,75.561019,10,2,harassment,2
+Shivmogga - BH Road,13.956073,75.574483,5,2,vandalism,1
+Shivmogga - Savalanga Road,13.918244,75.560522,22,0,vandalism,1
+Shivmogga - Gopala,13.918962,75.572879,1,0,theft,3
+Shivmogga - Vinoba Nagar,13.950382,75.574684,16,1,suspicious_activity,1
+Shivmogga - Savalanga Road,13.957463,75.584464,19,0,burglary,1
+Shivmogga - Tilak Nagar,13.917598,75.599722,1,1,suspicious_activity,1
+Shivmogga - BH Road,13.915257,75.595463,21,2,vandalism,2
+Shivmogga - Vinoba Nagar,13.939983,75.53213,4,2,harassment,2
+Shivmogga - BH Road,13.906391,75.555973,20,5,vandalism,2
+Shivmogga - Gopala,13.92145,75.597764,13,5,burglary,2
+Shivmogga - BH Road,13.937321,75.532925,13,4,suspicious_activity,2
+Shivmogga - BH Road,13.955233,75.588686,13,5,theft,1
+Shivmogga - Vinoba Nagar,13.954914,75.585654,20,1,theft,2
+Shivmogga - Savalanga Road,13.907862,75.549278,8,4,vandalism,1
+Shivmogga - BH Road,13.90488,75.530979,15,3,burglary,1
+Shivmogga - Gopala,13.959587,75.553083,4,2,suspicious_activity,2
+Shivmogga - Gopala,13.947112,75.586125,13,5,vandalism,1
+Shivmogga - Gopala,13.935947,75.556806,19,5,traffic_accident,1
+Shivmogga - Savalanga Road,13.955149,75.593262,16,1,traffic_accident,1
+Shivmogga - Savalanga Road,13.951428,75.59144,8,0,harassment,1
+Shivmogga - Savalanga Road,13.908785,75.580678,13,3,burglary,1
+Shivmogga - Vinoba Nagar,13.922117,75.570522,2,6,vandalism,1
+Shivmogga - Savalanga Road,13.908289,75.539568,13,3,burglary,1
+Shivmogga - Tilak Nagar,13.957784,75.57439,5,1,burglary,1
+Shivmogga - Tilak Nagar,13.900516,75.545074,15,0,traffic_accident,1
+Shivmogga - BH Road,13.957455,75.550453,8,6,traffic_accident,1
+Shivmogga - Tilak Nagar,13.919647,75.553487,11,1,theft,2
+Shivmogga - BH Road,13.914835,75.572617,21,6,harassment,2
+Shivmogga - Vinoba Nagar,13.955974,75.573698,7,2,vandalism,1
+Shivmogga - BH Road,13.952724,75.594642,0,0,burglary,1
+Shivmogga - Tilak Nagar,13.944627,75.537223,16,2,harassment,3
+Shivmogga - Tilak Nagar,13.92448,75.564509,14,1,traffic_accident,2
+Shivmogga - Savalanga Road,13.918945,75.573566,0,0,burglary,2
+Shivmogga - Vinoba Nagar,13.920653,75.565003,21,0,harassment,1
+Shivmogga - BH Road,13.948585,75.540729,22,6,traffic_accident,1
+Shivmogga - BH Road,13.950514,75.56119,23,6,traffic_accident,1
+Shivmogga - Tilak Nagar,13.915889,75.582114,14,1,burglary,2
+Shivmogga - BH Road,13.920134,75.55644,7,5,traffic_accident,2
+Shivmogga - Tilak Nagar,13.943739,75.53598,7,4,burglary,1
+Shivmogga - Gopala,13.913668,75.574649,19,6,harassment,2
+Shivmogga - Tilak Nagar,13.947793,75.533311,3,3,harassment,2
+Shivmogga - Savalanga Road,13.908502,75.544303,21,0,suspicious_activity,1
+Shivmogga - Vinoba Nagar,13.949899,75.558763,2,0,vandalism,2
+Shivmogga - Vinoba Nagar,13.949255,75.584524,7,3,suspicious_activity,2
+Shivmogga - Tilak Nagar,13.958415,75.560349,9,3,theft,2
+Shivmogga - BH Road,13.959863,75.570298,20,0,burglary,3
+Shivmogga - Savalanga Road,13.937199,75.591064,5,3,vandalism,1
+Shivmogga - Vinoba Nagar,13.957632,75.548944,8,0,harassment,2
+Shivmogga - Gopala,13.925305,75.577181,20,1,theft,1
+Shivmogga - Savalanga Road,13.948849,75.541724,21,1,harassment,1
+Shivmogga - BH Road,13.925028,75.578404,13,0,theft,1
+Shivmogga - BH Road,13.954138,75.598295,13,5,traffic_accident,2
+Shivmogga - Savalanga Road,13.949064,75.537996,3,6,harassment,1
+Shivmogga - Savalanga Road,13.907922,75.547822,0,5,vandalism,1
+Shivmogga - Tilak Nagar,13.941003,75.552636,0,1,traffic_accident,1
+Shivmogga - BH Road,13.927209,75.556182,17,4,theft,1
+Shivmogga - Gopala,13.940779,75.580314,3,3,vandalism,2
+Shivmogga - Vinoba Nagar,13.941088,75.531716,13,2,burglary,2
+Shivmogga - Gopala,13.913399,75.585202,19,4,traffic_accident,1
+Shivmogga - BH Road,13.942261,75.530594,5,0,harassment,1
+Shivmogga - BH Road,13.934558,75.550253,11,1,traffic_accident,1
+Shivmogga - Vinoba Nagar,13.942263,75.533007,12,1,suspicious_activity,1
+Shivmogga - BH Road,13.905899,75.576163,7,3,harassment,1
+Shivmogga - Gopala,13.931825,75.595107,12,6,suspicious_activity,2
+Shivmogga - Vinoba Nagar,13.949714,75.551019,0,6,suspicious_activity,2
+Shivmogga - Vinoba Nagar,13.92094,75.558549,16,5,suspicious_activity,2
+Shivmogga - BH Road,13.950179,75.554587,0,1,theft,1
+Shivmogga - BH Road,13.932744,75.574378,6,3,theft,3
+Shivmogga - Savalanga Road,13.908767,75.592075,4,5,burglary,2
+Shivmogga - BH Road,13.933165,75.550504,16,1,suspicious_activity,1
+Shivmogga - Gopala,13.945898,75.554577,2,6,vandalism,1
+Shivmogga - Tilak Nagar,13.92791,75.585465,20,1,theft,2
+Shivmogga - Tilak Nagar,13.912858,75.570303,2,1,theft,1
+Shivmogga - Gopala,13.943432,75.574536,9,1,suspicious_activity,2
+Shivmogga - Vinoba Nagar,13.922992,75.572974,0,3,suspicious_activity,2
+Shivmogga - BH Road,13.903503,75.536612,0,2,vandalism,2
+Shivmogga - Gopala,13.92498,75.573391,21,0,harassment,1
+Shivmogga - Gopala,13.950154,75.54631,15,5,harassment,2
+Shivmogga - Vinoba Nagar,13.900853,75.593092,18,0,theft,3
+Shivmogga - Gopala,13.932181,75.576699,13,0,theft,1
+Shivmogga - BH Road,13.924722,75.5574,5,5,harassment,1
+Shivmogga - Gopala,13.920831,75.536645,13,4,burglary,3
+Shivmogga - BH Road,13.947704,75.582264,15,0,theft,2
+Shivmogga - Savalanga Road,13.940211,75.531224,3,0,harassment,1
+Shivmogga - BH Road,13.940225,75.55767,15,5,burglary,3
+Shivmogga - Vinoba Nagar,13.907633,75.533618,1,4,burglary,3
+Shivmogga - Tilak Nagar,13.948789,75.540526,4,6,suspicious_activity,1
+Shivmogga - Gopala,13.901161,75.541723,8,0,vandalism,1
+Shivmogga - Tilak Nagar,13.932356,75.593313,21,5,harassment,1
+Shivmogga - Vinoba Nagar,13.906119,75.574813,0,4,harassment,1
+Shivmogga - BH Road,13.95577,75.534021,13,1,vandalism,1
+Shivmogga - Gopala,13.91648,75.540537,15,3,traffic_accident,3
+Shivmogga - Savalanga Road,13.907819,75.550167,16,0,suspicious_activity,2
+Shivmogga - Vinoba Nagar,13.903206,75.594374,22,3,harassment,2
+Shivmogga - Gopala,13.910942,75.560684,16,4,harassment,2
+Shivmogga - Vinoba Nagar,13.901579,75.547761,8,4,suspicious_activity,1
+Shivmogga - Gopala,13.949261,75.571698,4,3,burglary,1
+Shivmogga - Vinoba Nagar,13.950463,75.579275,10,5,traffic_accident,1
+Shivmogga - BH Road,13.918442,75.567464,14,6,harassment,1
+Shivmogga - Vinoba Nagar,13.905439,75.551603,2,3,traffic_accident,2
+Shivmogga - Savalanga Road,13.910462,75.575462,7,1,burglary,2
+Shivmogga - Tilak Nagar,13.905032,75.576157,21,4,vandalism,2
+Shivmogga - Gopala,13.919781,75.537781,20,6,suspicious_activity,1
+Shivmogga - Savalanga Road,13.911532,75.582045,23,6,burglary,2
+Shivmogga - Tilak Nagar,13.918022,75.588167,21,3,burglary,3
+Shivmogga - Tilak Nagar,13.953489,75.566892,19,5,theft,1
+Shivmogga - Tilak Nagar,13.951578,75.543093,5,3,burglary,3
+Shivmogga - Tilak Nagar,13.911411,75.548811,15,1,harassment,3
+Shivmogga - Vinoba Nagar,13.936089,75.596686,6,6,vandalism,1
+Shivmogga - Savalanga Road,13.950571,75.594659,3,3,suspicious_activity,2
+Shivmogga - Gopala,13.938991,75.548844,14,2,traffic_accident,1
+Shivmogga - Vinoba Nagar,13.923821,75.536011,20,4,burglary,3
+Shivmogga - Vinoba Nagar,13.943972,75.589404,2,0,theft,2
+Shivmogga - Gopala,13.944218,75.586645,17,0,suspicious_activity,2
+Shivmogga - Savalanga Road,13.951989,75.550418,18,1,vandalism,1
+Shivmogga - Tilak Nagar,13.952419,75.544581,2,0,harassment,1
+Shivmogga - Gopala,13.904683,75.586246,22,0,vandalism,1
+Shivmogga - Vinoba Nagar,13.956939,75.595352,3,1,harassment,1
+Shivmogga - BH Road,13.922183,75.537269,1,1,traffic_accident,2
+Shivmogga - Tilak Nagar,13.93287,75.577739,6,4,burglary,1
+Shivmogga - BH Road,13.939094,75.570238,15,0,vandalism,3
+Shivmogga - Tilak Nagar,13.915903,75.597528,4,5,suspicious_activity,2
+Shivmogga - Savalanga Road,13.954141,75.597277,18,4,traffic_accident,2
+Shivmogga - Vinoba Nagar,13.919571,75.584425,4,2,vandalism,1
+Shivmogga - Gopala,13.906291,75.580169,20,4,harassment,1
+Shivmogga - BH Road,13.927238,75.537118,7,0,traffic_accident,2
+Shivmogga - Savalanga Road,13.935104,75.554513,2,2,suspicious_activity,2
+Shivmogga - Savalanga Road,13.931915,75.577348,0,3,vandalism,1
+Shivmogga - Tilak Nagar,13.909148,75.550354,1,6,suspicious_activity,1
+Shivmogga - Savalanga Road,13.905326,75.582455,22,1,suspicious_activity,1
+Shivmogga - Tilak Nagar,13.903329,75.577299,23,1,suspicious_activity,1
+Shivmogga - Vinoba Nagar,13.930279,75.574105,22,2,theft,1
+Shivmogga - Tilak Nagar,13.924227,75.558609,18,1,vandalism,2
+Shivmogga - Savalanga Road,13.918604,75.58816,14,1,theft,3
+Shivmogga - Tilak Nagar,13.907012,75.534966,13,6,theft,1
+Shivmogga - Tilak Nagar,13.941209,75.532403,18,3,suspicious_activity,1
+Shivmogga - BH Road,13.921221,75.531343,5,2,harassment,2
+Shivmogga - Vinoba Nagar,13.940382,75.558536,4,5,vandalism,2
+Shivmogga - Tilak Nagar,13.9126,75.550244,14,1,theft,2
+Shivmogga - Gopala,13.946012,75.569258,21,1,vandalism,3
+Shivmogga - Vinoba Nagar,13.919651,75.544761,6,2,theft,1
+Shivmogga - BH Road,13.947394,75.552568,2,5,harassment,1
+Shivmogga - Tilak Nagar,13.929578,75.560503,10,1,burglary,1
+Shivmogga - BH Road,13.91486,75.575617,23,2,burglary,3
+Shivmogga - Tilak Nagar,13.938192,75.594279,5,0,vandalism,1
+Shivmogga - BH Road,13.925928,75.584275,11,2,burglary,1
+Shivmogga - Gopala,13.927233,75.598787,1,6,suspicious_activity,1
+Shivmogga - BH Road,13.951939,75.554232,14,6,harassment,3
+Shivmogga - Gopala,13.925591,75.571848,13,6,harassment,2
+Shivmogga - Savalanga Road,13.958595,75.562641,9,4,vandalism,3
+Shivmogga - Savalanga Road,13.906353,75.546869,18,2,traffic_accident,1
+Shivmogga - Tilak Nagar,13.952549,75.59661,4,1,burglary,3
+Shivmogga - Gopala,13.919499,75.592225,23,5,vandalism,3
+Shivmogga - BH Road,13.91757,75.530321,15,4,theft,2
+Shivmogga - Gopala,13.907901,75.557508,21,4,harassment,1
+Shivmogga - Tilak Nagar,13.940635,75.564955,19,5,theft,1
+Shivmogga - Tilak Nagar,13.931706,75.581244,4,6,traffic_accident,2
+Shivmogga - Vinoba Nagar,13.924942,75.589394,2,6,traffic_accident,3
+Shivmogga - Gopala,13.923272,75.534698,13,4,traffic_accident,1
+Shivmogga - Savalanga Road,13.918792,75.574252,19,0,vandalism,2
+Shivmogga - BH Road,13.945612,75.577211,21,0,theft,1
+Shivmogga - Tilak Nagar,13.906954,75.578866,21,4,vandalism,1
+Shivmogga - Savalanga Road,13.912266,75.587001,8,0,suspicious_activity,1
+Shivmogga - Tilak Nagar,13.911094,75.574289,19,2,burglary,1
+Shivmogga - BH Road,13.926739,75.5645,1,3,traffic_accident,2
+Shivmogga - BH Road,13.924827,75.553644,7,0,suspicious_activity,1
+Shivmogga - Vinoba Nagar,13.942974,75.596358,5,4,traffic_accident,3
+Shivmogga - Savalanga Road,13.921722,75.594777,18,0,traffic_accident,1
+Shivmogga - Tilak Nagar,13.955025,75.57123,11,4,burglary,1
+Shivmogga - Vinoba Nagar,13.959573,75.594718,6,1,harassment,1
+Shivmogga - BH Road,13.937561,75.568871,10,5,harassment,3
+Shivmogga - Savalanga Road,13.90968,75.548176,21,4,suspicious_activity,2
+Shivmogga - Gopala,13.935253,75.592258,15,5,theft,1
+Shivmogga - Savalanga Road,13.9496,75.548533,13,5,harassment,1
+Shivmogga - BH Road,13.958791,75.531504,9,6,burglary,1
+Shivmogga - Gopala,13.906841,75.536308,8,2,vandalism,2
+Shivmogga - Savalanga Road,13.914702,75.556161,5,6,theft,1
+Shivmogga - BH Road,13.908836,75.5488,4,6,traffic_accident,1
+Shivmogga - Tilak Nagar,13.908715,75.551427,14,3,vandalism,3
+Shivmogga - Savalanga Road,13.946922,75.537209,20,1,traffic_accident,1
+Shivmogga - Gopala,13.909134,75.55006,14,1,vandalism,1
+Shivmogga - Tilak Nagar,13.913718,75.547741,9,1,burglary,1
+Shivmogga - Savalanga Road,13.935729,75.55652,4,6,traffic_accident,3
+Shivmogga - Gopala,13.947446,75.572325,18,0,vandalism,3
+Shivmogga - Savalanga Road,13.900014,75.566765,12,6,suspicious_activity,1
+Shivmogga - Tilak Nagar,13.929426,75.540835,13,4,vandalism,3
+Shivmogga - Vinoba Nagar,13.914103,75.578931,21,4,suspicious_activity,1
+Shivmogga - Savalanga Road,13.923513,75.598517,8,5,burglary,1
+Shivmogga - Gopala,13.913623,75.574666,13,5,burglary,1
+Shivmogga - Savalanga Road,13.916144,75.569419,10,4,vandalism,1
+Shivmogga - BH Road,13.913401,75.559687,11,0,harassment,3
+Shivmogga - Tilak Nagar,13.95446,75.560883,10,0,suspicious_activity,1
+Shivmogga - Vinoba Nagar,13.904577,75.535524,1,6,theft,1
+Shivmogga - Vinoba Nagar,13.955056,75.590707,21,5,burglary,1
+Shivmogga - Vinoba Nagar,13.919265,75.543836,1,2,suspicious_activity,3
+Shivmogga - Tilak Nagar,13.942293,75.573125,0,5,burglary,1
+Shivmogga - Tilak Nagar,13.935405,75.540608,0,4,suspicious_activity,3
+Shivmogga - Gopala,13.93598,75.580434,22,2,vandalism,2
+Shivmogga - Tilak Nagar,13.939455,75.54498,16,3,traffic_accident,2
+Shivmogga - Gopala,13.959577,75.532958,4,3,burglary,2
+Shivmogga - BH Road,13.957373,75.542646,5,2,traffic_accident,2
+Shivmogga - Vinoba Nagar,13.942706,75.544094,9,3,theft,1
+Shivmogga - Savalanga Road,13.904307,75.543458,3,4,burglary,1
+Shivmogga - Tilak Nagar,13.911259,75.542289,6,1,vandalism,1
+Shivmogga - Savalanga Road,13.936742,75.538989,22,0,vandalism,2
+Shivmogga - Savalanga Road,13.949736,75.564294,14,2,traffic_accident,3
+Shivmogga - Vinoba Nagar,13.957553,75.597152,17,1,suspicious_activity,1
+Shivmogga - Tilak Nagar,13.936055,75.550162,11,1,theft,1
+Shivmogga - Vinoba Nagar,13.937356,75.580251,18,6,burglary,3
+Shivmogga - Gopala,13.948053,75.586017,22,0,harassment,1
+Shivmogga - Savalanga Road,13.916356,75.581498,21,5,traffic_accident,2
+Shivmogga - Gopala,13.942222,75.547253,3,5,vandalism,2
+Shivmogga - BH Road,13.90885,75.55739,9,0,theft,1
+Shivmogga - BH Road,13.902609,75.566424,2,3,burglary,2
+Shivmogga - Savalanga Road,13.951798,75.598734,23,6,traffic_accident,2
+Shivmogga - Vinoba Nagar,13.959076,75.595883,20,5,suspicious_activity,2
+Shivmogga - Gopala,13.941111,75.566751,6,5,burglary,3
+Shivmogga - Savalanga Road,13.927166,75.58083,9,6,burglary,2
+Shivmogga - BH Road,13.938037,75.551834,1,3,vandalism,1
+Shivmogga - Gopala,13.924006,75.543505,20,4,theft,1
+Shivmogga - BH Road,13.903694,75.544855,9,6,vandalism,2
+Shivmogga - Vinoba Nagar,13.928729,75.563572,16,1,theft,1
+Shivmogga - BH Road,13.944216,75.560947,13,1,theft,1
+Shivmogga - Savalanga Road,13.929553,75.575979,0,5,vandalism,1
+Shivmogga - Vinoba Nagar,13.924051,75.562157,19,3,harassment,1
+Shivmogga - Vinoba Nagar,13.92925,75.544216,3,0,traffic_accident,1
+Shivmogga - Vinoba Nagar,13.943732,75.554467,22,4,vandalism,2
+Shivmogga - BH Road,13.947229,75.572572,3,6,harassment,2
+Shivmogga - Savalanga Road,13.921409,75.53074,1,0,traffic_accident,1
+Shivmogga - Tilak Nagar,13.916475,75.553526,8,0,vandalism,2
+Shivmogga - Vinoba Nagar,13.927878,75.549761,9,6,suspicious_activity,3
+Shivmogga - Vinoba Nagar,13.949245,75.548974,0,2,burglary,3
+Shivmogga - Vinoba Nagar,13.931207,75.563344,0,4,burglary,1
+Shivmogga - Gopala,13.934399,75.598251,2,5,harassment,2
+Shivmogga - BH Road,13.955279,75.599438,7,0,burglary,3
+Shivmogga - Tilak Nagar,13.951638,75.543605,2,5,traffic_accident,2
+Shivmogga - Savalanga Road,13.955569,75.582191,19,0,theft,1
+Shivmogga - Savalanga Road,13.953471,75.571121,18,4,traffic_accident,3
+Shivmogga - BH Road,13.932351,75.552728,20,0,theft,1
+Shivmogga - Savalanga Road,13.932348,75.553829,20,4,traffic_accident,1
+Shivmogga - Savalanga Road,13.949338,75.581005,16,5,traffic_accident,3
+Shivmogga - Tilak Nagar,13.916413,75.577404,5,6,theft,2
+Shivmogga - Vinoba Nagar,13.90956,75.572858,6,4,vandalism,1
+Shivmogga - Gopala,13.919169,75.559996,7,4,burglary,3
+Shivmogga - BH Road,13.952139,75.553829,18,6,traffic_accident,1
+Shivmogga - BH Road,13.958457,75.554654,6,4,vandalism,1
+Shivmogga - Gopala,13.958289,75.55813,12,2,suspicious_activity,3
+Shivmogga - Tilak Nagar,13.909645,75.552851,9,3,theft,2
+Shivmogga - Vinoba Nagar,13.922789,75.531622,0,5,vandalism,1
+Shivmogga - Vinoba Nagar,13.938633,75.547265,21,6,theft,1
+Shivmogga - Vinoba Nagar,13.927871,75.539162,2,3,suspicious_activity,3
+Shivmogga - Vinoba Nagar,13.900633,75.552982,7,1,suspicious_activity,1
+Shivmogga - Gopala,13.953454,75.595545,11,2,suspicious_activity,1
+Shivmogga - BH Road,13.936893,75.573397,5,0,vandalism,3
+Shivmogga - Tilak Nagar,13.92085,75.536996,13,5,theft,1
+Shivmogga - Vinoba Nagar,13.928719,75.577208,6,0,suspicious_activity,1
+Shivmogga - Tilak Nagar,13.946773,75.591024,4,1,harassment,2
+Shivmogga - Savalanga Road,13.915103,75.543977,9,5,harassment,1
+Shivmogga - Tilak Nagar,13.934989,75.5484,10,5,theft,2
+Shivmogga - Savalanga Road,13.942431,75.57536,19,2,suspicious_activity,1
+Shivmogga - Tilak Nagar,13.903548,75.566523,16,2,suspicious_activity,2
+Shivmogga - BH Road,13.957183,75.572985,5,4,vandalism,2
+Shivmogga - Vinoba Nagar,13.957004,75.56418,12,0,burglary,1
+Shivmogga - Savalanga Road,13.913756,75.582042,17,1,traffic_accident,2
+Shivmogga - Gopala,13.904951,75.55216,4,6,traffic_accident,3
+Shivmogga - BH Road,13.950034,75.548339,16,0,harassment,2
+Shivmogga - BH Road,13.949296,75.585547,0,3,harassment,1
+Shivmogga - BH Road,13.93107,75.549405,16,3,burglary,1
+Shivmogga - BH Road,13.959409,75.568543,14,5,traffic_accident,1
+Shivmogga - Gopala,13.940836,75.578711,2,2,vandalism,2
+Shivmogga - Savalanga Road,13.950713,75.584272,18,2,suspicious_activity,2
+Shivmogga - BH Road,13.925901,75.584641,9,1,traffic_accident,2
+Shivmogga - Gopala,13.933807,75.559833,8,3,harassment,2
+Shivmogga - Savalanga Road,13.910443,75.552069,5,0,burglary,1
+Shivmogga - BH Road,13.911938,75.552051,10,5,theft,1
+Shivmogga - BH Road,13.937955,75.598313,2,1,harassment,2
+Shivmogga - Gopala,13.959672,75.572091,20,1,burglary,3
+Shivmogga - Gopala,13.952113,75.551906,17,4,suspicious_activity,1
+Shivmogga - Vinoba Nagar,13.939957,75.590852,12,1,traffic_accident,1
+Shivmogga - BH Road,13.91519,75.555039,16,6,harassment,3
+Shivmogga - BH Road,13.935712,75.548127,14,3,theft,2
+Shivmogga - Vinoba Nagar,13.944673,75.574596,17,1,vandalism,2
+Shivmogga - Vinoba Nagar,13.916608,75.584911,12,2,suspicious_activity,2
+Shivmogga - Vinoba Nagar,13.934726,75.562436,12,2,harassment,1
+Shivmogga - Tilak Nagar,13.932249,75.579112,20,1,theft,1
+Shivmogga - BH Road,13.936806,75.539995,3,6,vandalism,1
+Shivmogga - BH Road,13.956496,75.539583,12,0,suspicious_activity,1
+Shivmogga - Savalanga Road,13.91156,75.561979,9,2,burglary,3
+Shivmogga - Gopala,13.929532,75.537452,23,2,suspicious_activity,1
+Shivmogga - Vinoba Nagar,13.913879,75.534647,14,1,burglary,3
+Shivmogga - BH Road,13.953464,75.540383,23,1,harassment,1
+Shivmogga - Savalanga Road,13.9487,75.564222,2,3,harassment,1
+Shivmogga - Savalanga Road,13.957746,75.555945,15,3,burglary,3
+Shivmogga - Savalanga Road,13.936154,75.570773,3,6,vandalism,1
+Shivmogga - Gopala,13.953918,75.5788,16,2,burglary,2

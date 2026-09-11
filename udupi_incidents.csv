@@ -1,0 +1,351 @@
+location_zone,latitude,longitude,hour,day_of_week,incident_type,severity
+Udupi - MGM College Area,13.35388,74.74842,1,5,theft,1
+Udupi - Kalsanka,13.323621,74.724145,8,2,vandalism,1
+Udupi - MGM College Area,13.348393,74.745397,17,0,traffic_accident,1
+Udupi - MGM College Area,13.325733,74.740812,2,6,suspicious_activity,2
+Udupi - Diana Circle,13.320976,74.739285,18,4,traffic_accident,1
+Udupi - Malpe Beach Area,13.353116,74.741407,16,1,suspicious_activity,2
+Udupi - Diana Circle,13.351982,74.732396,9,0,suspicious_activity,1
+Udupi - Santhekatte,13.329952,74.746316,5,6,traffic_accident,1
+Udupi - Malpe Beach Area,13.330535,74.734334,20,5,burglary,1
+Udupi - MGM College Area,13.320979,74.750717,11,3,harassment,3
+Udupi - Santhekatte,13.340645,74.743509,7,1,vandalism,2
+Udupi - Malpe Beach Area,13.320087,74.72192,22,2,theft,1
+Udupi - Kalsanka,13.325983,74.750187,2,6,burglary,1
+Udupi - Santhekatte,13.345588,74.743657,3,0,harassment,2
+Udupi - Santhekatte,13.356239,74.75501,10,0,traffic_accident,2
+Udupi - Santhekatte,13.353936,74.758766,3,2,traffic_accident,1
+Udupi - Santhekatte,13.351088,74.720151,8,2,theft,2
+Udupi - Santhekatte,13.344828,74.723008,15,6,traffic_accident,2
+Udupi - Kalsanka,13.349691,74.728944,2,5,suspicious_activity,1
+Udupi - Kalsanka,13.328044,74.725139,7,5,theft,1
+Udupi - Malpe Beach Area,13.359187,74.751211,21,3,theft,1
+Udupi - Santhekatte,13.34658,74.759025,14,4,vandalism,3
+Udupi - Diana Circle,13.330712,74.757789,21,0,burglary,3
+Udupi - MGM College Area,13.354804,74.725921,19,6,vandalism,2
+Udupi - Diana Circle,13.336311,74.747881,2,0,burglary,1
+Udupi - Malpe Beach Area,13.324265,74.723376,23,4,traffic_accident,3
+Udupi - MGM College Area,13.345979,74.749996,2,5,burglary,1
+Udupi - Santhekatte,13.351992,74.731666,6,2,burglary,1
+Udupi - MGM College Area,13.348118,74.723265,18,2,suspicious_activity,3
+Udupi - Kalsanka,13.340282,74.725895,18,1,vandalism,2
+Udupi - Santhekatte,13.327861,74.748189,20,4,burglary,1
+Udupi - Santhekatte,13.32466,74.739482,19,0,vandalism,1
+Udupi - Santhekatte,13.355835,74.75562,11,2,theft,1
+Udupi - Diana Circle,13.344131,74.731245,10,4,harassment,2
+Udupi - Santhekatte,13.327477,74.727749,20,6,vandalism,1
+Udupi - MGM College Area,13.326991,74.751167,15,6,theft,1
+Udupi - Diana Circle,13.336874,74.750475,14,2,harassment,1
+Udupi - Malpe Beach Area,13.349324,74.733364,0,5,suspicious_activity,2
+Udupi - Santhekatte,13.352197,74.751572,11,3,vandalism,2
+Udupi - Malpe Beach Area,13.339912,74.743861,14,6,traffic_accident,1
+Udupi - Santhekatte,13.32166,74.724013,10,5,theft,1
+Udupi - MGM College Area,13.324398,74.73267,7,5,traffic_accident,2
+Udupi - Santhekatte,13.323521,74.758487,2,5,suspicious_activity,3
+Udupi - Kalsanka,13.354169,74.720895,13,2,vandalism,1
+Udupi - Diana Circle,13.343906,74.753528,15,4,suspicious_activity,1
+Udupi - Malpe Beach Area,13.352873,74.721373,15,3,theft,1
+Udupi - Diana Circle,13.354339,74.73806,5,1,traffic_accident,2
+Udupi - Santhekatte,13.357854,74.747657,23,3,suspicious_activity,2
+Udupi - Diana Circle,13.352222,74.72766,16,3,suspicious_activity,2
+Udupi - Santhekatte,13.329918,74.731446,5,0,harassment,2
+Udupi - MGM College Area,13.341284,74.728453,1,1,traffic_accident,1
+Udupi - MGM College Area,13.357633,74.747,21,0,theft,1
+Udupi - Diana Circle,13.329153,74.740305,8,5,theft,2
+Udupi - Kalsanka,13.321579,74.751986,9,2,suspicious_activity,1
+Udupi - Diana Circle,13.324191,74.732962,2,3,traffic_accident,3
+Udupi - MGM College Area,13.350785,74.733605,15,3,theft,2
+Udupi - Diana Circle,13.344268,74.723751,8,4,traffic_accident,3
+Udupi - Kalsanka,13.346439,74.727968,19,6,burglary,1
+Udupi - Kalsanka,13.332012,74.732942,11,3,traffic_accident,1
+Udupi - Santhekatte,13.323352,74.736784,5,0,traffic_accident,2
+Udupi - Kalsanka,13.346237,74.734179,8,6,harassment,2
+Udupi - MGM College Area,13.334007,74.744328,22,1,harassment,2
+Udupi - Malpe Beach Area,13.320199,74.748006,8,1,traffic_accident,3
+Udupi - Malpe Beach Area,13.334911,74.75026,0,6,burglary,2
+Udupi - Kalsanka,13.335047,74.755782,18,6,theft,1
+Udupi - Malpe Beach Area,13.32537,74.758908,6,5,theft,2
+Udupi - Santhekatte,13.323084,74.721545,21,4,suspicious_activity,1
+Udupi - MGM College Area,13.333061,74.757738,13,1,theft,1
+Udupi - MGM College Area,13.334418,74.74054,1,5,vandalism,3
+Udupi - Kalsanka,13.327955,74.722997,3,1,theft,3
+Udupi - Santhekatte,13.356993,74.746505,6,6,vandalism,1
+Udupi - Kalsanka,13.321639,74.757089,11,0,burglary,3
+Udupi - Santhekatte,13.349016,74.722245,13,0,traffic_accident,1
+Udupi - Kalsanka,13.33676,74.720852,4,2,traffic_accident,3
+Udupi - Diana Circle,13.336178,74.72224,5,0,harassment,1
+Udupi - Santhekatte,13.345824,74.73273,17,5,harassment,2
+Udupi - Santhekatte,13.354934,74.757111,4,4,traffic_accident,1
+Udupi - Malpe Beach Area,13.341305,74.736266,4,5,theft,1
+Udupi - Santhekatte,13.32622,74.720263,14,2,harassment,1
+Udupi - Malpe Beach Area,13.328189,74.721288,10,3,burglary,1
+Udupi - Diana Circle,13.333223,74.729841,13,0,harassment,1
+Udupi - Malpe Beach Area,13.344796,74.722594,7,2,harassment,2
+Udupi - Kalsanka,13.320452,74.738625,9,2,vandalism,1
+Udupi - Santhekatte,13.34636,74.75254,21,0,suspicious_activity,1
+Udupi - Kalsanka,13.33253,74.720366,10,4,burglary,1
+Udupi - Kalsanka,13.32707,74.731831,20,5,vandalism,2
+Udupi - Kalsanka,13.336737,74.747623,13,4,harassment,1
+Udupi - Santhekatte,13.340365,74.750486,22,3,harassment,2
+Udupi - Kalsanka,13.33458,74.735766,10,2,traffic_accident,2
+Udupi - Malpe Beach Area,13.326951,74.72255,0,5,harassment,2
+Udupi - Malpe Beach Area,13.346412,74.727682,5,1,theft,2
+Udupi - Diana Circle,13.353665,74.757666,16,5,burglary,1
+Udupi - Diana Circle,13.321169,74.736288,6,3,suspicious_activity,1
+Udupi - Santhekatte,13.357582,74.726482,1,5,traffic_accident,3
+Udupi - Santhekatte,13.352324,74.749084,2,4,harassment,2
+Udupi - MGM College Area,13.341845,74.743581,18,5,harassment,1
+Udupi - Diana Circle,13.324569,74.725516,12,4,vandalism,1
+Udupi - Santhekatte,13.355887,74.743061,20,5,harassment,3
+Udupi - Diana Circle,13.329065,74.747583,23,4,burglary,3
+Udupi - Santhekatte,13.32018,74.753733,0,0,vandalism,2
+Udupi - Diana Circle,13.332847,74.740166,8,1,suspicious_activity,1
+Udupi - MGM College Area,13.326807,74.756492,8,4,vandalism,3
+Udupi - Kalsanka,13.354729,74.755315,12,0,harassment,2
+Udupi - Malpe Beach Area,13.355553,74.73906,21,5,traffic_accident,2
+Udupi - Kalsanka,13.325352,74.759644,8,5,suspicious_activity,1
+Udupi - Diana Circle,13.324442,74.741432,18,0,theft,2
+Udupi - Diana Circle,13.338723,74.754451,8,3,traffic_accident,1
+Udupi - Malpe Beach Area,13.342984,74.736599,2,2,vandalism,1
+Udupi - Diana Circle,13.340632,74.74027,4,3,suspicious_activity,1
+Udupi - Diana Circle,13.320145,74.729218,16,5,harassment,1
+Udupi - Kalsanka,13.336075,74.727844,5,5,suspicious_activity,1
+Udupi - MGM College Area,13.341854,74.744251,21,0,vandalism,2
+Udupi - Kalsanka,13.349628,74.754186,21,6,traffic_accident,2
+Udupi - Santhekatte,13.326152,74.743043,22,5,harassment,3
+Udupi - Santhekatte,13.327337,74.741767,5,4,harassment,2
+Udupi - Kalsanka,13.359998,74.757835,19,6,burglary,1
+Udupi - Diana Circle,13.326415,74.759001,4,5,harassment,1
+Udupi - Kalsanka,13.342465,74.724919,10,3,vandalism,2
+Udupi - Kalsanka,13.335687,74.725213,12,2,theft,2
+Udupi - MGM College Area,13.339589,74.74172,10,2,traffic_accident,1
+Udupi - Santhekatte,13.32927,74.722361,3,3,harassment,1
+Udupi - Kalsanka,13.349572,74.735395,18,3,traffic_accident,2
+Udupi - Malpe Beach Area,13.325,74.721754,0,5,traffic_accident,2
+Udupi - MGM College Area,13.342735,74.726751,17,4,harassment,2
+Udupi - Kalsanka,13.334823,74.722948,4,1,burglary,2
+Udupi - Santhekatte,13.349025,74.738577,16,1,burglary,3
+Udupi - MGM College Area,13.327087,74.743553,22,1,theft,1
+Udupi - Kalsanka,13.336315,74.726021,14,6,traffic_accident,3
+Udupi - Kalsanka,13.340186,74.731284,19,3,traffic_accident,1
+Udupi - Malpe Beach Area,13.322665,74.735774,15,5,theft,1
+Udupi - Santhekatte,13.324914,74.743837,10,4,harassment,1
+Udupi - Malpe Beach Area,13.333247,74.741234,12,5,harassment,1
+Udupi - Malpe Beach Area,13.322876,74.759971,17,3,suspicious_activity,1
+Udupi - Malpe Beach Area,13.324888,74.720409,1,6,harassment,2
+Udupi - MGM College Area,13.351508,74.750109,20,1,traffic_accident,2
+Udupi - Kalsanka,13.339411,74.730937,0,4,suspicious_activity,1
+Udupi - Malpe Beach Area,13.334993,74.727633,18,2,traffic_accident,1
+Udupi - Santhekatte,13.3385,74.75097,9,1,vandalism,2
+Udupi - Malpe Beach Area,13.320306,74.757992,14,3,burglary,1
+Udupi - Santhekatte,13.354103,74.75397,11,2,burglary,2
+Udupi - MGM College Area,13.343111,74.734906,17,5,harassment,2
+Udupi - Santhekatte,13.353728,74.737353,14,3,theft,1
+Udupi - MGM College Area,13.356143,74.745404,17,3,traffic_accident,2
+Udupi - Malpe Beach Area,13.35199,74.753648,15,2,harassment,2
+Udupi - Santhekatte,13.32974,74.729547,7,5,traffic_accident,1
+Udupi - Kalsanka,13.359645,74.756678,9,5,traffic_accident,1
+Udupi - Malpe Beach Area,13.357515,74.737628,1,1,suspicious_activity,2
+Udupi - MGM College Area,13.334638,74.748465,22,1,vandalism,1
+Udupi - Kalsanka,13.336909,74.751399,12,0,traffic_accident,2
+Udupi - Diana Circle,13.349811,74.754824,0,6,traffic_accident,2
+Udupi - MGM College Area,13.356439,74.749895,3,2,vandalism,2
+Udupi - Kalsanka,13.324389,74.720264,17,2,burglary,3
+Udupi - Malpe Beach Area,13.325744,74.731405,13,0,burglary,1
+Udupi - Santhekatte,13.34314,74.735672,23,2,harassment,1
+Udupi - Kalsanka,13.344094,74.749302,14,6,suspicious_activity,3
+Udupi - Kalsanka,13.333871,74.72137,20,2,vandalism,1
+Udupi - Kalsanka,13.329152,74.720875,22,1,harassment,1
+Udupi - Malpe Beach Area,13.3427,74.734605,18,1,suspicious_activity,1
+Udupi - Kalsanka,13.355088,74.738522,5,1,traffic_accident,1
+Udupi - MGM College Area,13.35175,74.751828,11,2,theft,2
+Udupi - Kalsanka,13.340476,74.749842,15,5,traffic_accident,3
+Udupi - Malpe Beach Area,13.326987,74.739681,0,4,harassment,1
+Udupi - Kalsanka,13.344389,74.723577,6,2,harassment,1
+Udupi - Santhekatte,13.326002,74.7346,3,6,traffic_accident,2
+Udupi - Kalsanka,13.33418,74.756822,20,1,vandalism,2
+Udupi - Malpe Beach Area,13.357538,74.7242,19,5,theft,1
+Udupi - Malpe Beach Area,13.32605,74.748263,14,3,suspicious_activity,2
+Udupi - Kalsanka,13.322645,74.755979,6,1,theft,2
+Udupi - MGM College Area,13.32743,74.737314,14,5,theft,2
+Udupi - Malpe Beach Area,13.338779,74.737711,11,1,burglary,3
+Udupi - MGM College Area,13.346066,74.738284,11,5,vandalism,1
+Udupi - Santhekatte,13.330236,74.753052,16,5,burglary,2
+Udupi - MGM College Area,13.353443,74.723689,13,5,suspicious_activity,2
+Udupi - Santhekatte,13.33016,74.744221,15,5,theft,1
+Udupi - Kalsanka,13.334932,74.749061,2,6,harassment,2
+Udupi - Kalsanka,13.350485,74.734525,16,1,burglary,1
+Udupi - Malpe Beach Area,13.328009,74.740544,20,1,traffic_accident,1
+Udupi - Kalsanka,13.347912,74.72596,22,3,suspicious_activity,1
+Udupi - Diana Circle,13.335246,74.733281,1,6,theft,2
+Udupi - MGM College Area,13.357207,74.749358,6,4,suspicious_activity,2
+Udupi - Kalsanka,13.327802,74.738954,13,6,burglary,1
+Udupi - Diana Circle,13.341984,74.757163,22,6,harassment,1
+Udupi - Diana Circle,13.338692,74.753,14,6,suspicious_activity,3
+Udupi - MGM College Area,13.34535,74.734891,10,2,vandalism,3
+Udupi - Santhekatte,13.327542,74.752988,3,6,burglary,1
+Udupi - Santhekatte,13.350754,74.758763,0,2,burglary,2
+Udupi - MGM College Area,13.322041,74.723483,10,5,suspicious_activity,2
+Udupi - Kalsanka,13.348677,74.725284,15,5,burglary,3
+Udupi - Kalsanka,13.329353,74.721853,10,4,burglary,2
+Udupi - Malpe Beach Area,13.330772,74.746694,23,0,traffic_accident,2
+Udupi - Diana Circle,13.33168,74.727097,18,1,suspicious_activity,1
+Udupi - Malpe Beach Area,13.338441,74.731203,13,0,burglary,1
+Udupi - Santhekatte,13.359735,74.754933,18,0,harassment,3
+Udupi - Diana Circle,13.354833,74.744449,14,4,theft,3
+Udupi - MGM College Area,13.357513,74.757739,20,5,burglary,3
+Udupi - MGM College Area,13.350577,74.732695,23,3,theft,2
+Udupi - Santhekatte,13.338185,74.754112,22,2,harassment,1
+Udupi - Malpe Beach Area,13.338492,74.723194,17,1,harassment,1
+Udupi - Kalsanka,13.322683,74.730287,11,5,harassment,2
+Udupi - MGM College Area,13.334917,74.734469,15,2,theft,2
+Udupi - Diana Circle,13.326534,74.720766,0,2,theft,3
+Udupi - Diana Circle,13.356541,74.755216,12,5,theft,2
+Udupi - MGM College Area,13.332195,74.723157,6,0,vandalism,2
+Udupi - MGM College Area,13.339815,74.737686,22,6,suspicious_activity,1
+Udupi - MGM College Area,13.33376,74.748186,1,2,burglary,2
+Udupi - Santhekatte,13.344276,74.732186,7,6,burglary,3
+Udupi - Malpe Beach Area,13.335851,74.736769,17,6,vandalism,1
+Udupi - Malpe Beach Area,13.331818,74.724306,8,2,harassment,3
+Udupi - Malpe Beach Area,13.350425,74.722615,17,5,burglary,2
+Udupi - MGM College Area,13.327002,74.727239,2,3,vandalism,1
+Udupi - Santhekatte,13.343885,74.758374,6,1,traffic_accident,2
+Udupi - MGM College Area,13.359448,74.727443,2,2,theft,3
+Udupi - Kalsanka,13.345302,74.739782,1,2,traffic_accident,3
+Udupi - MGM College Area,13.320113,74.743604,6,4,harassment,2
+Udupi - Kalsanka,13.342671,74.745951,19,5,theft,1
+Udupi - Malpe Beach Area,13.324337,74.737348,18,0,traffic_accident,1
+Udupi - MGM College Area,13.335444,74.73001,9,6,burglary,3
+Udupi - Malpe Beach Area,13.352134,74.756295,23,4,suspicious_activity,1
+Udupi - Malpe Beach Area,13.344717,74.729873,22,2,suspicious_activity,3
+Udupi - Diana Circle,13.342074,74.724365,4,0,vandalism,1
+Udupi - MGM College Area,13.350502,74.746591,15,2,harassment,3
+Udupi - Santhekatte,13.35667,74.752946,1,3,suspicious_activity,2
+Udupi - Kalsanka,13.356067,74.723305,13,3,theft,1
+Udupi - MGM College Area,13.339767,74.725594,15,3,vandalism,3
+Udupi - Santhekatte,13.355341,74.742446,11,3,suspicious_activity,2
+Udupi - Malpe Beach Area,13.354918,74.745517,22,6,traffic_accident,2
+Udupi - Santhekatte,13.352724,74.753469,8,2,traffic_accident,1
+Udupi - Kalsanka,13.325284,74.72216,5,0,vandalism,1
+Udupi - Malpe Beach Area,13.32698,74.738038,19,2,vandalism,1
+Udupi - MGM College Area,13.35292,74.727067,16,0,theft,1
+Udupi - MGM College Area,13.327858,74.746493,22,0,harassment,1
+Udupi - Diana Circle,13.355221,74.733391,15,4,suspicious_activity,1
+Udupi - MGM College Area,13.328485,74.729428,22,5,burglary,2
+Udupi - Malpe Beach Area,13.328865,74.738732,5,3,suspicious_activity,1
+Udupi - MGM College Area,13.357787,74.724316,15,2,suspicious_activity,1
+Udupi - Diana Circle,13.337341,74.745977,21,5,suspicious_activity,2
+Udupi - Santhekatte,13.357379,74.74257,4,2,theft,1
+Udupi - Santhekatte,13.321168,74.720386,21,4,theft,1
+Udupi - MGM College Area,13.325701,74.744813,5,4,harassment,3
+Udupi - Diana Circle,13.327258,74.751579,2,0,suspicious_activity,2
+Udupi - Kalsanka,13.332827,74.726764,16,2,vandalism,1
+Udupi - Santhekatte,13.352199,74.743649,3,6,vandalism,1
+Udupi - Kalsanka,13.353186,74.737122,10,6,traffic_accident,2
+Udupi - Santhekatte,13.359782,74.734803,13,4,suspicious_activity,2
+Udupi - Diana Circle,13.336494,74.721425,11,2,harassment,3
+Udupi - Malpe Beach Area,13.350476,74.752046,12,2,vandalism,2
+Udupi - MGM College Area,13.344689,74.722175,9,4,burglary,1
+Udupi - MGM College Area,13.331158,74.730908,23,0,vandalism,2
+Udupi - Diana Circle,13.352601,74.743645,21,6,theft,2
+Udupi - Santhekatte,13.357724,74.725951,14,2,burglary,3
+Udupi - Diana Circle,13.33597,74.736954,15,2,burglary,2
+Udupi - Malpe Beach Area,13.359733,74.735323,9,1,burglary,2
+Udupi - Santhekatte,13.342635,74.748623,2,0,vandalism,1
+Udupi - Kalsanka,13.344201,74.755303,9,3,theft,1
+Udupi - MGM College Area,13.322865,74.734094,8,4,harassment,1
+Udupi - MGM College Area,13.357757,74.72255,19,0,theft,1
+Udupi - MGM College Area,13.358212,74.740255,4,6,theft,2
+Udupi - Malpe Beach Area,13.331495,74.752203,8,4,traffic_accident,2
+Udupi - Kalsanka,13.344592,74.730583,1,1,burglary,1
+Udupi - Malpe Beach Area,13.320473,74.752186,0,6,suspicious_activity,1
+Udupi - Santhekatte,13.32754,74.750359,7,0,suspicious_activity,1
+Udupi - Kalsanka,13.326819,74.734473,0,1,harassment,2
+Udupi - MGM College Area,13.326864,74.752847,4,3,harassment,1
+Udupi - Santhekatte,13.355934,74.722006,7,2,traffic_accident,1
+Udupi - Kalsanka,13.320347,74.749082,0,6,theft,1
+Udupi - Diana Circle,13.354912,74.759857,8,1,vandalism,3
+Udupi - MGM College Area,13.357426,74.720371,9,3,harassment,1
+Udupi - MGM College Area,13.332614,74.723132,17,2,theft,1
+Udupi - Kalsanka,13.32476,74.73291,11,5,theft,2
+Udupi - Santhekatte,13.334678,74.743586,10,4,traffic_accident,2
+Udupi - Malpe Beach Area,13.355947,74.75808,0,0,harassment,1
+Udupi - Santhekatte,13.348728,74.745345,22,6,suspicious_activity,1
+Udupi - MGM College Area,13.323635,74.75951,19,3,burglary,2
+Udupi - MGM College Area,13.344796,74.748222,0,1,theft,2
+Udupi - Kalsanka,13.355154,74.729188,20,4,harassment,1
+Udupi - Diana Circle,13.358396,74.75907,11,1,burglary,1
+Udupi - Diana Circle,13.355707,74.741869,10,2,traffic_accident,1
+Udupi - Santhekatte,13.346186,74.724654,23,3,traffic_accident,1
+Udupi - Malpe Beach Area,13.359886,74.733504,7,2,vandalism,1
+Udupi - Santhekatte,13.336131,74.726226,19,0,traffic_accident,2
+Udupi - Kalsanka,13.339358,74.731253,16,3,burglary,1
+Udupi - Santhekatte,13.320187,74.722666,23,5,burglary,2
+Udupi - Kalsanka,13.351131,74.733892,19,2,vandalism,1
+Udupi - Santhekatte,13.329457,74.739247,1,6,suspicious_activity,2
+Udupi - Kalsanka,13.342583,74.752841,23,1,harassment,1
+Udupi - Santhekatte,13.327389,74.724975,23,4,suspicious_activity,1
+Udupi - Kalsanka,13.35129,74.732008,17,2,traffic_accident,1
+Udupi - Kalsanka,13.343223,74.749003,1,5,theft,1
+Udupi - Diana Circle,13.357131,74.755248,22,5,traffic_accident,1
+Udupi - Malpe Beach Area,13.344669,74.751908,15,6,burglary,1
+Udupi - Malpe Beach Area,13.34486,74.754792,12,0,vandalism,1
+Udupi - Santhekatte,13.354933,74.759989,22,1,suspicious_activity,2
+Udupi - Diana Circle,13.324555,74.754275,20,3,suspicious_activity,1
+Udupi - MGM College Area,13.329434,74.755376,8,1,vandalism,1
+Udupi - MGM College Area,13.33249,74.724617,19,0,burglary,2
+Udupi - Kalsanka,13.341928,74.751326,9,2,suspicious_activity,2
+Udupi - Santhekatte,13.355271,74.744357,5,5,vandalism,1
+Udupi - Diana Circle,13.320836,74.733404,9,4,burglary,1
+Udupi - Diana Circle,13.332996,74.731315,12,2,suspicious_activity,1
+Udupi - MGM College Area,13.330575,74.747306,15,3,theft,3
+Udupi - Santhekatte,13.349725,74.724283,19,3,harassment,1
+Udupi - MGM College Area,13.356685,74.750594,1,5,burglary,2
+Udupi - Malpe Beach Area,13.329813,74.744949,10,3,suspicious_activity,3
+Udupi - Santhekatte,13.332752,74.754154,11,5,harassment,3
+Udupi - Malpe Beach Area,13.352623,74.745407,11,3,harassment,1
+Udupi - MGM College Area,13.341405,74.751034,4,5,theft,1
+Udupi - MGM College Area,13.35663,74.72222,9,6,vandalism,1
+Udupi - Diana Circle,13.340637,74.73445,20,6,theft,1
+Udupi - Santhekatte,13.336893,74.73131,14,0,vandalism,3
+Udupi - Diana Circle,13.357557,74.721659,1,3,theft,1
+Udupi - Santhekatte,13.34405,74.73507,1,5,suspicious_activity,2
+Udupi - Diana Circle,13.327055,74.746164,15,1,harassment,1
+Udupi - Malpe Beach Area,13.334729,74.746912,13,1,traffic_accident,1
+Udupi - Kalsanka,13.352275,74.720586,20,2,burglary,3
+Udupi - Diana Circle,13.338568,74.727779,23,1,traffic_accident,2
+Udupi - Kalsanka,13.324543,74.730099,22,6,harassment,2
+Udupi - Diana Circle,13.351606,74.753965,8,1,burglary,3
+Udupi - Diana Circle,13.358589,74.751887,10,3,traffic_accident,3
+Udupi - Santhekatte,13.338666,74.739829,20,1,harassment,2
+Udupi - Kalsanka,13.336826,74.759615,1,5,traffic_accident,2
+Udupi - Kalsanka,13.340295,74.758504,11,4,traffic_accident,2
+Udupi - Santhekatte,13.345769,74.743864,11,1,harassment,1
+Udupi - Malpe Beach Area,13.346025,74.737847,21,0,traffic_accident,3
+Udupi - Malpe Beach Area,13.334607,74.739572,23,2,traffic_accident,2
+Udupi - Diana Circle,13.332571,74.723218,21,5,burglary,1
+Udupi - MGM College Area,13.325339,74.75988,9,5,harassment,1
+Udupi - Kalsanka,13.324089,74.731539,21,2,suspicious_activity,1
+Udupi - Santhekatte,13.35458,74.728822,17,1,burglary,1
+Udupi - MGM College Area,13.336799,74.759722,20,0,suspicious_activity,2
+Udupi - MGM College Area,13.322088,74.759057,21,0,traffic_accident,2
+Udupi - Kalsanka,13.321204,74.745176,23,6,suspicious_activity,3
+Udupi - MGM College Area,13.35126,74.753552,0,4,traffic_accident,2
+Udupi - Santhekatte,13.342794,74.730862,4,4,harassment,2
+Udupi - Malpe Beach Area,13.359986,74.753324,8,3,vandalism,2
+Udupi - Kalsanka,13.353902,74.750636,17,4,harassment,2
+Udupi - Kalsanka,13.32218,74.727897,5,0,traffic_accident,3
+Udupi - MGM College Area,13.332131,74.756295,5,1,theft,3
+Udupi - Santhekatte,13.339465,74.751915,15,5,theft,1
+Udupi - Malpe Beach Area,13.345868,74.739071,20,1,traffic_accident,2
+Udupi - Diana Circle,13.327291,74.72419,6,0,theft,1
+Udupi - Malpe Beach Area,13.322168,74.732649,13,6,suspicious_activity,2
+Udupi - Kalsanka,13.347282,74.725798,7,0,traffic_accident,1
+Udupi - Kalsanka,13.357014,74.739071,12,0,traffic_accident,1
+Udupi - Kalsanka,13.342912,74.741094,7,2,harassment,1
+Udupi - MGM College Area,13.35983,74.724198,10,0,harassment,1
+Udupi - Santhekatte,13.32372,74.727385,16,0,harassment,1
+Udupi - Kalsanka,13.331105,74.722541,18,1,harassment,2
+Udupi - MGM College Area,13.327138,74.721787,11,0,suspicious_activity,2
+Udupi - Santhekatte,13.350386,74.725217,9,2,theft,2
+Udupi - Diana Circle,13.325892,74.75415,3,6,traffic_accident,2

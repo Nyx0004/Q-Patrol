@@ -1,0 +1,351 @@
+location_zone,latitude,longitude,hour,day_of_week,incident_type,severity,rainfall_mm
+Mysuru - Saraswathipuram,12.303478,76.629675,9,1,burglary,2,25.6954
+Mysuru - Chamundipuram,12.276859,76.654731,9,0,burglary,2,26.6579
+Mysuru - JP Nagar,12.261115,76.632256,1,3,harassment,1,3.4692
+Mysuru - Agrahara,12.299268,76.650385,19,4,vandalism,3,12.6589
+Mysuru - JP Nagar,12.262594,76.630833,2,4,vandalism,2,9.4484
+Mysuru - Jayanagar,12.291122,76.637923,14,3,suspicious_activity,2,11.3533
+Mysuru - JP Nagar,12.26567,76.631914,4,2,harassment,1,16.3721
+Mysuru - Gokulam,12.329209,76.6395,22,5,suspicious_activity,1,13.5033
+Mysuru - Nazarbad,12.309512,76.662194,0,5,burglary,3,22.2031
+Mysuru - K.R. Mohalla,12.297624,76.644508,0,5,theft,2,21.1497
+Mysuru - Hebbal Industrial Area,12.343874,76.651021,1,6,traffic_accident,1,22.5842
+Mysuru - Nazarbad,12.31455,76.660501,6,6,vandalism,1,3.4828
+Mysuru - Saraswathipuram,12.297853,76.621734,22,1,theft,2,27.595
+Mysuru - Kuvempunagar,12.28225,76.620119,15,5,traffic_accident,1,10.3334
+Mysuru - Saraswathipuram,12.302584,76.623967,8,1,burglary,1,15.7459
+Mysuru - Ashokapuram,12.269128,76.648004,7,5,harassment,2,17.8009
+Mysuru - Devaraja Mohalla,12.309988,76.650354,15,3,harassment,2,18.0569
+Mysuru - Nazarbad,12.306652,76.669172,13,6,traffic_accident,3,13.9633
+Mysuru - Jayalakshmipuram,12.315206,76.625769,20,1,theft,1,25.0495
+Mysuru - Agrahara,12.296239,76.658689,10,6,burglary,1,5.6536
+Mysuru - K.R. Mohalla,12.302069,76.638901,6,1,suspicious_activity,2,16.7495
+Mysuru - JP Nagar,12.269213,76.632431,22,2,harassment,2,12.0529
+Mysuru - K.R. Mohalla,12.303588,76.640078,0,1,traffic_accident,1,7.5752
+Mysuru - Srirampura,12.256686,76.613636,23,0,traffic_accident,2,10.678
+Mysuru - Ashokapuram,12.274747,76.64528,8,5,harassment,2,24.8188
+Mysuru - Vijayanagar,12.324052,76.609266,3,2,vandalism,1,8.7137
+Mysuru - Kuvempunagar,12.280913,76.615516,23,4,harassment,2,25.3607
+Mysuru - Chamundipuram,12.277746,76.654156,3,3,vandalism,3,5.3559
+Mysuru - Agrahara,12.290825,76.656061,21,1,traffic_accident,2,28.2599
+Mysuru - Gokulam,12.328487,76.640988,23,3,theft,1,8.8385
+Mysuru - Vijayanagar,12.321227,76.609701,16,4,vandalism,1,27.2341
+Mysuru - Kuvempunagar,12.281313,76.616594,1,2,vandalism,1,13.9154
+Mysuru - K.R. Mohalla,12.298213,76.637724,19,3,harassment,2,15.418
+Mysuru - Srirampura,12.263557,76.612744,15,6,traffic_accident,3,9.5198
+Mysuru - Saraswathipuram,12.306594,76.622801,0,0,harassment,1,3.3663
+Mysuru - Chamundipuram,12.284086,76.659276,1,4,suspicious_activity,3,25.7878
+Mysuru - Nazarbad,12.307123,76.6692,23,4,traffic_accident,1,5.1987
+Mysuru - Krishnamurthypuram,12.295011,76.650196,16,6,vandalism,3,27.9003
+Mysuru - JP Nagar,12.262419,76.627566,13,3,harassment,1,12.2367
+Mysuru - Jayalakshmipuram,12.318531,76.623891,12,6,suspicious_activity,1,5.5055
+Mysuru - Devaraja Mohalla,12.307818,76.654745,12,5,burglary,2,23.4208
+Mysuru - Jayanagar,12.289846,76.636041,20,6,suspicious_activity,1,28.9146
+Mysuru - Saraswathipuram,12.304616,76.62793,4,6,suspicious_activity,1,8.8101
+Mysuru - Hebbal Industrial Area,12.342959,76.65477,19,4,suspicious_activity,2,9.8213
+Mysuru - Krishnamurthypuram,12.293357,76.64699,6,1,burglary,1,1.4946
+Mysuru - Chamundipuram,12.275357,76.660528,3,3,vandalism,2,17.5269
+Mysuru - Chamundipuram,12.277531,76.653084,12,5,traffic_accident,1,17.0356
+Mysuru - Kuvempunagar,12.287525,76.618033,12,5,theft,2,16.4
+Mysuru - Ashokapuram,12.269179,76.642396,3,1,theft,1,25.689
+Mysuru - Jayalakshmipuram,12.321338,76.6301,19,6,theft,1,3.4863
+Mysuru - Devaraja Mohalla,12.306082,76.653636,2,1,theft,1,22.6875
+Mysuru - Hebbal Industrial Area,12.336812,76.651833,20,0,suspicious_activity,1,22.5924
+Mysuru - Hebbal Industrial Area,12.33819,76.64545,23,4,traffic_accident,1,12.3977
+Mysuru - Ashokapuram,12.273349,76.648289,12,2,traffic_accident,1,15.5682
+Mysuru - Jayalakshmipuram,12.315143,76.630758,22,1,burglary,1,8.3697
+Mysuru - Jayanagar,12.292235,76.639539,7,0,vandalism,2,3.8749
+Mysuru - Jayanagar,12.28646,76.638591,18,1,burglary,2,10.0919
+Mysuru - Chamundipuram,12.275258,76.658622,19,2,burglary,3,1.5812
+Mysuru - Jayalakshmipuram,12.318193,76.62314,21,0,harassment,1,21.4929
+Mysuru - K.R. Mohalla,12.303419,76.642039,23,5,traffic_accident,2,11.0737
+Mysuru - Jayanagar,12.293045,76.634525,20,2,harassment,1,3.8881
+Mysuru - Gokulam,12.325189,76.637694,4,5,harassment,2,28.4152
+Mysuru - Gokulam,12.326038,76.642188,13,3,theft,1,3.8387
+Mysuru - Jayalakshmipuram,12.318157,76.632653,9,4,harassment,1,19.4778
+Mysuru - Nazarbad,12.313623,76.66292,2,2,vandalism,2,12.0018
+Mysuru - K.R. Mohalla,12.295115,76.643987,23,4,suspicious_activity,1,0.2232
+Mysuru - JP Nagar,12.264228,76.636214,7,3,burglary,2,10.0566
+Mysuru - JP Nagar,12.268258,76.632572,4,3,suspicious_activity,1,29.5836
+Mysuru - Gokulam,12.334885,76.63979,12,3,suspicious_activity,1,16.1544
+Mysuru - Chamundipuram,12.280427,76.655695,17,0,harassment,1,10.2318
+Mysuru - Jayalakshmipuram,12.316883,76.630383,21,3,theft,2,14.6595
+Mysuru - Ashokapuram,12.27173,76.649089,13,0,suspicious_activity,1,23.6652
+Mysuru - Devaraja Mohalla,12.311203,76.65018,6,6,theft,3,24.5233
+Mysuru - Chamundipuram,12.280741,76.661979,7,4,suspicious_activity,2,27.5045
+Mysuru - Srirampura,12.256025,76.612673,3,5,burglary,1,1.857
+Mysuru - Vijayanagar,12.326303,76.605272,1,2,burglary,1,2.873
+Mysuru - Ashokapuram,12.269673,76.643793,15,4,burglary,2,15.9814
+Mysuru - Ashokapuram,12.273483,76.64631,0,1,suspicious_activity,1,3.7432
+Mysuru - Jayanagar,12.286941,76.639282,7,3,burglary,1,24.3504
+Mysuru - Vijayanagar,12.328124,76.613981,16,2,harassment,1,27.3108
+Mysuru - K.R. Mohalla,12.304462,76.637868,4,1,suspicious_activity,1,28.3011
+Mysuru - JP Nagar,12.262792,76.63258,4,5,harassment,2,26.7566
+Mysuru - Gokulam,12.32772,76.635581,7,6,suspicious_activity,2,25.7779
+Mysuru - Gokulam,12.331158,76.634455,0,2,traffic_accident,1,26.706
+Mysuru - Krishnamurthypuram,12.288505,76.650713,8,4,theft,1,6.9437
+Mysuru - Devaraja Mohalla,12.303774,76.651314,2,6,theft,2,10.5073
+Mysuru - Krishnamurthypuram,12.295875,76.643897,14,1,vandalism,1,21.1228
+Mysuru - Jayalakshmipuram,12.321342,76.629096,4,4,suspicious_activity,2,1.8607
+Mysuru - Krishnamurthypuram,12.29688,76.645506,7,1,theft,1,27.6033
+Mysuru - Nazarbad,12.306447,76.667931,4,1,harassment,2,14.7347
+Mysuru - Devaraja Mohalla,12.303495,76.649829,1,5,theft,3,28.0519
+Mysuru - Nazarbad,12.314781,76.668041,18,0,vandalism,1,13.7357
+Mysuru - Jayanagar,12.288293,76.630642,14,6,suspicious_activity,2,21.7299
+Mysuru - Chamundipuram,12.275541,76.653093,22,0,traffic_accident,2,26.9587
+Mysuru - Saraswathipuram,12.297076,76.624607,15,0,harassment,1,2.9654
+Mysuru - Ashokapuram,12.276852,76.642788,16,5,burglary,3,17.8238
+Mysuru - Gokulam,12.325154,76.636896,18,6,theft,1,4.4396
+Mysuru - Jayanagar,12.28657,76.636196,0,6,harassment,1,11.4432
+Mysuru - Krishnamurthypuram,12.296037,76.647527,13,4,suspicious_activity,1,25.3796
+Mysuru - Nazarbad,12.305013,76.666,14,5,theft,1,16.1667
+Mysuru - Hebbal Industrial Area,12.3433,76.648666,2,3,traffic_accident,1,19.0639
+Mysuru - K.R. Mohalla,12.300393,76.639828,16,5,vandalism,2,22.7286
+Mysuru - Jayanagar,12.285937,76.631134,13,4,suspicious_activity,1,25.3733
+Mysuru - Saraswathipuram,12.301906,76.624104,16,1,harassment,1,14.1671
+Mysuru - JP Nagar,12.262704,76.636895,13,1,theft,3,14.6592
+Mysuru - K.R. Mohalla,12.298634,76.646976,8,4,traffic_accident,2,11.5565
+Mysuru - Gokulam,12.334495,76.642364,20,0,traffic_accident,2,23.8669
+Mysuru - Kuvempunagar,12.288045,76.615232,0,5,theft,3,25.0722
+Mysuru - Krishnamurthypuram,12.292807,76.649277,10,1,harassment,2,9.823
+Mysuru - Jayanagar,12.289097,76.63351,8,1,burglary,1,22.8052
+Mysuru - Agrahara,12.291103,76.659921,4,0,burglary,1,29.2244
+Mysuru - Agrahara,12.299346,76.658576,18,1,traffic_accident,3,12.1079
+Mysuru - K.R. Mohalla,12.295137,76.643125,12,0,harassment,2,26.0616
+Mysuru - Ashokapuram,12.275491,76.64286,8,5,vandalism,1,13.931
+Mysuru - Krishnamurthypuram,12.295037,76.646501,10,5,harassment,1,28.4141
+Mysuru - Jayalakshmipuram,12.320418,76.62474,1,0,burglary,3,26.7185
+Mysuru - Nazarbad,12.308582,76.669109,3,4,theft,2,27.9268
+Mysuru - Hebbal Industrial Area,12.335954,76.649156,21,0,theft,1,8.9057
+Mysuru - Devaraja Mohalla,12.307899,76.653235,0,3,theft,1,0.4185
+Mysuru - Gokulam,12.329798,76.634083,20,0,harassment,1,9.7142
+Mysuru - Hebbal Industrial Area,12.34291,76.653777,17,4,vandalism,2,6.0006
+Mysuru - Devaraja Mohalla,12.307668,76.65473,17,2,traffic_accident,3,13.937
+Mysuru - Nazarbad,12.313339,76.664541,11,3,traffic_accident,2,0.9772
+Mysuru - Chamundipuram,12.275791,76.659544,4,2,burglary,2,13.0795
+Mysuru - Srirampura,12.256745,76.614439,5,2,theft,3,7.611
+Mysuru - Saraswathipuram,12.302669,76.628947,0,2,suspicious_activity,1,19.5159
+Mysuru - K.R. Mohalla,12.295813,76.640146,7,6,vandalism,1,3.128
+Mysuru - Kuvempunagar,12.288891,76.624519,15,2,traffic_accident,1,28.4293
+Mysuru - Kuvempunagar,12.284435,76.623459,10,4,burglary,1,15.0689
+Mysuru - Chamundipuram,12.275715,76.658559,19,6,theft,2,9.7854
+Mysuru - Hebbal Industrial Area,12.337857,76.646744,13,1,theft,1,24.624
+Mysuru - Hebbal Industrial Area,12.341112,76.645592,5,2,theft,1,16.6881
+Mysuru - Vijayanagar,12.324447,76.611578,6,1,burglary,1,2.7537
+Mysuru - Jayalakshmipuram,12.314133,76.631615,0,6,burglary,3,12.878
+Mysuru - Saraswathipuram,12.302343,76.623251,8,2,vandalism,2,17.8964
+Mysuru - Chamundipuram,12.281956,76.659079,21,1,theft,2,20.979
+Mysuru - Hebbal Industrial Area,12.341477,76.652572,8,1,harassment,1,10.2003
+Mysuru - Jayalakshmipuram,12.319902,76.630333,1,4,harassment,1,24.1641
+Mysuru - Saraswathipuram,12.304149,76.620164,12,6,traffic_accident,2,2.3613
+Mysuru - Krishnamurthypuram,12.287206,76.647688,17,3,vandalism,1,19.1764
+Mysuru - Saraswathipuram,12.306231,76.621111,21,3,traffic_accident,3,15.7723
+Mysuru - Kuvempunagar,12.28287,76.617084,21,6,theft,1,13.4697
+Mysuru - K.R. Mohalla,12.299732,76.640111,22,1,traffic_accident,1,24.7475
+Mysuru - Gokulam,12.334086,76.635097,8,5,harassment,1,11.9761
+Mysuru - Ashokapuram,12.273384,76.644317,11,1,suspicious_activity,2,29.0795
+Mysuru - Chamundipuram,12.281755,76.659197,13,6,traffic_accident,3,17.5404
+Mysuru - Gokulam,12.331139,76.635482,20,4,suspicious_activity,1,15.5875
+Mysuru - Vijayanagar,12.323403,76.611101,15,5,burglary,1,14.5904
+Mysuru - Ashokapuram,12.276453,76.64317,14,6,theft,2,21.1018
+Mysuru - Gokulam,12.329933,76.638515,5,1,burglary,2,8.0727
+Mysuru - Saraswathipuram,12.305459,76.625719,9,3,traffic_accident,1,12.1248
+Mysuru - Jayanagar,12.293367,76.639867,11,3,traffic_accident,1,28.3953
+Mysuru - Srirampura,12.259956,76.617316,3,3,traffic_accident,1,21.2185
+Mysuru - Jayalakshmipuram,12.316882,76.628077,1,2,harassment,1,3.6354
+Mysuru - Srirampura,12.258806,76.615897,11,0,burglary,1,29.396
+Mysuru - JP Nagar,12.261623,76.627975,10,5,theft,1,10.9598
+Mysuru - Saraswathipuram,12.299644,76.625365,18,6,vandalism,2,21.1317
+Mysuru - Jayalakshmipuram,12.322175,76.628227,13,2,vandalism,3,5.2436
+Mysuru - Ashokapuram,12.274159,76.644603,17,0,burglary,1,11.9643
+Mysuru - Jayalakshmipuram,12.319485,76.632762,9,4,burglary,3,1.6426
+Mysuru - Ashokapuram,12.267041,76.640288,7,5,traffic_accident,1,8.9739
+Mysuru - Ashokapuram,12.275148,76.644049,15,2,theft,1,11.539
+Mysuru - Gokulam,12.32862,76.634971,3,2,burglary,1,12.9549
+Mysuru - Saraswathipuram,12.297084,76.626393,16,3,suspicious_activity,3,9.5301
+Mysuru - Krishnamurthypuram,12.291248,76.65164,17,6,vandalism,1,18.3781
+Mysuru - Gokulam,12.33059,76.639579,10,6,traffic_accident,1,7.3481
+Mysuru - Agrahara,12.290526,76.653678,18,4,harassment,1,25.2459
+Mysuru - Hebbal Industrial Area,12.336522,76.646034,22,4,suspicious_activity,1,11.1139
+Mysuru - Vijayanagar,12.325053,76.613084,8,5,theft,1,27.432
+Mysuru - Srirampura,12.264444,76.617646,23,0,vandalism,2,24.8637
+Mysuru - Hebbal Industrial Area,12.342148,76.648099,5,6,vandalism,2,1.0274
+Mysuru - Srirampura,12.259246,76.6122,11,3,harassment,3,7.8874
+Mysuru - Agrahara,12.296536,76.657945,21,4,harassment,2,13.2833
+Mysuru - Saraswathipuram,12.304319,76.629252,3,4,vandalism,1,19.2671
+Mysuru - K.R. Mohalla,12.303163,76.642071,14,3,burglary,1,18.9765
+Mysuru - Vijayanagar,12.320294,76.607109,17,5,vandalism,3,25.4791
+Mysuru - Ashokapuram,12.274157,76.640386,17,0,harassment,1,20.4777
+Mysuru - Jayalakshmipuram,12.319423,76.629879,20,5,theft,2,16.7722
+Mysuru - JP Nagar,12.267681,76.633978,5,1,vandalism,1,13.5702
+Mysuru - Ashokapuram,12.274468,76.644402,12,6,harassment,3,5.4486
+Mysuru - Gokulam,12.333886,76.641734,8,0,theft,1,25.7125
+Mysuru - Saraswathipuram,12.300946,76.621178,21,2,suspicious_activity,1,7.5852
+Mysuru - Chamundipuram,12.279429,76.660416,10,5,suspicious_activity,1,9.421
+Mysuru - Vijayanagar,12.327257,76.610942,21,3,traffic_accident,1,29.3245
+Mysuru - Chamundipuram,12.281234,76.657251,17,2,suspicious_activity,1,22.2818
+Mysuru - Krishnamurthypuram,12.293396,76.647361,3,1,burglary,2,17.0407
+Mysuru - Hebbal Industrial Area,12.340473,76.652516,10,3,vandalism,3,3.941
+Mysuru - Krishnamurthypuram,12.296899,76.650433,8,3,theft,1,8.3048
+Mysuru - Gokulam,12.329975,76.637793,22,0,burglary,1,29.5774
+Mysuru - Hebbal Industrial Area,12.337272,76.653346,19,0,traffic_accident,3,19.9994
+Mysuru - Chamundipuram,12.283441,76.661675,14,6,vandalism,3,24.7171
+Mysuru - Devaraja Mohalla,12.311241,76.64742,17,5,burglary,2,28.6092
+Mysuru - Nazarbad,12.307724,76.663433,16,3,harassment,1,26.0125
+Mysuru - Jayalakshmipuram,12.31502,76.630279,23,6,theft,2,3.108
+Mysuru - Srirampura,12.256775,76.614824,6,5,theft,2,2.4192
+Mysuru - Jayanagar,12.285696,76.638252,17,3,traffic_accident,1,21.7689
+Mysuru - Saraswathipuram,12.303056,76.629493,6,2,theft,2,14.0229
+Mysuru - Ashokapuram,12.276001,76.645373,21,0,suspicious_activity,3,19.06
+Mysuru - Ashokapuram,12.271087,76.640834,17,2,traffic_accident,2,7.1779
+Mysuru - Hebbal Industrial Area,12.33528,76.647808,17,3,vandalism,1,15.8954
+Mysuru - Agrahara,12.298,76.65212,16,6,traffic_accident,1,29.6576
+Mysuru - Kuvempunagar,12.286272,76.618644,6,4,vandalism,1,16.1444
+Mysuru - K.R. Mohalla,12.303772,76.64533,1,6,theft,3,18.1435
+Mysuru - Srirampura,12.255465,76.616219,16,4,traffic_accident,1,29.7408
+Mysuru - JP Nagar,12.264544,76.632403,2,6,suspicious_activity,1,26.3314
+Mysuru - Chamundipuram,12.283354,76.653657,20,4,vandalism,2,22.1955
+Mysuru - Krishnamurthypuram,12.290854,76.649371,21,0,suspicious_activity,2,29.7601
+Mysuru - Jayanagar,12.290427,76.633206,21,5,vandalism,2,20.6382
+Mysuru - Jayalakshmipuram,12.319572,76.628087,21,2,harassment,1,5.2768
+Mysuru - Vijayanagar,12.324287,76.614639,18,2,burglary,2,29.1237
+Mysuru - Krishnamurthypuram,12.29283,76.64577,6,2,vandalism,1,24.3828
+Mysuru - Krishnamurthypuram,12.290653,76.64816,4,5,traffic_accident,1,7.933
+Mysuru - Agrahara,12.29804,76.654892,4,3,harassment,1,14.422
+Mysuru - Srirampura,12.255409,76.611258,20,2,burglary,1,6.5524
+Mysuru - Saraswathipuram,12.304012,76.62672,11,4,theft,1,12.0631
+Mysuru - K.R. Mohalla,12.301118,76.646577,18,2,suspicious_activity,2,28.0379
+Mysuru - Saraswathipuram,12.300592,76.627481,19,3,suspicious_activity,1,1.432
+Mysuru - K.R. Mohalla,12.300454,76.64597,18,2,harassment,1,29.8389
+Mysuru - Agrahara,12.299375,76.650059,21,1,traffic_accident,1,9.3696
+Mysuru - Kuvempunagar,12.283166,76.621294,17,5,suspicious_activity,2,23.2518
+Mysuru - Agrahara,12.291968,76.658131,18,2,vandalism,2,3.8124
+Mysuru - Saraswathipuram,12.304137,76.624895,4,3,traffic_accident,3,12.5209
+Mysuru - Nazarbad,12.312123,76.668283,19,1,suspicious_activity,2,22.5401
+Mysuru - Hebbal Industrial Area,12.343022,76.645464,7,1,theft,1,9.3923
+Mysuru - Devaraja Mohalla,12.306127,76.64698,4,5,vandalism,2,12.6513
+Mysuru - Agrahara,12.290473,76.652544,10,1,theft,1,10.1816
+Mysuru - Chamundipuram,12.283675,76.658128,9,2,burglary,1,23.8832
+Mysuru - Kuvempunagar,12.280573,76.615137,10,1,traffic_accident,3,13.5313
+Mysuru - Chamundipuram,12.282294,76.659926,5,4,harassment,3,23.1088
+Mysuru - Jayalakshmipuram,12.318585,76.623588,3,5,harassment,1,17.834
+Mysuru - Saraswathipuram,12.301503,76.624653,16,6,vandalism,3,7.944
+Mysuru - Krishnamurthypuram,12.289654,76.645988,1,4,suspicious_activity,2,22.2569
+Mysuru - Devaraja Mohalla,12.304479,76.646021,5,3,burglary,2,13.648
+Mysuru - Chamundipuram,12.281889,76.658171,5,2,traffic_accident,2,9.3525
+Mysuru - Srirampura,12.257565,76.61736,5,2,theft,2,17.1424
+Mysuru - Devaraja Mohalla,12.312671,76.652783,6,3,vandalism,3,4.3574
+Mysuru - K.R. Mohalla,12.300027,76.646921,11,1,theft,2,28.8933
+Mysuru - Vijayanagar,12.326753,76.61269,19,0,burglary,3,23.3679
+Mysuru - Gokulam,12.334134,76.633789,18,4,traffic_accident,1,25.8464
+Mysuru - Nazarbad,12.31129,76.669493,8,4,suspicious_activity,2,25.889
+Mysuru - Hebbal Industrial Area,12.335301,76.648092,0,1,theft,2,15.4943
+Mysuru - Ashokapuram,12.267246,76.642486,5,2,traffic_accident,1,19.8618
+Mysuru - Gokulam,12.334118,76.638436,15,4,harassment,1,12.3187
+Mysuru - Jayanagar,12.291647,76.637706,19,5,suspicious_activity,1,23.348
+Mysuru - Srirampura,12.262033,76.617243,23,3,harassment,1,10.9317
+Mysuru - Devaraja Mohalla,12.311332,76.648988,6,0,theft,1,18.4398
+Mysuru - Chamundipuram,12.276879,76.654639,12,2,suspicious_activity,2,4.7081
+Mysuru - JP Nagar,12.267987,76.632023,16,1,theft,2,13.638
+Mysuru - Gokulam,12.333101,76.635107,18,0,harassment,1,17.0419
+Mysuru - Vijayanagar,12.326506,76.607157,18,3,vandalism,2,15.4194
+Mysuru - Srirampura,12.258161,76.618936,21,4,harassment,1,24.242
+Mysuru - Gokulam,12.325621,76.635747,12,2,harassment,1,6.3615
+Mysuru - Krishnamurthypuram,12.288744,76.646899,1,1,traffic_accident,2,8.6203
+Mysuru - Devaraja Mohalla,12.310028,76.649197,12,0,vandalism,1,9.6384
+Mysuru - JP Nagar,12.267358,76.629061,11,2,vandalism,1,16.5919
+Mysuru - Ashokapuram,12.271183,76.646915,13,0,traffic_accident,1,29.7551
+Mysuru - JP Nagar,12.264053,76.630951,5,0,suspicious_activity,2,21.3649
+Mysuru - Agrahara,12.295061,76.658624,2,2,vandalism,2,0.2526
+Mysuru - Gokulam,12.333942,76.634891,16,0,vandalism,1,0.0927
+Mysuru - Devaraja Mohalla,12.311995,76.64956,15,1,burglary,2,9.0121
+Mysuru - Vijayanagar,12.324734,76.606223,20,3,vandalism,1,19.3324
+Mysuru - Chamundipuram,12.278415,76.662523,21,4,traffic_accident,3,25.813
+Mysuru - Chamundipuram,12.27892,76.661345,18,2,suspicious_activity,2,12.0717
+Mysuru - Vijayanagar,12.328278,76.61481,1,2,theft,2,0.4361
+Mysuru - K.R. Mohalla,12.299248,76.643332,7,6,suspicious_activity,1,23.7195
+Mysuru - Hebbal Industrial Area,12.342591,76.646316,5,0,burglary,2,12.3126
+Mysuru - Saraswathipuram,12.306144,76.626544,15,5,harassment,3,26.0152
+Mysuru - JP Nagar,12.262169,76.627992,2,2,harassment,1,23.3436
+Mysuru - Devaraja Mohalla,12.308497,76.649566,21,5,harassment,1,28.6202
+Mysuru - Saraswathipuram,12.300884,76.621742,2,4,vandalism,1,16.9824
+Mysuru - Chamundipuram,12.284635,76.660613,14,3,theft,1,1.5524
+Mysuru - JP Nagar,12.263218,76.629942,6,3,harassment,1,19.8163
+Mysuru - Saraswathipuram,12.297542,76.621953,22,4,vandalism,1,6.0034
+Mysuru - Saraswathipuram,12.298024,76.626097,20,3,burglary,2,28.8262
+Mysuru - Saraswathipuram,12.303129,76.623146,7,1,suspicious_activity,1,6.7192
+Mysuru - Devaraja Mohalla,12.303523,76.653515,21,6,vandalism,1,7.0881
+Mysuru - Kuvempunagar,12.283912,76.617754,7,4,harassment,1,7.5209
+Mysuru - Chamundipuram,12.284983,76.658871,22,0,traffic_accident,3,22.6159
+Mysuru - Vijayanagar,12.328397,76.608788,18,5,burglary,2,2.6035
+Mysuru - Kuvempunagar,12.286994,76.619818,11,2,suspicious_activity,1,13.304
+Mysuru - Srirampura,12.262296,76.616653,16,1,suspicious_activity,2,9.019
+Mysuru - Krishnamurthypuram,12.29527,76.650503,3,3,burglary,2,29.2117
+Mysuru - JP Nagar,12.266413,76.63113,9,2,traffic_accident,2,25.5432
+Mysuru - Krishnamurthypuram,12.293171,76.647998,14,3,suspicious_activity,3,11.0386
+Mysuru - Chamundipuram,12.278341,76.653971,14,0,theft,1,16.5781
+Mysuru - K.R. Mohalla,12.298851,76.642658,21,6,burglary,1,20.1179
+Mysuru - Jayanagar,12.294217,76.633232,8,5,vandalism,3,25.9722
+Mysuru - Nazarbad,12.313002,76.661086,14,2,suspicious_activity,1,2.8007
+Mysuru - Krishnamurthypuram,12.296465,76.651894,19,1,vandalism,2,23.1824
+Mysuru - Chamundipuram,12.281126,76.659303,0,4,burglary,2,27.0684
+Mysuru - Hebbal Industrial Area,12.342971,76.653246,8,5,burglary,1,0.0835
+Mysuru - Vijayanagar,12.325511,76.609272,8,0,suspicious_activity,2,14.1533
+Mysuru - Chamundipuram,12.279929,76.653003,12,0,burglary,2,17.0502
+Mysuru - Agrahara,12.291537,76.658996,1,2,burglary,1,13.3194
+Mysuru - Hebbal Industrial Area,12.342323,76.645284,9,0,theft,2,27.9972
+Mysuru - Nazarbad,12.305309,76.668009,9,1,suspicious_activity,1,13.5858
+Mysuru - Jayalakshmipuram,12.316434,76.627712,2,1,burglary,3,9.7315
+Mysuru - Devaraja Mohalla,12.310217,76.650639,7,6,traffic_accident,1,9.5619
+Mysuru - Nazarbad,12.309002,76.666883,8,3,theft,2,23.4063
+Mysuru - Nazarbad,12.30931,76.667444,10,6,traffic_accident,2,9.1334
+Mysuru - Devaraja Mohalla,12.309929,76.647292,17,3,harassment,2,12.0334
+Mysuru - Nazarbad,12.310563,76.66157,8,6,traffic_accident,1,26.2865
+Mysuru - Vijayanagar,12.329575,76.610657,0,0,suspicious_activity,1,2.8557
+Mysuru - Hebbal Industrial Area,12.343191,76.65403,10,0,burglary,2,20.1119
+Mysuru - Nazarbad,12.308664,76.666943,3,0,harassment,1,9.7856
+Mysuru - Saraswathipuram,12.299571,76.626218,13,3,vandalism,1,5.0775
+Mysuru - Nazarbad,12.307411,76.662916,0,0,vandalism,2,5.7111
+Mysuru - Nazarbad,12.309057,76.668803,14,6,suspicious_activity,1,20.5556
+Mysuru - Agrahara,12.293593,76.657938,12,3,theft,2,20.7145
+Mysuru - Ashokapuram,12.269903,76.644289,14,5,theft,1,19.2037
+Mysuru - Jayalakshmipuram,12.321166,76.62361,8,3,burglary,1,24.6142
+Mysuru - JP Nagar,12.267927,76.632283,5,0,traffic_accident,1,28.8683
+Mysuru - Vijayanagar,12.323308,76.611832,14,6,theft,1,18.0311
+Mysuru - Devaraja Mohalla,12.31036,76.651755,1,4,theft,2,2.2978
+Mysuru - Ashokapuram,12.269725,76.647304,5,2,burglary,3,3.8714
+Mysuru - Jayanagar,12.28644,76.635568,19,0,traffic_accident,1,12.6293
+Mysuru - Saraswathipuram,12.304264,76.623936,9,6,suspicious_activity,3,22.6594
+Mysuru - Kuvempunagar,12.289147,76.61751,20,2,suspicious_activity,1,0.1687
+Mysuru - Hebbal Industrial Area,12.344499,76.646632,6,2,burglary,3,9.7266
+Mysuru - Agrahara,12.297373,76.658909,13,3,vandalism,1,24.7207
+Mysuru - Ashokapuram,12.276669,76.649789,10,4,suspicious_activity,1,23.5208
+Mysuru - Chamundipuram,12.284393,76.655861,1,1,theft,1,14.4326
+Mysuru - Nazarbad,12.306078,76.667953,10,3,burglary,1,5.0732
+Mysuru - JP Nagar,12.265983,76.634447,22,5,vandalism,1,29.6066
+Mysuru - K.R. Mohalla,12.299854,76.643234,6,6,harassment,3,29.9806
+Mysuru - Nazarbad,12.314357,76.665191,8,4,harassment,2,2.5777
+Mysuru - Devaraja Mohalla,12.303145,76.649079,5,1,harassment,2,22.9469
+Mysuru - Nazarbad,12.310318,76.666617,14,0,suspicious_activity,3,0.9428
+Mysuru - Srirampura,12.259,76.613127,12,6,suspicious_activity,2,19.3087
+Mysuru - K.R. Mohalla,12.29938,76.641252,0,1,burglary,1,6.8718
+Mysuru - Srirampura,12.26161,76.612466,6,4,harassment,1,10.5739
+Mysuru - Nazarbad,12.30516,76.660315,15,0,theft,2,4.5503
+Mysuru - Kuvempunagar,12.286679,76.620752,15,5,harassment,2,24.2245
+Mysuru - Devaraja Mohalla,12.308962,76.646446,5,4,traffic_accident,2,5.3737
+Mysuru - Chamundipuram,12.275983,76.656875,22,4,traffic_accident,1,27.2006
+Mysuru - K.R. Mohalla,12.30402,76.63701,4,6,suspicious_activity,1,1.6142
+Mysuru - Devaraja Mohalla,12.30672,76.648277,1,1,harassment,2,25.0514
+Mysuru - Krishnamurthypuram,12.292202,76.646759,14,6,harassment,1,27.7299
+Mysuru - Krishnamurthypuram,12.287818,76.64557,9,0,theft,1,29.4645
+Mysuru - Jayalakshmipuram,12.320034,76.625937,7,1,suspicious_activity,3,23.9451
+Mysuru - Srirampura,12.257908,76.614532,21,5,vandalism,2,15.0497
+Mysuru - Nazarbad,12.306338,76.66571,7,0,suspicious_activity,1,11.5248
+Mysuru - Ashokapuram,12.274035,76.647157,15,6,burglary,2,26.3502
+Mysuru - Ashokapuram,12.269935,76.64255,4,5,traffic_accident,1,11.342
+Mysuru - Krishnamurthypuram,12.291611,76.651045,14,6,suspicious_activity,3,17.9387
+Mysuru - Ashokapuram,12.26959,76.641166,17,0,vandalism,1,10.8563
+Mysuru - JP Nagar,12.262108,76.634654,9,1,burglary,3,14.6571
+Mysuru - Srirampura,12.263632,76.613038,1,6,suspicious_activity,2,20.0545
+Mysuru - Chamundipuram,12.281905,76.656839,18,5,vandalism,2,4.9916
+Mysuru - Gokulam,12.333765,76.642436,11,4,vandalism,1,14.6848

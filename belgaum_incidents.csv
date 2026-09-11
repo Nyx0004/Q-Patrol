@@ -1,0 +1,351 @@
+location_zone,latitude,longitude,hour,day_of_week,incident_type,severity
+Belgaum - Camp Area,15.878226,74.515974,17,3,vandalism,3
+Belgaum - Camp Area,15.879401,74.515529,0,1,burglary,2
+Belgaum - Tilakwadi,15.850483,74.510031,15,3,burglary,2
+Belgaum - Vadgaon,15.844765,74.517933,8,5,traffic_accident,1
+Belgaum - Camp Area,15.855501,74.520989,9,3,traffic_accident,3
+Belgaum - Hindwadi,15.878884,74.481887,1,1,harassment,2
+Belgaum - Hindwadi,15.852425,74.479118,20,4,vandalism,1
+Belgaum - Shahapur,15.824611,74.50557,4,1,theft,1
+Belgaum - Tilakwadi,15.866129,74.495043,5,1,harassment,1
+Belgaum - Shahapur,15.837915,74.527779,21,0,theft,3
+Belgaum - Shahapur,15.834259,74.472924,18,5,vandalism,1
+Belgaum - Hindwadi,15.851548,74.476258,18,0,suspicious_activity,2
+Belgaum - Camp Area,15.864871,74.503664,20,3,vandalism,1
+Belgaum - Khanapur Road,15.851841,74.471797,12,2,traffic_accident,3
+Belgaum - Shahapur,15.834407,74.499059,3,3,suspicious_activity,1
+Belgaum - Hindwadi,15.86097,74.500299,4,2,harassment,1
+Belgaum - Shahapur,15.844549,74.514719,22,5,suspicious_activity,1
+Belgaum - Shahapur,15.860663,74.480397,10,6,harassment,1
+Belgaum - Hindwadi,15.838943,74.513495,20,4,suspicious_activity,1
+Belgaum - Khanapur Road,15.865975,74.505022,23,6,suspicious_activity,1
+Belgaum - Hindwadi,15.87202,74.522398,7,1,burglary,2
+Belgaum - Khanapur Road,15.87004,74.486882,12,0,theft,1
+Belgaum - Hindwadi,15.843396,74.521183,22,6,burglary,2
+Belgaum - Tilakwadi,15.835255,74.509054,9,0,vandalism,1
+Belgaum - Tilakwadi,15.879899,74.487255,18,5,burglary,1
+Belgaum - Tilakwadi,15.849658,74.487976,2,2,burglary,3
+Belgaum - Shahapur,15.831701,74.523559,16,6,theft,1
+Belgaum - Camp Area,15.875974,74.527705,15,6,burglary,3
+Belgaum - Shahapur,15.854514,74.494441,22,3,burglary,1
+Belgaum - Shahapur,15.869936,74.482913,20,2,vandalism,2
+Belgaum - Hindwadi,15.85326,74.478338,14,5,burglary,1
+Belgaum - Tilakwadi,15.840661,74.494133,10,5,burglary,1
+Belgaum - Shahapur,15.875949,74.497803,19,0,burglary,1
+Belgaum - Khanapur Road,15.872838,74.474679,21,0,traffic_accident,1
+Belgaum - Hindwadi,15.82395,74.507711,11,0,theft,2
+Belgaum - Shahapur,15.821972,74.499465,8,4,burglary,3
+Belgaum - Camp Area,15.836355,74.474533,18,0,suspicious_activity,1
+Belgaum - Shahapur,15.829836,74.525571,11,1,traffic_accident,3
+Belgaum - Shahapur,15.849382,74.501854,13,3,vandalism,1
+Belgaum - Camp Area,15.854123,74.52795,14,0,burglary,2
+Belgaum - Shahapur,15.841471,74.525697,1,3,traffic_accident,2
+Belgaum - Hindwadi,15.82669,74.478251,5,2,burglary,1
+Belgaum - Camp Area,15.845453,74.521527,13,2,burglary,3
+Belgaum - Hindwadi,15.877609,74.498331,3,4,suspicious_activity,2
+Belgaum - Shahapur,15.844983,74.513778,13,3,theft,1
+Belgaum - Vadgaon,15.821375,74.470519,16,4,vandalism,3
+Belgaum - Khanapur Road,15.820959,74.472379,18,6,harassment,2
+Belgaum - Hindwadi,15.87933,74.48555,5,2,suspicious_activity,3
+Belgaum - Tilakwadi,15.840964,74.48242,19,0,vandalism,2
+Belgaum - Vadgaon,15.847009,74.508132,15,1,vandalism,1
+Belgaum - Shahapur,15.875349,74.52768,14,3,theft,2
+Belgaum - Shahapur,15.860299,74.513629,1,5,theft,1
+Belgaum - Khanapur Road,15.86814,74.474375,19,5,vandalism,3
+Belgaum - Hindwadi,15.861483,74.507048,5,3,suspicious_activity,2
+Belgaum - Vadgaon,15.872678,74.52563,13,6,vandalism,3
+Belgaum - Camp Area,15.844559,74.504765,7,2,burglary,1
+Belgaum - Hindwadi,15.850043,74.515011,20,5,traffic_accident,2
+Belgaum - Tilakwadi,15.877233,74.525747,12,2,theft,1
+Belgaum - Tilakwadi,15.837901,74.505394,4,4,vandalism,1
+Belgaum - Khanapur Road,15.839734,74.472967,19,3,theft,1
+Belgaum - Hindwadi,15.837017,74.487789,2,3,suspicious_activity,1
+Belgaum - Vadgaon,15.853121,74.523466,20,1,theft,3
+Belgaum - Hindwadi,15.848986,74.508067,8,0,traffic_accident,2
+Belgaum - Shahapur,15.823673,74.475489,16,4,burglary,1
+Belgaum - Shahapur,15.870204,74.490433,20,3,vandalism,1
+Belgaum - Khanapur Road,15.823859,74.503628,14,3,burglary,3
+Belgaum - Shahapur,15.873716,74.515468,16,0,suspicious_activity,3
+Belgaum - Khanapur Road,15.839884,74.521227,19,1,harassment,2
+Belgaum - Camp Area,15.863093,74.521443,1,2,vandalism,3
+Belgaum - Khanapur Road,15.879686,74.491332,22,6,burglary,2
+Belgaum - Tilakwadi,15.844,74.486844,22,3,traffic_accident,2
+Belgaum - Vadgaon,15.860288,74.505313,12,1,traffic_accident,1
+Belgaum - Camp Area,15.863746,74.477219,0,0,harassment,1
+Belgaum - Vadgaon,15.829026,74.516974,4,2,traffic_accident,1
+Belgaum - Camp Area,15.850419,74.523817,21,1,vandalism,1
+Belgaum - Khanapur Road,15.841515,74.504625,14,6,traffic_accident,1
+Belgaum - Vadgaon,15.861959,74.483362,21,6,traffic_accident,2
+Belgaum - Hindwadi,15.858522,74.508872,17,2,burglary,2
+Belgaum - Tilakwadi,15.861298,74.520687,22,5,vandalism,3
+Belgaum - Tilakwadi,15.821866,74.506696,23,1,theft,2
+Belgaum - Shahapur,15.862642,74.521761,17,1,theft,1
+Belgaum - Vadgaon,15.865474,74.501931,10,2,traffic_accident,2
+Belgaum - Camp Area,15.870248,74.47666,1,0,burglary,2
+Belgaum - Tilakwadi,15.833235,74.474755,0,4,burglary,2
+Belgaum - Tilakwadi,15.842689,74.521517,1,3,harassment,1
+Belgaum - Hindwadi,15.872202,74.5229,22,2,theft,1
+Belgaum - Hindwadi,15.856679,74.513494,2,3,traffic_accident,1
+Belgaum - Shahapur,15.876955,74.504463,16,5,vandalism,2
+Belgaum - Hindwadi,15.862163,74.508561,16,3,traffic_accident,1
+Belgaum - Camp Area,15.821305,74.514728,3,1,burglary,2
+Belgaum - Tilakwadi,15.857028,74.484443,16,2,traffic_accident,1
+Belgaum - Shahapur,15.857875,74.499388,17,5,harassment,2
+Belgaum - Vadgaon,15.835264,74.507683,12,6,harassment,1
+Belgaum - Tilakwadi,15.834379,74.501282,23,5,suspicious_activity,1
+Belgaum - Khanapur Road,15.82022,74.478967,21,0,suspicious_activity,2
+Belgaum - Hindwadi,15.870632,74.512695,3,5,harassment,1
+Belgaum - Shahapur,15.870664,74.508483,10,0,harassment,2
+Belgaum - Vadgaon,15.877693,74.517105,20,2,suspicious_activity,2
+Belgaum - Shahapur,15.865443,74.491951,19,6,vandalism,3
+Belgaum - Vadgaon,15.864947,74.493798,21,6,traffic_accident,2
+Belgaum - Camp Area,15.876626,74.481335,4,0,harassment,2
+Belgaum - Vadgaon,15.86297,74.493987,18,4,vandalism,2
+Belgaum - Tilakwadi,15.820333,74.501151,20,4,harassment,1
+Belgaum - Tilakwadi,15.846884,74.483814,11,5,theft,1
+Belgaum - Camp Area,15.831684,74.47934,10,5,burglary,2
+Belgaum - Khanapur Road,15.871068,74.526062,20,4,traffic_accident,2
+Belgaum - Tilakwadi,15.856033,74.47953,0,0,vandalism,3
+Belgaum - Tilakwadi,15.856485,74.477024,14,3,traffic_accident,3
+Belgaum - Khanapur Road,15.82745,74.487409,12,3,suspicious_activity,3
+Belgaum - Khanapur Road,15.853499,74.528693,23,2,theft,1
+Belgaum - Shahapur,15.872262,74.474338,1,6,vandalism,1
+Belgaum - Hindwadi,15.874674,74.480038,17,1,theft,1
+Belgaum - Camp Area,15.873468,74.490174,1,5,harassment,3
+Belgaum - Vadgaon,15.850749,74.497822,7,6,traffic_accident,3
+Belgaum - Vadgaon,15.851678,74.470162,15,4,theft,1
+Belgaum - Hindwadi,15.838987,74.474259,22,0,vandalism,1
+Belgaum - Camp Area,15.824089,74.504033,1,1,suspicious_activity,2
+Belgaum - Vadgaon,15.852849,74.474223,20,4,vandalism,3
+Belgaum - Shahapur,15.84848,74.517691,22,3,harassment,3
+Belgaum - Camp Area,15.83115,74.472067,16,6,harassment,3
+Belgaum - Camp Area,15.873354,74.514909,22,1,vandalism,1
+Belgaum - Vadgaon,15.878905,74.470321,1,5,suspicious_activity,1
+Belgaum - Khanapur Road,15.831198,74.525164,22,1,harassment,2
+Belgaum - Camp Area,15.840796,74.48949,15,3,burglary,1
+Belgaum - Tilakwadi,15.832889,74.483529,20,0,burglary,1
+Belgaum - Tilakwadi,15.850734,74.519002,2,5,burglary,3
+Belgaum - Tilakwadi,15.835255,74.487703,13,0,theft,2
+Belgaum - Shahapur,15.878533,74.500696,3,5,vandalism,1
+Belgaum - Khanapur Road,15.826854,74.525637,2,6,burglary,3
+Belgaum - Khanapur Road,15.851885,74.492399,18,3,harassment,1
+Belgaum - Camp Area,15.824282,74.473079,16,0,burglary,1
+Belgaum - Tilakwadi,15.820791,74.5181,5,5,suspicious_activity,1
+Belgaum - Khanapur Road,15.862272,74.497365,8,5,harassment,1
+Belgaum - Shahapur,15.841069,74.504026,13,1,traffic_accident,2
+Belgaum - Tilakwadi,15.876858,74.498484,7,6,burglary,1
+Belgaum - Vadgaon,15.862019,74.50849,21,3,vandalism,1
+Belgaum - Shahapur,15.827849,74.505077,19,4,suspicious_activity,1
+Belgaum - Khanapur Road,15.822229,74.471682,10,1,theft,2
+Belgaum - Hindwadi,15.875663,74.528613,11,5,theft,1
+Belgaum - Vadgaon,15.841427,74.5038,10,2,burglary,2
+Belgaum - Shahapur,15.878684,74.492733,5,4,burglary,2
+Belgaum - Camp Area,15.83121,74.478986,6,4,theft,3
+Belgaum - Hindwadi,15.843374,74.482524,6,4,traffic_accident,1
+Belgaum - Shahapur,15.860219,74.497458,1,2,traffic_accident,2
+Belgaum - Vadgaon,15.829545,74.473703,8,1,theft,3
+Belgaum - Khanapur Road,15.871225,74.492677,0,4,harassment,1
+Belgaum - Tilakwadi,15.85891,74.509318,9,5,harassment,3
+Belgaum - Hindwadi,15.849137,74.48223,4,6,burglary,1
+Belgaum - Hindwadi,15.872279,74.48562,12,5,suspicious_activity,3
+Belgaum - Vadgaon,15.828467,74.485245,6,6,traffic_accident,1
+Belgaum - Vadgaon,15.849402,74.518036,1,0,burglary,1
+Belgaum - Camp Area,15.859505,74.517637,10,0,theft,2
+Belgaum - Shahapur,15.842012,74.512964,15,0,theft,1
+Belgaum - Hindwadi,15.865446,74.474715,14,1,theft,1
+Belgaum - Khanapur Road,15.836966,74.471572,0,1,traffic_accident,1
+Belgaum - Hindwadi,15.875212,74.498645,3,5,traffic_accident,2
+Belgaum - Vadgaon,15.856696,74.528348,14,5,theft,2
+Belgaum - Hindwadi,15.823528,74.5154,15,3,theft,2
+Belgaum - Hindwadi,15.861026,74.527045,19,0,burglary,2
+Belgaum - Vadgaon,15.834437,74.518829,1,4,harassment,1
+Belgaum - Hindwadi,15.86779,74.498232,6,5,traffic_accident,1
+Belgaum - Hindwadi,15.867655,74.480533,6,3,traffic_accident,1
+Belgaum - Tilakwadi,15.840205,74.514404,6,1,burglary,3
+Belgaum - Shahapur,15.862627,74.490252,12,2,burglary,1
+Belgaum - Shahapur,15.846229,74.500856,1,3,burglary,3
+Belgaum - Shahapur,15.831947,74.474126,13,2,burglary,1
+Belgaum - Shahapur,15.849489,74.483714,22,3,suspicious_activity,2
+Belgaum - Vadgaon,15.827054,74.517506,1,4,suspicious_activity,1
+Belgaum - Tilakwadi,15.850763,74.485204,15,1,harassment,2
+Belgaum - Vadgaon,15.82715,74.526584,19,2,harassment,1
+Belgaum - Shahapur,15.86102,74.477787,14,2,burglary,3
+Belgaum - Khanapur Road,15.851953,74.514303,5,0,suspicious_activity,1
+Belgaum - Camp Area,15.822611,74.512,13,3,theft,2
+Belgaum - Hindwadi,15.841745,74.490733,11,0,suspicious_activity,2
+Belgaum - Hindwadi,15.825918,74.528039,11,4,burglary,1
+Belgaum - Vadgaon,15.839356,74.524099,23,5,theft,1
+Belgaum - Shahapur,15.829716,74.482096,8,2,traffic_accident,3
+Belgaum - Hindwadi,15.857332,74.496828,19,1,burglary,1
+Belgaum - Vadgaon,15.858961,74.510795,5,2,burglary,2
+Belgaum - Hindwadi,15.837352,74.475673,1,5,vandalism,1
+Belgaum - Vadgaon,15.87967,74.470836,6,3,theft,2
+Belgaum - Shahapur,15.832986,74.491053,4,2,traffic_accident,1
+Belgaum - Tilakwadi,15.850785,74.478913,2,6,harassment,1
+Belgaum - Hindwadi,15.82995,74.519408,16,0,harassment,2
+Belgaum - Shahapur,15.865323,74.508492,23,0,theft,1
+Belgaum - Tilakwadi,15.875455,74.501359,17,6,vandalism,3
+Belgaum - Hindwadi,15.833715,74.505237,0,2,harassment,1
+Belgaum - Camp Area,15.87856,74.517599,4,3,harassment,2
+Belgaum - Shahapur,15.866199,74.481945,16,0,vandalism,2
+Belgaum - Hindwadi,15.827709,74.477158,17,4,traffic_accident,2
+Belgaum - Hindwadi,15.852178,74.482406,3,6,theft,1
+Belgaum - Hindwadi,15.879307,74.473528,22,0,suspicious_activity,3
+Belgaum - Shahapur,15.833978,74.480592,19,6,vandalism,3
+Belgaum - Hindwadi,15.843225,74.470113,21,1,traffic_accident,1
+Belgaum - Khanapur Road,15.875392,74.499112,2,0,theft,1
+Belgaum - Vadgaon,15.870875,74.504363,1,5,harassment,1
+Belgaum - Shahapur,15.859008,74.522015,0,0,suspicious_activity,3
+Belgaum - Hindwadi,15.847336,74.513105,13,2,theft,2
+Belgaum - Tilakwadi,15.847943,74.513852,18,6,suspicious_activity,1
+Belgaum - Camp Area,15.854559,74.509498,1,3,vandalism,3
+Belgaum - Shahapur,15.82543,74.493078,3,6,burglary,3
+Belgaum - Camp Area,15.820994,74.483161,1,3,vandalism,1
+Belgaum - Hindwadi,15.855758,74.489729,18,4,harassment,3
+Belgaum - Vadgaon,15.830563,74.477422,12,2,harassment,2
+Belgaum - Khanapur Road,15.840607,74.479467,7,4,suspicious_activity,2
+Belgaum - Khanapur Road,15.879316,74.476186,12,6,harassment,3
+Belgaum - Hindwadi,15.874796,74.484999,16,1,traffic_accident,1
+Belgaum - Hindwadi,15.842632,74.50565,6,2,harassment,3
+Belgaum - Tilakwadi,15.842127,74.529543,7,6,burglary,1
+Belgaum - Hindwadi,15.879218,74.50955,16,2,vandalism,1
+Belgaum - Camp Area,15.864838,74.498158,3,3,vandalism,1
+Belgaum - Khanapur Road,15.855433,74.490657,4,6,vandalism,3
+Belgaum - Vadgaon,15.858202,74.496476,11,5,traffic_accident,2
+Belgaum - Shahapur,15.823894,74.515373,21,2,burglary,2
+Belgaum - Tilakwadi,15.829273,74.493702,6,1,burglary,1
+Belgaum - Camp Area,15.864922,74.500648,11,0,vandalism,1
+Belgaum - Camp Area,15.860656,74.522841,23,2,theft,1
+Belgaum - Camp Area,15.868716,74.474648,6,2,suspicious_activity,2
+Belgaum - Vadgaon,15.834148,74.519222,6,5,theft,1
+Belgaum - Vadgaon,15.869583,74.470715,2,0,harassment,1
+Belgaum - Tilakwadi,15.879742,74.505572,14,5,suspicious_activity,1
+Belgaum - Hindwadi,15.870366,74.499285,18,3,suspicious_activity,1
+Belgaum - Camp Area,15.821343,74.493052,11,0,suspicious_activity,2
+Belgaum - Hindwadi,15.84212,74.525472,10,5,vandalism,1
+Belgaum - Khanapur Road,15.838343,74.489472,6,2,suspicious_activity,2
+Belgaum - Vadgaon,15.850964,74.475246,1,2,burglary,1
+Belgaum - Tilakwadi,15.875819,74.486855,23,2,suspicious_activity,2
+Belgaum - Tilakwadi,15.851038,74.499194,16,1,suspicious_activity,1
+Belgaum - Camp Area,15.877973,74.517025,12,5,burglary,1
+Belgaum - Camp Area,15.853644,74.478458,15,4,vandalism,1
+Belgaum - Shahapur,15.824402,74.498282,8,5,traffic_accident,2
+Belgaum - Camp Area,15.854198,74.482105,2,4,suspicious_activity,3
+Belgaum - Shahapur,15.851114,74.485636,11,5,burglary,1
+Belgaum - Camp Area,15.853827,74.521557,18,5,vandalism,2
+Belgaum - Camp Area,15.863022,74.500378,0,0,vandalism,1
+Belgaum - Camp Area,15.879738,74.517878,11,2,harassment,1
+Belgaum - Tilakwadi,15.878958,74.500638,7,1,burglary,1
+Belgaum - Shahapur,15.852958,74.472766,14,2,traffic_accident,1
+Belgaum - Tilakwadi,15.82664,74.492761,23,2,vandalism,1
+Belgaum - Khanapur Road,15.851638,74.479648,1,6,traffic_accident,1
+Belgaum - Hindwadi,15.855828,74.518476,23,1,burglary,1
+Belgaum - Tilakwadi,15.843647,74.529929,17,5,theft,1
+Belgaum - Tilakwadi,15.867328,74.475444,23,6,traffic_accident,2
+Belgaum - Vadgaon,15.869956,74.506549,18,1,harassment,3
+Belgaum - Tilakwadi,15.841758,74.47925,11,4,harassment,2
+Belgaum - Hindwadi,15.827504,74.519887,22,6,burglary,3
+Belgaum - Shahapur,15.871356,74.477914,14,3,harassment,1
+Belgaum - Shahapur,15.855933,74.478749,19,0,traffic_accident,2
+Belgaum - Khanapur Road,15.858213,74.478093,1,3,theft,2
+Belgaum - Camp Area,15.873401,74.529022,22,4,suspicious_activity,1
+Belgaum - Shahapur,15.871971,74.500868,15,2,harassment,1
+Belgaum - Tilakwadi,15.831913,74.519355,10,4,traffic_accident,3
+Belgaum - Tilakwadi,15.844072,74.480146,22,3,traffic_accident,2
+Belgaum - Vadgaon,15.876737,74.501816,14,6,harassment,1
+Belgaum - Khanapur Road,15.827043,74.48456,3,3,theft,2
+Belgaum - Camp Area,15.874784,74.476277,10,1,vandalism,1
+Belgaum - Camp Area,15.841421,74.474691,5,5,burglary,1
+Belgaum - Shahapur,15.8683,74.525278,1,4,traffic_accident,1
+Belgaum - Tilakwadi,15.876627,74.521415,9,2,traffic_accident,2
+Belgaum - Vadgaon,15.838443,74.512884,12,5,harassment,2
+Belgaum - Shahapur,15.830842,74.492742,19,0,vandalism,1
+Belgaum - Tilakwadi,15.832547,74.491296,1,6,vandalism,2
+Belgaum - Khanapur Road,15.839053,74.472,16,4,burglary,2
+Belgaum - Khanapur Road,15.844225,74.48872,13,6,harassment,3
+Belgaum - Khanapur Road,15.829666,74.496055,12,6,vandalism,1
+Belgaum - Khanapur Road,15.876768,74.481021,19,4,theft,3
+Belgaum - Camp Area,15.874822,74.476317,2,4,harassment,2
+Belgaum - Khanapur Road,15.875105,74.516182,7,3,suspicious_activity,1
+Belgaum - Shahapur,15.861909,74.493686,19,0,theft,2
+Belgaum - Camp Area,15.873648,74.511754,11,6,vandalism,2
+Belgaum - Shahapur,15.875493,74.485881,22,2,traffic_accident,2
+Belgaum - Tilakwadi,15.846832,74.524054,19,1,suspicious_activity,1
+Belgaum - Tilakwadi,15.85406,74.490263,14,5,burglary,2
+Belgaum - Vadgaon,15.868255,74.510645,0,2,vandalism,1
+Belgaum - Hindwadi,15.858066,74.472006,13,2,suspicious_activity,3
+Belgaum - Hindwadi,15.860677,74.49074,12,5,harassment,3
+Belgaum - Khanapur Road,15.869412,74.503292,22,2,vandalism,2
+Belgaum - Camp Area,15.836759,74.480965,6,0,theft,1
+Belgaum - Shahapur,15.842599,74.481454,18,1,theft,2
+Belgaum - Hindwadi,15.849729,74.472548,19,4,theft,2
+Belgaum - Shahapur,15.861076,74.472612,3,5,burglary,2
+Belgaum - Khanapur Road,15.879751,74.511205,22,2,harassment,3
+Belgaum - Tilakwadi,15.85223,74.48175,8,4,harassment,1
+Belgaum - Tilakwadi,15.82478,74.488458,0,2,harassment,1
+Belgaum - Khanapur Road,15.860223,74.50458,8,2,harassment,1
+Belgaum - Tilakwadi,15.846889,74.518864,19,4,theft,1
+Belgaum - Shahapur,15.839342,74.481754,18,1,traffic_accident,1
+Belgaum - Shahapur,15.82018,74.489253,21,1,vandalism,1
+Belgaum - Hindwadi,15.874662,74.497429,10,2,burglary,1
+Belgaum - Shahapur,15.856953,74.484258,8,2,harassment,2
+Belgaum - Vadgaon,15.877245,74.52992,8,1,vandalism,2
+Belgaum - Shahapur,15.84068,74.514741,6,3,suspicious_activity,1
+Belgaum - Hindwadi,15.863215,74.491613,5,1,theft,1
+Belgaum - Khanapur Road,15.838329,74.525205,18,1,suspicious_activity,3
+Belgaum - Khanapur Road,15.836887,74.474913,19,6,traffic_accident,2
+Belgaum - Camp Area,15.852198,74.50795,15,6,theft,1
+Belgaum - Camp Area,15.859128,74.500436,12,4,harassment,2
+Belgaum - Vadgaon,15.849943,74.482188,19,3,suspicious_activity,3
+Belgaum - Khanapur Road,15.844601,74.476777,19,2,vandalism,1
+Belgaum - Shahapur,15.861686,74.475783,3,4,theft,3
+Belgaum - Tilakwadi,15.869895,74.472278,1,6,vandalism,1
+Belgaum - Tilakwadi,15.840034,74.476628,0,4,theft,1
+Belgaum - Camp Area,15.831653,74.475897,6,2,suspicious_activity,3
+Belgaum - Khanapur Road,15.877945,74.492708,6,3,suspicious_activity,2
+Belgaum - Vadgaon,15.866992,74.505465,14,1,theft,1
+Belgaum - Shahapur,15.876693,74.509037,22,0,theft,2
+Belgaum - Camp Area,15.826291,74.491584,10,1,burglary,1
+Belgaum - Khanapur Road,15.832735,74.521057,5,3,harassment,3
+Belgaum - Tilakwadi,15.825012,74.516878,4,5,vandalism,1
+Belgaum - Khanapur Road,15.825829,74.52691,7,1,burglary,2
+Belgaum - Camp Area,15.866272,74.523337,5,2,harassment,2
+Belgaum - Khanapur Road,15.875014,74.490196,8,5,harassment,1
+Belgaum - Camp Area,15.872503,74.528602,6,2,burglary,1
+Belgaum - Hindwadi,15.870549,74.476437,21,3,suspicious_activity,3
+Belgaum - Camp Area,15.843689,74.478954,10,3,vandalism,1
+Belgaum - Hindwadi,15.864356,74.492048,18,3,suspicious_activity,1
+Belgaum - Vadgaon,15.838582,74.510473,15,4,harassment,2
+Belgaum - Vadgaon,15.837777,74.498003,15,4,burglary,2
+Belgaum - Khanapur Road,15.879801,74.491114,17,6,theft,1
+Belgaum - Camp Area,15.827376,74.52023,9,4,suspicious_activity,2
+Belgaum - Tilakwadi,15.872794,74.506573,2,4,suspicious_activity,1
+Belgaum - Vadgaon,15.838198,74.506792,17,4,burglary,2
+Belgaum - Khanapur Road,15.833827,74.502489,8,5,traffic_accident,1
+Belgaum - Camp Area,15.854556,74.504497,10,4,vandalism,1
+Belgaum - Vadgaon,15.865444,74.521787,16,3,traffic_accident,2
+Belgaum - Camp Area,15.877438,74.504758,19,5,theft,2
+Belgaum - Hindwadi,15.842004,74.501824,18,6,burglary,3
+Belgaum - Shahapur,15.848625,74.504152,19,2,traffic_accident,1
+Belgaum - Hindwadi,15.861841,74.497672,13,2,harassment,1
+Belgaum - Hindwadi,15.830477,74.526612,13,5,harassment,1
+Belgaum - Hindwadi,15.822844,74.473263,8,4,harassment,1
+Belgaum - Khanapur Road,15.829081,74.478596,8,2,harassment,1
+Belgaum - Hindwadi,15.842945,74.476076,22,0,vandalism,3
+Belgaum - Khanapur Road,15.846705,74.519491,1,2,harassment,1
+Belgaum - Hindwadi,15.875696,74.529065,16,0,burglary,2
+Belgaum - Khanapur Road,15.865747,74.523665,1,2,burglary,1
+Belgaum - Khanapur Road,15.832954,74.525105,20,6,vandalism,1
+Belgaum - Shahapur,15.833994,74.523937,0,2,theft,1
+Belgaum - Shahapur,15.857882,74.49378,3,6,vandalism,2
+Belgaum - Camp Area,15.865595,74.483697,10,4,harassment,3
+Belgaum - Tilakwadi,15.872121,74.529802,22,2,suspicious_activity,1
+Belgaum - Khanapur Road,15.87387,74.509165,20,2,burglary,3
+Belgaum - Khanapur Road,15.871581,74.501648,0,5,traffic_accident,1
+Belgaum - Hindwadi,15.830457,74.477005,6,2,harassment,2
+Belgaum - Shahapur,15.866512,74.480708,12,3,traffic_accident,1
+Belgaum - Khanapur Road,15.864042,74.504138,10,2,suspicious_activity,1
+Belgaum - Khanapur Road,15.85599,74.521938,7,3,theft,3
+Belgaum - Camp Area,15.879978,74.473524,13,1,suspicious_activity,1
+Belgaum - Camp Area,15.854093,74.490421,9,5,harassment,1
+Belgaum - Tilakwadi,15.836817,74.508646,7,0,burglary,3

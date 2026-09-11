@@ -1,0 +1,351 @@
+location_zone,latitude,longitude,hour,day_of_week,incident_type,severity
+Mandya - VV Nagar,12.531512,76.916561,1,0,burglary,1
+Mandya - VV Nagar,12.522396,76.886911,9,2,traffic_accident,2
+Mandya - Subhash Nagar,12.534609,76.878638,12,5,theft,1
+Mandya - Subhash Nagar,12.520466,76.91939,23,4,suspicious_activity,2
+Mandya - Ashok Nagar,12.504703,76.889763,14,5,harassment,2
+Mandya - Mandya City Centre,12.529274,76.898201,1,0,harassment,1
+Mandya - Ashok Nagar,12.536536,76.876387,8,4,theft,1
+Mandya - VV Nagar,12.53042,76.87253,20,3,vandalism,1
+Mandya - PES College Area,12.505933,76.902007,9,0,burglary,1
+Mandya - Subhash Nagar,12.535315,76.900858,2,0,vandalism,1
+Mandya - Subhash Nagar,12.514257,76.894538,20,3,theft,1
+Mandya - Mandya City Centre,12.522817,76.882911,7,5,theft,2
+Mandya - VV Nagar,12.500858,76.907968,5,6,suspicious_activity,1
+Mandya - PES College Area,12.518303,76.90203,3,0,burglary,2
+Mandya - Mandya City Centre,12.513578,76.909413,11,2,burglary,2
+Mandya - Subhash Nagar,12.524882,76.879101,22,6,vandalism,2
+Mandya - VV Nagar,12.508431,76.919984,23,2,burglary,2
+Mandya - Mandya City Centre,12.532853,76.870622,1,5,vandalism,3
+Mandya - Subhash Nagar,12.523909,76.886106,3,6,vandalism,1
+Mandya - VV Nagar,12.539913,76.873342,11,0,burglary,2
+Mandya - PES College Area,12.515324,76.911583,9,5,vandalism,1
+Mandya - Ashok Nagar,12.503973,76.912273,3,4,burglary,1
+Mandya - PES College Area,12.53359,76.918538,11,1,theft,1
+Mandya - Subhash Nagar,12.502993,76.91976,3,3,vandalism,2
+Mandya - Ashok Nagar,12.50539,76.906091,4,3,vandalism,1
+Mandya - Ashok Nagar,12.500577,76.871515,19,1,suspicious_activity,1
+Mandya - Ashok Nagar,12.510881,76.884407,7,1,burglary,1
+Mandya - PES College Area,12.53365,76.891682,2,5,theft,1
+Mandya - Ashok Nagar,12.53436,76.878118,20,2,theft,3
+Mandya - PES College Area,12.530236,76.898358,8,1,suspicious_activity,1
+Mandya - Mandya City Centre,12.533771,76.898777,1,4,theft,2
+Mandya - Mandya City Centre,12.507626,76.909126,12,5,burglary,1
+Mandya - VV Nagar,12.502001,76.894202,8,2,traffic_accident,2
+Mandya - Subhash Nagar,12.510026,76.883243,2,0,harassment,1
+Mandya - Mandya City Centre,12.508511,76.897133,3,0,suspicious_activity,1
+Mandya - VV Nagar,12.531175,76.919263,11,2,theft,3
+Mandya - Ashok Nagar,12.518566,76.895981,1,0,suspicious_activity,1
+Mandya - Subhash Nagar,12.509218,76.909931,18,5,traffic_accident,1
+Mandya - PES College Area,12.518405,76.906904,1,5,vandalism,3
+Mandya - Mandya City Centre,12.536673,76.917037,4,0,suspicious_activity,1
+Mandya - PES College Area,12.53062,76.886365,14,6,suspicious_activity,2
+Mandya - VV Nagar,12.505755,76.87295,11,1,vandalism,2
+Mandya - Ashok Nagar,12.513144,76.88048,8,5,theft,2
+Mandya - Mandya City Centre,12.525036,76.905023,18,3,suspicious_activity,1
+Mandya - VV Nagar,12.500871,76.878537,14,1,burglary,1
+Mandya - VV Nagar,12.51022,76.891838,9,5,burglary,1
+Mandya - PES College Area,12.515947,76.917868,15,4,vandalism,1
+Mandya - Ashok Nagar,12.516226,76.873042,13,3,theft,1
+Mandya - Subhash Nagar,12.521388,76.885254,13,1,theft,2
+Mandya - Ashok Nagar,12.517442,76.911005,23,6,suspicious_activity,1
+Mandya - Mandya City Centre,12.513625,76.911085,11,2,theft,2
+Mandya - Ashok Nagar,12.537217,76.89481,10,0,suspicious_activity,2
+Mandya - PES College Area,12.510163,76.908063,2,3,burglary,1
+Mandya - VV Nagar,12.538845,76.874353,9,4,vandalism,3
+Mandya - PES College Area,12.510165,76.903647,14,3,theft,2
+Mandya - Subhash Nagar,12.530783,76.874538,21,5,theft,1
+Mandya - Subhash Nagar,12.536883,76.880655,17,4,burglary,2
+Mandya - Subhash Nagar,12.518751,76.912848,14,0,traffic_accident,1
+Mandya - VV Nagar,12.503599,76.871274,16,4,theft,2
+Mandya - Ashok Nagar,12.505528,76.897647,16,1,traffic_accident,1
+Mandya - Subhash Nagar,12.519249,76.904089,23,2,harassment,2
+Mandya - Subhash Nagar,12.512276,76.884703,7,0,vandalism,1
+Mandya - Mandya City Centre,12.522783,76.913617,7,3,vandalism,1
+Mandya - Mandya City Centre,12.528142,76.91243,21,0,burglary,1
+Mandya - Mandya City Centre,12.515457,76.900969,22,2,vandalism,1
+Mandya - Mandya City Centre,12.520074,76.893231,11,6,suspicious_activity,1
+Mandya - Subhash Nagar,12.529478,76.918924,23,3,burglary,1
+Mandya - Subhash Nagar,12.532853,76.915488,21,2,harassment,2
+Mandya - Subhash Nagar,12.533982,76.882068,1,5,harassment,2
+Mandya - Subhash Nagar,12.514261,76.881063,22,3,vandalism,1
+Mandya - VV Nagar,12.506102,76.906202,18,5,vandalism,2
+Mandya - Ashok Nagar,12.513547,76.876235,23,6,vandalism,1
+Mandya - PES College Area,12.518704,76.889454,21,6,traffic_accident,2
+Mandya - PES College Area,12.513103,76.915974,1,5,harassment,1
+Mandya - PES College Area,12.537477,76.88281,20,1,burglary,2
+Mandya - PES College Area,12.519193,76.896427,15,1,harassment,2
+Mandya - PES College Area,12.506588,76.8714,4,4,burglary,1
+Mandya - Ashok Nagar,12.507516,76.870897,3,3,suspicious_activity,3
+Mandya - VV Nagar,12.523334,76.895533,17,5,harassment,3
+Mandya - VV Nagar,12.504299,76.914483,22,5,harassment,2
+Mandya - Subhash Nagar,12.536982,76.87502,6,3,vandalism,1
+Mandya - VV Nagar,12.508937,76.907408,12,6,traffic_accident,1
+Mandya - PES College Area,12.535735,76.90508,7,2,suspicious_activity,2
+Mandya - Subhash Nagar,12.517585,76.91915,8,1,theft,1
+Mandya - Ashok Nagar,12.52323,76.906461,1,4,harassment,1
+Mandya - Ashok Nagar,12.510604,76.903929,4,0,suspicious_activity,3
+Mandya - Ashok Nagar,12.531522,76.885319,11,5,traffic_accident,2
+Mandya - Mandya City Centre,12.521403,76.910608,13,3,vandalism,1
+Mandya - VV Nagar,12.53347,76.879587,23,5,suspicious_activity,2
+Mandya - Mandya City Centre,12.502672,76.911609,5,4,burglary,1
+Mandya - Mandya City Centre,12.503168,76.897666,23,4,burglary,1
+Mandya - Ashok Nagar,12.503576,76.918122,1,4,harassment,2
+Mandya - Mandya City Centre,12.51192,76.901106,4,2,suspicious_activity,1
+Mandya - Mandya City Centre,12.507885,76.902688,8,3,traffic_accident,1
+Mandya - PES College Area,12.526661,76.895085,20,1,suspicious_activity,2
+Mandya - Mandya City Centre,12.524302,76.90558,10,5,theft,1
+Mandya - PES College Area,12.520485,76.917998,6,3,suspicious_activity,2
+Mandya - VV Nagar,12.522851,76.905289,23,3,traffic_accident,1
+Mandya - Ashok Nagar,12.520722,76.904961,10,4,traffic_accident,1
+Mandya - PES College Area,12.534162,76.908479,4,1,burglary,2
+Mandya - PES College Area,12.515747,76.889845,19,3,suspicious_activity,1
+Mandya - Ashok Nagar,12.516049,76.897375,3,5,theft,1
+Mandya - Subhash Nagar,12.527206,76.904639,14,1,vandalism,1
+Mandya - Ashok Nagar,12.502767,76.887592,18,1,burglary,2
+Mandya - Subhash Nagar,12.51256,76.887507,14,3,harassment,1
+Mandya - Mandya City Centre,12.536276,76.896285,14,2,suspicious_activity,2
+Mandya - Ashok Nagar,12.509233,76.88289,14,0,vandalism,1
+Mandya - Ashok Nagar,12.539313,76.889166,20,0,vandalism,3
+Mandya - VV Nagar,12.516976,76.900321,4,6,vandalism,3
+Mandya - Mandya City Centre,12.515792,76.91632,8,5,traffic_accident,2
+Mandya - Mandya City Centre,12.50597,76.873963,8,1,traffic_accident,3
+Mandya - VV Nagar,12.506346,76.908723,12,5,burglary,2
+Mandya - PES College Area,12.521699,76.898324,4,6,traffic_accident,1
+Mandya - VV Nagar,12.536765,76.874575,2,2,harassment,2
+Mandya - VV Nagar,12.501063,76.870663,7,0,burglary,2
+Mandya - Subhash Nagar,12.502714,76.897032,15,2,vandalism,1
+Mandya - Ashok Nagar,12.525164,76.907321,11,3,harassment,1
+Mandya - Subhash Nagar,12.516379,76.915136,23,4,harassment,3
+Mandya - Ashok Nagar,12.527139,76.911608,16,2,burglary,1
+Mandya - VV Nagar,12.525048,76.882103,15,4,theft,1
+Mandya - Ashok Nagar,12.531555,76.90946,7,4,suspicious_activity,1
+Mandya - Mandya City Centre,12.511884,76.916293,13,3,suspicious_activity,1
+Mandya - Ashok Nagar,12.53915,76.894815,13,5,vandalism,2
+Mandya - Subhash Nagar,12.521101,76.893254,2,5,harassment,2
+Mandya - PES College Area,12.532505,76.911549,11,0,burglary,1
+Mandya - Subhash Nagar,12.5182,76.915469,7,5,harassment,1
+Mandya - VV Nagar,12.531773,76.915173,1,0,harassment,2
+Mandya - PES College Area,12.53307,76.898112,17,2,theft,2
+Mandya - VV Nagar,12.511191,76.879273,3,1,vandalism,3
+Mandya - Subhash Nagar,12.505888,76.882519,2,6,vandalism,3
+Mandya - Ashok Nagar,12.514855,76.905531,9,4,vandalism,3
+Mandya - PES College Area,12.529982,76.879315,6,1,suspicious_activity,3
+Mandya - PES College Area,12.500929,76.882535,1,3,vandalism,1
+Mandya - PES College Area,12.523104,76.895784,22,6,traffic_accident,3
+Mandya - VV Nagar,12.516287,76.881678,23,0,traffic_accident,1
+Mandya - VV Nagar,12.50011,76.899452,10,4,theft,2
+Mandya - Ashok Nagar,12.516238,76.904092,0,6,traffic_accident,2
+Mandya - VV Nagar,12.538144,76.88468,12,5,traffic_accident,2
+Mandya - Ashok Nagar,12.536738,76.908866,8,4,suspicious_activity,1
+Mandya - Ashok Nagar,12.523407,76.901838,22,2,burglary,1
+Mandya - Subhash Nagar,12.513948,76.870332,18,2,vandalism,3
+Mandya - Subhash Nagar,12.51041,76.915733,23,4,vandalism,1
+Mandya - Ashok Nagar,12.528991,76.911738,7,4,burglary,1
+Mandya - VV Nagar,12.506078,76.876834,2,4,traffic_accident,2
+Mandya - PES College Area,12.515437,76.874139,6,0,burglary,1
+Mandya - PES College Area,12.522345,76.890615,18,5,harassment,1
+Mandya - PES College Area,12.524092,76.894655,15,1,vandalism,1
+Mandya - Mandya City Centre,12.508956,76.89391,22,3,suspicious_activity,1
+Mandya - PES College Area,12.531809,76.914129,22,0,burglary,2
+Mandya - Ashok Nagar,12.510592,76.919749,5,5,harassment,3
+Mandya - VV Nagar,12.524588,76.905973,0,5,traffic_accident,1
+Mandya - Subhash Nagar,12.52644,76.885006,0,2,suspicious_activity,1
+Mandya - Mandya City Centre,12.539146,76.917759,6,2,traffic_accident,2
+Mandya - PES College Area,12.501519,76.878233,3,6,suspicious_activity,3
+Mandya - Mandya City Centre,12.539849,76.881776,7,0,harassment,1
+Mandya - Subhash Nagar,12.506958,76.872696,12,4,suspicious_activity,1
+Mandya - Subhash Nagar,12.522718,76.879882,23,1,theft,1
+Mandya - VV Nagar,12.529002,76.891356,20,3,harassment,3
+Mandya - PES College Area,12.521262,76.894465,22,5,traffic_accident,1
+Mandya - Mandya City Centre,12.509072,76.886379,12,6,harassment,2
+Mandya - VV Nagar,12.507074,76.901059,19,5,traffic_accident,1
+Mandya - Mandya City Centre,12.520362,76.879954,1,0,harassment,3
+Mandya - Mandya City Centre,12.504864,76.874284,13,4,harassment,3
+Mandya - Subhash Nagar,12.530605,76.919976,7,6,vandalism,3
+Mandya - PES College Area,12.521814,76.903653,0,4,suspicious_activity,3
+Mandya - Mandya City Centre,12.51076,76.910955,22,2,traffic_accident,3
+Mandya - PES College Area,12.528717,76.884779,20,0,suspicious_activity,2
+Mandya - Ashok Nagar,12.518297,76.904755,5,3,vandalism,2
+Mandya - VV Nagar,12.519681,76.870795,12,3,burglary,3
+Mandya - VV Nagar,12.516815,76.911045,17,5,traffic_accident,1
+Mandya - Mandya City Centre,12.521767,76.883066,5,0,harassment,1
+Mandya - Ashok Nagar,12.502942,76.90851,6,1,suspicious_activity,1
+Mandya - Subhash Nagar,12.535181,76.874605,0,6,traffic_accident,1
+Mandya - PES College Area,12.523139,76.898549,17,3,traffic_accident,1
+Mandya - Ashok Nagar,12.507454,76.916722,11,0,traffic_accident,2
+Mandya - PES College Area,12.524729,76.886497,3,3,vandalism,1
+Mandya - Subhash Nagar,12.539382,76.880798,15,3,traffic_accident,2
+Mandya - VV Nagar,12.520708,76.890378,23,2,harassment,2
+Mandya - Subhash Nagar,12.510443,76.891446,2,6,vandalism,1
+Mandya - Mandya City Centre,12.504032,76.882238,21,5,traffic_accident,2
+Mandya - Ashok Nagar,12.525723,76.882922,4,3,vandalism,2
+Mandya - Subhash Nagar,12.516404,76.871178,18,1,theft,1
+Mandya - Mandya City Centre,12.533004,76.904807,3,2,harassment,1
+Mandya - VV Nagar,12.516114,76.899613,17,6,traffic_accident,1
+Mandya - Subhash Nagar,12.507114,76.914235,23,6,theft,1
+Mandya - Mandya City Centre,12.519357,76.899885,10,4,theft,1
+Mandya - Ashok Nagar,12.509719,76.87397,21,5,traffic_accident,1
+Mandya - VV Nagar,12.530777,76.918104,18,1,theft,1
+Mandya - Mandya City Centre,12.536747,76.876076,9,3,theft,1
+Mandya - Subhash Nagar,12.511641,76.911909,10,4,theft,3
+Mandya - Subhash Nagar,12.5134,76.906691,1,4,suspicious_activity,1
+Mandya - Ashok Nagar,12.523307,76.884762,21,3,vandalism,1
+Mandya - Ashok Nagar,12.528817,76.91556,20,6,harassment,1
+Mandya - Mandya City Centre,12.514596,76.910423,12,6,harassment,1
+Mandya - Ashok Nagar,12.536244,76.891178,20,3,suspicious_activity,1
+Mandya - Subhash Nagar,12.534226,76.882081,12,2,burglary,1
+Mandya - PES College Area,12.509863,76.87913,9,2,burglary,1
+Mandya - Mandya City Centre,12.525051,76.90009,23,6,theft,3
+Mandya - Mandya City Centre,12.530564,76.871865,19,0,theft,2
+Mandya - Mandya City Centre,12.529668,76.916433,13,0,burglary,2
+Mandya - VV Nagar,12.530217,76.884674,15,0,theft,1
+Mandya - Ashok Nagar,12.515573,76.914603,0,6,harassment,1
+Mandya - Subhash Nagar,12.514081,76.891955,17,0,harassment,1
+Mandya - PES College Area,12.50981,76.870417,20,6,suspicious_activity,1
+Mandya - PES College Area,12.523374,76.905789,13,4,suspicious_activity,1
+Mandya - Subhash Nagar,12.534325,76.918655,19,1,traffic_accident,2
+Mandya - PES College Area,12.52523,76.917281,6,3,burglary,2
+Mandya - PES College Area,12.529691,76.873561,14,2,suspicious_activity,2
+Mandya - PES College Area,12.508127,76.872923,4,0,vandalism,2
+Mandya - Subhash Nagar,12.517067,76.919266,8,6,traffic_accident,2
+Mandya - Ashok Nagar,12.506063,76.897558,10,4,harassment,1
+Mandya - Mandya City Centre,12.524818,76.870803,11,3,traffic_accident,2
+Mandya - PES College Area,12.517925,76.894064,17,1,suspicious_activity,3
+Mandya - Mandya City Centre,12.526382,76.88476,0,5,harassment,1
+Mandya - Mandya City Centre,12.525435,76.877085,16,2,suspicious_activity,1
+Mandya - PES College Area,12.500744,76.870438,19,3,vandalism,1
+Mandya - Mandya City Centre,12.513976,76.912242,21,6,theft,2
+Mandya - PES College Area,12.517555,76.916782,2,2,suspicious_activity,3
+Mandya - PES College Area,12.52456,76.884085,20,6,suspicious_activity,1
+Mandya - PES College Area,12.516944,76.89977,19,1,theft,2
+Mandya - Subhash Nagar,12.529072,76.891627,18,5,vandalism,1
+Mandya - Subhash Nagar,12.505399,76.896552,16,6,theft,1
+Mandya - Ashok Nagar,12.530255,76.890275,0,3,suspicious_activity,2
+Mandya - Ashok Nagar,12.502105,76.909335,12,0,traffic_accident,2
+Mandya - Subhash Nagar,12.518583,76.892824,9,0,theft,1
+Mandya - Mandya City Centre,12.531329,76.892669,3,5,harassment,3
+Mandya - Mandya City Centre,12.508454,76.918056,8,4,suspicious_activity,2
+Mandya - PES College Area,12.507595,76.903767,3,0,theft,2
+Mandya - Ashok Nagar,12.524252,76.909673,13,2,harassment,2
+Mandya - Subhash Nagar,12.537309,76.908083,6,4,theft,1
+Mandya - Mandya City Centre,12.511477,76.874931,20,2,harassment,1
+Mandya - PES College Area,12.524075,76.90224,21,1,vandalism,1
+Mandya - Subhash Nagar,12.53868,76.890485,15,1,suspicious_activity,3
+Mandya - VV Nagar,12.511024,76.872865,2,3,harassment,1
+Mandya - Ashok Nagar,12.515395,76.875089,13,1,vandalism,1
+Mandya - Ashok Nagar,12.519124,76.888301,19,4,harassment,1
+Mandya - Subhash Nagar,12.50627,76.908581,18,2,burglary,1
+Mandya - Mandya City Centre,12.535731,76.877835,5,4,vandalism,2
+Mandya - Mandya City Centre,12.510734,76.874989,1,0,harassment,1
+Mandya - VV Nagar,12.502693,76.882932,9,5,traffic_accident,2
+Mandya - PES College Area,12.532148,76.880976,2,0,burglary,3
+Mandya - VV Nagar,12.52854,76.916644,0,4,vandalism,3
+Mandya - PES College Area,12.53261,76.916015,13,5,harassment,2
+Mandya - PES College Area,12.538219,76.87227,1,6,vandalism,1
+Mandya - VV Nagar,12.53265,76.916122,3,3,vandalism,2
+Mandya - Subhash Nagar,12.503445,76.910354,11,2,vandalism,1
+Mandya - Ashok Nagar,12.527889,76.874543,1,1,traffic_accident,1
+Mandya - Ashok Nagar,12.52713,76.880625,0,5,traffic_accident,1
+Mandya - Subhash Nagar,12.521551,76.903523,17,0,vandalism,1
+Mandya - VV Nagar,12.50554,76.872755,22,4,suspicious_activity,1
+Mandya - Ashok Nagar,12.503753,76.870879,2,5,theft,1
+Mandya - Mandya City Centre,12.515329,76.904511,11,6,vandalism,3
+Mandya - Mandya City Centre,12.539866,76.876392,23,5,suspicious_activity,2
+Mandya - Mandya City Centre,12.538164,76.884157,22,4,suspicious_activity,1
+Mandya - VV Nagar,12.533678,76.918567,1,4,vandalism,2
+Mandya - PES College Area,12.513259,76.917087,15,5,harassment,1
+Mandya - PES College Area,12.513828,76.919081,13,4,traffic_accident,1
+Mandya - VV Nagar,12.518603,76.880164,5,3,harassment,2
+Mandya - VV Nagar,12.516931,76.891816,18,2,traffic_accident,3
+Mandya - VV Nagar,12.524485,76.904717,8,0,suspicious_activity,2
+Mandya - VV Nagar,12.510149,76.905629,15,6,suspicious_activity,2
+Mandya - Subhash Nagar,12.521472,76.876355,15,2,theft,2
+Mandya - VV Nagar,12.527165,76.895585,12,0,theft,2
+Mandya - VV Nagar,12.500673,76.870404,23,2,traffic_accident,2
+Mandya - PES College Area,12.513307,76.873857,14,6,traffic_accident,2
+Mandya - PES College Area,12.512131,76.872948,8,3,theft,1
+Mandya - Ashok Nagar,12.512027,76.889901,9,2,theft,2
+Mandya - Subhash Nagar,12.508122,76.890662,2,1,harassment,2
+Mandya - Ashok Nagar,12.500674,76.910812,18,3,theft,1
+Mandya - Subhash Nagar,12.522234,76.875671,13,6,traffic_accident,1
+Mandya - Mandya City Centre,12.501558,76.887068,22,4,theft,2
+Mandya - Subhash Nagar,12.501793,76.880472,2,5,suspicious_activity,3
+Mandya - VV Nagar,12.513708,76.878756,23,2,harassment,1
+Mandya - Ashok Nagar,12.506466,76.899899,8,4,theft,1
+Mandya - Subhash Nagar,12.509728,76.907086,14,6,harassment,3
+Mandya - VV Nagar,12.522464,76.87829,9,1,suspicious_activity,2
+Mandya - Mandya City Centre,12.534319,76.898586,18,2,theft,1
+Mandya - PES College Area,12.502343,76.888254,8,1,harassment,2
+Mandya - Mandya City Centre,12.50176,76.896456,3,2,vandalism,2
+Mandya - Mandya City Centre,12.502311,76.888545,0,0,theft,1
+Mandya - PES College Area,12.534835,76.903954,0,0,harassment,1
+Mandya - Ashok Nagar,12.516521,76.903018,23,3,suspicious_activity,3
+Mandya - PES College Area,12.519762,76.874113,0,4,suspicious_activity,2
+Mandya - Mandya City Centre,12.539515,76.898073,17,5,burglary,1
+Mandya - Ashok Nagar,12.530054,76.908953,14,1,suspicious_activity,1
+Mandya - Mandya City Centre,12.50098,76.900527,4,5,suspicious_activity,1
+Mandya - Subhash Nagar,12.504837,76.916959,20,5,burglary,1
+Mandya - Ashok Nagar,12.509146,76.874034,21,1,vandalism,1
+Mandya - VV Nagar,12.517438,76.874961,10,6,theft,1
+Mandya - VV Nagar,12.528786,76.870733,8,6,theft,2
+Mandya - Mandya City Centre,12.525355,76.878123,10,0,burglary,2
+Mandya - VV Nagar,12.509579,76.893934,5,2,theft,3
+Mandya - Ashok Nagar,12.52347,76.913946,20,4,traffic_accident,1
+Mandya - Subhash Nagar,12.523556,76.880273,1,3,harassment,1
+Mandya - Subhash Nagar,12.518311,76.9049,7,1,theft,1
+Mandya - Mandya City Centre,12.511836,76.871035,8,1,burglary,1
+Mandya - PES College Area,12.501856,76.887961,7,0,burglary,1
+Mandya - Mandya City Centre,12.505769,76.887165,20,1,theft,1
+Mandya - Mandya City Centre,12.518777,76.881391,13,5,suspicious_activity,1
+Mandya - PES College Area,12.500506,76.888592,2,6,vandalism,2
+Mandya - Mandya City Centre,12.521923,76.87652,13,6,theft,2
+Mandya - VV Nagar,12.530447,76.897511,13,4,burglary,1
+Mandya - Mandya City Centre,12.527959,76.889719,2,6,traffic_accident,1
+Mandya - Ashok Nagar,12.505492,76.902681,7,5,theft,1
+Mandya - VV Nagar,12.537721,76.910353,3,2,theft,2
+Mandya - Mandya City Centre,12.502303,76.914944,7,5,vandalism,1
+Mandya - PES College Area,12.528268,76.882368,12,0,suspicious_activity,1
+Mandya - VV Nagar,12.518477,76.882205,2,3,theft,1
+Mandya - VV Nagar,12.514968,76.889575,19,3,theft,3
+Mandya - Mandya City Centre,12.524106,76.918404,4,1,vandalism,3
+Mandya - Subhash Nagar,12.519228,76.881551,18,5,burglary,1
+Mandya - PES College Area,12.519457,76.918151,0,3,suspicious_activity,3
+Mandya - Mandya City Centre,12.515767,76.871195,1,6,burglary,3
+Mandya - VV Nagar,12.514284,76.877684,14,5,traffic_accident,3
+Mandya - PES College Area,12.538551,76.900502,9,0,traffic_accident,1
+Mandya - Ashok Nagar,12.512642,76.891498,15,3,suspicious_activity,1
+Mandya - Ashok Nagar,12.536292,76.877858,23,1,suspicious_activity,1
+Mandya - Mandya City Centre,12.527743,76.910002,5,6,harassment,2
+Mandya - Mandya City Centre,12.520529,76.906763,12,3,harassment,2
+Mandya - PES College Area,12.510936,76.877458,23,3,theft,1
+Mandya - Ashok Nagar,12.536083,76.870523,12,3,suspicious_activity,1
+Mandya - Ashok Nagar,12.506112,76.888291,17,2,theft,1
+Mandya - Ashok Nagar,12.509921,76.896451,4,1,harassment,1
+Mandya - Ashok Nagar,12.500217,76.895749,3,2,theft,2
+Mandya - Subhash Nagar,12.520351,76.886673,19,3,harassment,2
+Mandya - VV Nagar,12.522322,76.903915,15,1,burglary,2
+Mandya - Mandya City Centre,12.504513,76.894647,16,0,traffic_accident,1
+Mandya - PES College Area,12.535917,76.892241,1,4,traffic_accident,2
+Mandya - Ashok Nagar,12.503128,76.912526,12,5,traffic_accident,2
+Mandya - Ashok Nagar,12.534445,76.887659,6,5,vandalism,2
+Mandya - Subhash Nagar,12.514305,76.893246,10,5,traffic_accident,1
+Mandya - VV Nagar,12.525443,76.872298,5,6,theft,1
+Mandya - Mandya City Centre,12.530367,76.884806,7,3,traffic_accident,1
+Mandya - Subhash Nagar,12.501935,76.876649,1,5,traffic_accident,2
+Mandya - PES College Area,12.525904,76.899242,8,2,suspicious_activity,1
+Mandya - Subhash Nagar,12.500081,76.895426,2,4,harassment,2
+Mandya - PES College Area,12.502749,76.881365,18,1,harassment,3
+Mandya - Subhash Nagar,12.531031,76.87687,14,1,traffic_accident,1
+Mandya - Mandya City Centre,12.510351,76.903227,6,0,vandalism,2
+Mandya - Ashok Nagar,12.506013,76.91669,13,1,traffic_accident,1
+Mandya - Subhash Nagar,12.532458,76.90775,9,6,theft,1
+Mandya - Mandya City Centre,12.525498,76.883946,14,5,burglary,2
+Mandya - VV Nagar,12.536667,76.906744,17,0,suspicious_activity,1
+Mandya - VV Nagar,12.504906,76.910344,9,0,harassment,2
+Mandya - Ashok Nagar,12.537585,76.872416,14,4,traffic_accident,2
+Mandya - Ashok Nagar,12.531419,76.877059,19,4,harassment,3
+Mandya - Mandya City Centre,12.523076,76.875722,8,4,harassment,1
+Mandya - Ashok Nagar,12.509014,76.894702,2,4,traffic_accident,1
+Mandya - Mandya City Centre,12.516774,76.904903,20,6,burglary,1
+Mandya - Ashok Nagar,12.530464,76.870116,19,4,harassment,1
