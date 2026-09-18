@@ -112,59 +112,72 @@ def find_nearest_node(address_text, node_coords, default_node=0):
     return default_node
 import pandas as pd
 
-def generate_executive_report(location, hour, day_str, rainfall, start_n, end_n, fast_risk, safe_risk, risk_reduction, patrol_nodes, node_coords, risk_scores, police_stations, sos_enabled, sos_node, dispatch_node):
+import datetime
+
+def generate_executive_report(
+    location, hour, day_str, rainfall, start_n, end_n, 
+    fast_risk, safe_risk, risk_reduction, patrol_nodes, 
+    node_coords, risk_scores, police_stations, 
+    sos_enabled=False, sos_node=None, dispatch_node=None,
+    id_to_area=None
+):
+    # Helper function to convert Node ID to human-readable Location Name
+    def get_location_name(node_id):
+        if id_to_area and node_id in id_to_area:
+            return id_to_area[node_id]
+        elif isinstance(node_id, str):
+            return node_id
+        return f"Location {node_id}"
+
+    start_label = get_location_name(start_n)
+    end_label = get_location_name(end_n)
+    timestamp_str = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
     report = f"""================================================================================
-                HEATMAP AI — EXECUTIVE INCIDENT & DISPATCH MEMO
+HEATMAP AI – EXECUTIVE INCIDENT & DISPATCH MEMO
 ================================================================================
-Generated Timestamp : {pd.Timestamp.now().strftime('%Y-%m-%d %H:%M:%S')}
+Generated Timestamp : {timestamp_str}
 Target Sector / City: {location}
 System Status       : OPERATIONAL / ACTIVE
-
 --------------------------------------------------------------------------------
+
 1. ENVIRONMENTAL & SPATIOTEMPORAL CONTEXT
 --------------------------------------------------------------------------------
-• Target Time Window    : {hour}:00 Hours ({day_str})
-• Weather Factor        : {rainfall} mm/h Precipitation Intensity
-• Machine Learning Model: Spatiotemporal Random Forest Regressor
+• Target Time Window     : {hour}:00 Hours ({day_str})
+• Weather Factor         : {rainfall:.1f} mm/h Precipitation Intensity
+• Machine Learning Model : Spatiotemporal Random Forest Regressor
 
---------------------------------------------------------------------------------
 2. ROUTE RISK EVALUATION & OPTIMIZATION
 --------------------------------------------------------------------------------
-• Origin Node ID        : Node {start_n}
-• Destination Node ID   : Node {end_n}
-• Classical Shortest Path Risk Penalty: {fast_risk:.2f}
-• Quantum Safe Path Accumulated Risk  : {safe_risk:.2f}
-• Total Exposure Reduction Factor     : {risk_reduction:.1f}%
+• Origin Location        : {start_label}
+• Destination Location   : {end_label}
+• Classical Shortest Path Risk Penalty : {fast_risk:.2f}
+• Quantum Safe Path Accumulated Risk   : {safe_risk:.2f}
+• Total Exposure Reduction Factor      : {risk_reduction:.1f}%
 
---------------------------------------------------------------------------------
 3. QUANTUM ALLOCATION (QUBO PATROL UNITS)
 --------------------------------------------------------------------------------
 Total Mobile Patrol Units Deployed: {len(patrol_nodes)}
 """
-    for n in patrol_nodes:
-        lat, lon = node_coords[n]
-        report += f"  - Patrol Unit at Node {n:02d} | Coordinates: ({lat:.4f}, {lon:.4f}) | Local Risk Score: {risk_scores[n]:.2f}\n"
+    for p in patrol_nodes:
+        p_label = get_location_name(p)
+        coords = node_coords.get(p, (0.0, 0.0))
+        is_disp = " [DISPATCHED TO SOS]" if (sos_enabled and p == dispatch_node) else ""
+        report += f"  - Patrol Unit at {p_label} | Coordinates: ({coords[0]:.4f}, {coords[1]:.4f}) | Local Risk Score: {risk_scores.get(p, 0.0):.2f}{is_disp}\n"
 
-    if sos_enabled and dispatch_node is not None:
-        report += f"""
---------------------------------------------------------------------------------
-4. EMERGENCY SOS DISPATCH ALERT LOG
---------------------------------------------------------------------------------
-• ALERT STATUS          : CRITICAL / ACTIVE
-• SOS Incident Location : Node {sos_node}
-• Re-routed Patrol Unit : Patrol Unit at Node {dispatch_node}
-"""
+    if sos_enabled and sos_node is not None:
+        sos_label = get_location_name(sos_node)
+        disp_label = get_location_name(dispatch_node) if dispatch_node is not None else "N/A"
+        report += f"\n4. EMERGENCY SOS DISPATCH STATUS\n--------------------------------------------------------------------------------\n"
+        report += f"  - Active SOS Location : {sos_label}\n"
+        report += f"  - Assigned Patrol Unit: {disp_label}\n"
+        report += f"  - Dispatch Priority   : CRITICAL / HIGH\n"
 
-    report += f"""
---------------------------------------------------------------------------------
-5. SECTOR PHYSICAL POLICE STATIONS
---------------------------------------------------------------------------------
-"""
-    for st_info in police_stations:
-        report += f"  - {st_info['name']} (Lat: {st_info['lat']:.4f}, Lon: {st_info['lon']:.4f})\n"
+    report += f"\n5. SECTOR PHYSICAL POLICE STATIONS\n--------------------------------------------------------------------------------\n"
+    for ps in police_stations:
+        report += f"  - {ps['name']} (Lat: {ps['lat']:.4f}, Lon: {ps['lon']:.4f})\n"
 
-    report += """
-================================================================================
+    report += f"""================================================================================
 CONFIDENTIAL — MUNICIPAL PUBLIC SAFETY COMMAND CENTER
 ================================================================================
 """

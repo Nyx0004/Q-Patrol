@@ -15,7 +15,6 @@ def get_road_snapped_route(waypoints):
     """
     if len(waypoints) < 2:
         return waypoints
-    # OSRM requires "longitude,latitude" format
     loc_str = ";".join([f"{lon},{lat}" for lat, lon in waypoints])
     url = f"http://router.project-osrm.org/route/v1/driving/{loc_str}?overview=full&geometries=geojson"
     try:
@@ -23,12 +22,11 @@ def get_road_snapped_route(waypoints):
         if r.status_code == 200:
             data = r.json()
             if "routes" in data and len(data["routes"]) > 0:
-                # OSRM returns geometry as [lon, lat], convert back to [lat, lon] for Folium
                 coords = data["routes"][0]["geometry"]["coordinates"]
                 return [[lat, lon] for lon, lat in coords]
     except Exception:
         pass
-    return waypoints  # Fallback to straight lines if API timeout occurs 
+    return waypoints 
 
 CITY_POLICE_STATIONS = {
     "bengaluru": [
@@ -115,6 +113,7 @@ def get_city_police_stations(location_query):
         if city_key in query_str:
             return stations
     return CITY_POLICE_STATIONS["mysuru"]
+
 from data_generator import (
     get_coordinates_from_location,
     get_real_police_stations,
@@ -122,65 +121,215 @@ from data_generator import (
     process_uploaded_csv,
     train_spatiotemporal_risk_model,
     predict_route_risk,
-    generate_executive_report  # <--- Add this import
-)
-from data_generator import (
-    get_coordinates_from_location,
-    get_real_police_stations,
-    generate_synthetic_incidents_around_location,
-    process_uploaded_csv,
-    train_spatiotemporal_risk_model,
-    predict_route_risk
+    generate_executive_report
 )
 from quantum_solver import (
     build_city_graph, 
     classical_safe_route, 
     compute_greedy_milp_baseline,
-    quantum_qubo_resource_allocation
+    quantum_qubo_resource_allocation,
+    run_empirical_benchmark
 )
-CITY_NODE_MAPPINGS = {
+
+# ALL 11 METROPOLITAN URBAN CENTERS WITH HIGH-PRECISION GPS LOCATIONS
+CITY_LOCATIONS = {
     "mysuru": {
-        # Row 0: Far South (South-West to South-East)
-        0: "Srirampura", 
-        1: "JP Nagar", 
-        2: "Ashokapuram", 
-        3: "Chamundipuram",
-        
-        # Row 1: South-Central (South-West to South-East)
-        4: "Kuvempunagar", 
-        5: "Jayanagar", 
-        6: "Krishnamurthypuram", 
-        7: "Agrahara",
-        
-        # Row 2: Central & Core City
-        8: "Saraswathipuram", 
-        9: "K.R. Mohalla", 
-        10: "Devaraja Mohalla", 
-        11: "Nazarbad",
-        
-        # Row 3: Far North & West
-        12: "Vijayanagar", 
-        13: "Jayalakshmipuram", 
-        14: "Gokulam", 
-        15: "Hebbal Industrial Area"
+        "Srirampura": (12.2590, 76.6320),
+        "JP Nagar": (12.2670, 76.6580),
+        "Ashokapuram": (12.2810, 76.6430),
+        "Chamundipuram": (12.2890, 76.6535),
+        "Kuvempunagar": (12.2855, 76.6235),
+        "Jayanagar": (12.2940, 76.6360),
+        "Krishnamurthypuram": (12.2915, 76.6450),
+        "Agrahara": (12.2965, 76.6520),
+        "Saraswathipuram": (12.3020, 76.6300),
+        "K.R. Mohalla": (12.3010, 76.6450),
+        "Devaraja Mohalla": (12.3085, 76.6515),
+        "Nazarbad": (12.3075, 76.6660),
+        "Vijayanagar": (12.3320, 76.6030),
+        "Jayalakshmipuram": (12.3160, 76.6230),
+        "Gokulam": (12.3260, 76.6210),
+        "Hebbal Industrial Area": (12.3580, 76.6020)
     },
     "bengaluru": {
-        0: "Electronic City", 1: "Silk Board", 2: "HSR Layout", 3: "Koramangala",
-        4: "BTM Layout", 5: "Jayanagar", 6: "JP Nagar", 7: "MG Road",
-        8: "Indiranagar", 9: "Whitefield", 10: "Marathahalli", 11: "Hebbal",
-        12: "Yelahanka", 13: "Rajajinagar", 14: "Malleshwaram", 15: "Banashankari"
+        "Electronic City": (12.8399, 77.6770),
+        "Silk Board": (12.9172, 77.6228),
+        "HSR Layout": (12.9121, 77.6446),
+        "Koramangala": (12.9352, 77.6245),
+        "BTM Layout": (12.9166, 77.6101),
+        "Jayanagar": (12.9298, 77.5826),
+        "JP Nagar": (12.9077, 77.5855),
+        "MG Road": (12.9756, 77.6066),
+        "Indiranagar": (12.9784, 77.6408),
+        "Whitefield": (12.9698, 77.7499),
+        "Marathahalli": (12.9591, 77.6974),
+        "Hebbal": (13.0358, 77.5970),
+        "Yelahanka": (13.1007, 77.5963),
+        "Rajajinagar": (12.9982, 77.5530),
+        "Malleshwaram": (13.0035, 77.5702),
+        "Banashankari": (12.9250, 77.5468)
     },
-    "bagalkot": {
-        0: "Navanagar Sector 1", 1: "Navanagar Sector 5", 2: "Vidyagiri", 3: "Old City",
-        4: "Kaulpet", 5: "Muchakhandi Area", 6: "BVVS Campus", 7: "Bus Stand Circle",
-        8: "Extension Area", 9: "Engineering College Circle", 10: "Gaddanakeri Cross",
-        11: "Industrial Zone", 12: "Sector 10", 13: "Sector 15", 14: "Sector 20", 15: "Navanagar Sector 25"
+    "mangaluru": {
+        "Bunder": (12.8712, 74.8432),
+        "Kadri": (12.8778, 74.8583),
+        "Pandeshwar": (12.8601, 74.8398),
+        "Urwa": (12.8892, 74.8322),
+        "Barke": (12.8740, 74.8480),
+        "Hampankatta": (12.8698, 74.8430),
+        "Bejai": (12.8850, 74.8480),
+        "Kulshekar": (12.8830, 74.8720),
+        "Attavar": (12.8620, 74.8450),
+        "Surathkal": (12.9810, 74.8020),
+        "Kankanady": (12.8680, 74.8580),
+        "Lalbagh": (12.8790, 74.8420),
+        "Derebail": (12.8990, 74.8460),
+        "Mannagudda": (12.8780, 74.8340),
+        "Falnir": (12.8650, 74.8510),
+        "Bondel": (12.9120, 74.8650)
     },
-    "hubballi": {
-        0: "Vidyanagar", 1: "Gokul Road", 2: "Unkal", 3: "Navanagar",
-        4: "Toll Naka", 5: "CBT Central", 6: "Deshpande Nagar", 7: "Keshwapur",
-        8: "Hosur", 9: "Shirur Park", 10: "Rayapur", 11: "Bengeri",
-        12: "Old Hubli", 13: "Tarihal Industrial Estate", 14: "Gamanagatti", 15: "Airport Road"
+    "dharwad": {
+        "Dharwad Town": (15.4589, 75.0078),
+        "Dharwad Suburban": (15.4520, 75.0125),
+        "Vidyagiri": (15.4320, 75.0180),
+        "Market Area": (15.4570, 75.0050),
+        "Malamaddi": (15.4540, 75.0160),
+        "Saptapur": (15.4480, 75.0110),
+        "Saidapur": (15.4620, 75.0210),
+        "Line Bazaar": (15.4590, 75.0020),
+        "Kalyan Nagar": (15.4410, 75.0050),
+        "Jubilee Circle": (15.4560, 75.0090),
+        "Court Circle": (15.4580, 75.0130),
+        "Gandhinagar": (15.4450, 75.0250),
+        "Toll Naka": (15.4290, 75.0280),
+        "University Campus": (15.4400, 74.9850),
+        "Narendra Bypass": (15.4850, 74.9920),
+        "Kelgeri": (15.4650, 74.9780)
+    },
+    "hassan": {
+        "Hassan Town": (13.0072, 76.1023),
+        "Hassan Extension": (13.0145, 76.1090),
+        "Penshan Mohalla": (13.0090, 76.0950),
+        "Kuvempu Nagar": (13.0180, 76.1020),
+        "Vidya Nagar": (13.0010, 76.1150),
+        "Sampige Road": (13.0050, 76.0980),
+        "BM Road": (13.0030, 76.1050),
+        "Northern Extension": (13.0220, 76.1080),
+        "Salagame Road": (13.0110, 76.0890),
+        "Dairy Circle": (12.9950, 76.1180),
+        "Ring Road Junction": (12.9890, 76.0950),
+        "Industrial Area": (13.0280, 76.1250),
+        "KR Puram": (13.0040, 76.0920),
+        "Shankarpur": (13.0120, 76.1190),
+        "Channapatna Circle": (13.0080, 76.1010),
+        "Hemavathi Nagar": (12.9980, 76.1080)
+    },
+    "hubli": {
+        "Vidyanagar": (15.3642, 75.1228),
+        "Gokul Road": (15.3611, 75.1054),
+        "Unkal": (15.3780, 75.1290),
+        "Navanagar": (15.3950, 75.1120),
+        "Toll Naka": (15.4120, 75.0850),
+        "CBT Central": (15.3524, 75.1382),
+        "Deshpande Nagar": (15.3560, 75.1310),
+        "Keshwapur": (15.3620, 75.1450),
+        "Hosur": (15.3450, 75.1280),
+        "Shirur Park": (15.3710, 75.1190),
+        "Rayapur": (15.4050, 75.0950),
+        "Bengeri": (15.3650, 75.1580),
+        "Old Hubli": (15.3410, 75.1410),
+        "Tarihal": (15.3720, 75.0820),
+        "Gamanagatti": (15.3890, 75.0750),
+        "Airport Road": (15.3590, 75.0920)
+    },
+    "mandya": {
+        "Mandya Town": (12.5245, 76.8962),
+        "Mandya West": (12.5280, 76.8890),
+        "Mandya Central": (12.5210, 76.9010),
+        "West Park": (12.5310, 76.8920),
+        "VV Nagar": (12.5290, 76.9050),
+        "Subhash Nagar": (12.5180, 76.8920),
+        "Ashok Nagar": (12.5350, 76.8980),
+        "Gutthalu": (12.5120, 76.9080),
+        "Kallahalli": (12.5380, 76.8850),
+        "PES College Campus": (12.5320, 76.8790),
+        "Highway Circle": (12.5250, 76.8990),
+        "Sugar Town": (12.5190, 76.8810),
+        "Swarna Sandhra": (12.5110, 76.8950),
+        "Induvalu": (12.5020, 76.8720),
+        "Sanjay Circle": (12.5230, 76.8960),
+        "Marigudi Extension": (12.5270, 76.9080)
+    },
+    "manipal": {
+        "Police Station Area": (13.3525, 74.7865),
+        "MIT Campus": (13.3510, 74.7920),
+        "Tiger Circle": (13.3540, 74.7840),
+        "KMC Campus": (13.3570, 74.7880),
+        "End Point": (13.3620, 74.7850),
+        "Ananth Nagar": (13.3480, 74.7960),
+        "Dasharath Nagar": (13.3420, 74.7990),
+        "Eshwar Nagar": (13.3590, 74.7910),
+        "Perampalli": (13.3650, 74.7750),
+        "Coin Circle": (13.3515, 74.7885),
+        "Vidyaratna Nagar": (13.3460, 74.7820),
+        "TAPMI Campus": (13.3610, 74.8020),
+        "Manipal Lake": (13.3545, 74.7950),
+        "Saralebettu": (13.3410, 74.7890),
+        "Laxmindra Nagar": (13.3490, 74.7780),
+        "Manipal Bus Stand": (13.3530, 74.7845)
+    },
+    "raichur": {
+        "Raichur Town": (16.2052, 77.3556),
+        "Raichur West": (16.2010, 77.3480),
+        "Netaji Nagar": (16.2120, 77.3610),
+        "Market Area": (16.2080, 77.3520),
+        "Arab Mohalla": (16.2030, 77.3590),
+        "Nijalingappa Colony": (16.2150, 77.3490),
+        "Rajendra Gunj": (16.1980, 77.3540),
+        "Station Area": (16.2020, 77.3650),
+        "Askihal": (16.1890, 77.3420),
+        "Mantralayam Road Circle": (16.2180, 77.3680),
+        "LBS Nagar": (16.2090, 77.3420),
+        "Tagore Nagar": (16.2220, 77.3520),
+        "IDSMT Layout": (16.1950, 77.3610),
+        "Rampur Industrial Area": (16.1820, 77.3580),
+        "Jawahar Nagar": (16.2060, 77.3640),
+        "Agricultural University": (16.2110, 77.3290)
+    },
+    "shivmogga": {
+        "Shivamogga Town": (13.9299, 75.5681),
+        "Doddapet": (13.9340, 75.5720),
+        "Kote Area": (13.9250, 75.5650),
+        "Vinoba Nagar": (13.9410, 75.5800),
+        "Gopalagowda Extension": (13.9210, 75.5890),
+        "Jayanagar": (13.9380, 75.5610),
+        "Vidyanagar": (13.9180, 75.5720),
+        "Sharavathi Nagar": (13.9450, 75.5710),
+        "Alkola": (13.9520, 75.5610),
+        "NT Road": (13.9310, 75.5640),
+        "BH Road": (13.9280, 75.5750),
+        "Bus Stand Circle": (13.9330, 75.5690),
+        "Gandhi Bazar": (13.9350, 75.5670),
+        "Savalanga Road": (13.9420, 75.5580),
+        "Tunga Nagar": (13.9150, 75.5820),
+        "Machenahalli": (13.8890, 75.6150)
+    },
+    "udupi": {
+        "Udupi Town": (13.3409, 74.7421),
+        "Malpe": (13.3562, 74.7042),
+        "Manipal": (13.3525, 74.7865),
+        "Brahmavar": (13.4350, 74.7480),
+        "Kadiyali": (13.3460, 74.7550),
+        "Santhekatte": (13.3750, 74.7420),
+        "Ambalpady": (13.3310, 74.7380),
+        "Car Street": (13.3380, 74.7460),
+        "Kinnimulki": (13.3280, 74.7450),
+        "Ajjarkad": (13.3370, 74.7400),
+        "Indrali": (13.3480, 74.7680),
+        "End Point": (13.3620, 74.7850),
+        "Doddanagudde": (13.3520, 74.7580),
+        "Parkala": (13.3510, 74.8050),
+        "Udyavara": (13.3080, 74.7390),
+        "Gundibail": (13.3460, 74.7480)
     }
 }
 
@@ -200,7 +349,6 @@ st.markdown("""
         color: #0F172A;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     }
-    
     section[data-testid="stSidebar"] {
         background-color: #F8FAFC !important;
         border-right: 1px solid #E2E8F0 !important;
@@ -208,102 +356,12 @@ st.markdown("""
     section[data-testid="stSidebar"] * {
         color: #0F172A !important;
     }
-    
-    section[data-testid="stSidebar"] input, 
-    section[data-testid="stSidebar"] div[data-baseweb="select"] {
-        background-color: #FFFFFF !important;
-        color: #0F172A !important;
-        border: 1px solid #CBD5E1 !important;
-        border-radius: 6px !important;
-    }
-    
-    section[data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] {
-        background-color: #FFFFFF !important;
-        border: 1px dashed #94A3B8 !important;
-        border-radius: 6px !important;
-        padding: 12px !important;
-    }
-    section[data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] * {
-        color: #334155 !important;
-    }
-    
-    h1 {
-        color: #0F172A !important;
-        font-weight: 700 !important;
-        font-size: 24px !important;
-        letter-spacing: -0.02em;
-        margin-bottom: 2px !important;
-    }
-    h2, h3, h4 {
-        color: #0F172A !important;
-        font-weight: 600 !important;
-    }
-    
     div[data-testid="stMetric"] {
         background-color: #F8FAFC;
         border: 1px solid #E2E8F0;
         padding: 16px;
         border-radius: 6px;
     }
-    div[data-testid="stMetricValue"] {
-        font-size: 24px !important;
-        font-weight: 700 !important;
-        color: #0F172A !important;
-    }
-    div[data-testid="stMetricLabel"] {
-        color: #475569 !important;
-        font-size: 11px !important;
-        font-weight: 600 !important;
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
-    }
-
-    .instruction-card {
-        background-color: #F8FAFC;
-        border: 1px solid #E2E8F0;
-        border-left: 4px solid #0F172A;
-        padding: 14px 18px;
-        border-radius: 6px;
-        margin-bottom: 20px;
-    }
-    .instruction-card h4 {
-        margin-top: 0;
-        color: #0F172A !important;
-        font-size: 13px;
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
-    }
-    .instruction-card ol {
-        margin-bottom: 0;
-        padding-left: 18px;
-        color: #334155;
-        font-size: 13px;
-    }
-    .instruction-card li {
-        margin-bottom: 4px;
-    }
-
-    .stTabs [data-baseweb="tab-list"] {
-        gap: 4px;
-        background-color: #F1F5F9;
-        padding: 4px;
-        border-radius: 6px;
-        border: 1px solid #E2E8F0;
-    }
-    .stTabs [data-baseweb="tab"] {
-        height: 38px;
-        color: #475569 !important;
-        border-radius: 4px;
-        font-weight: 500;
-        font-size: 13px;
-    }
-    .stTabs [aria-selected="true"] {
-        background-color: #FFFFFF !important;
-        color: #0F172A !important;
-        font-weight: 600 !important;
-        box-shadow: 0 1px 2px rgba(0,0,0,0.05);
-    }
-
     .sos-banner {
         background-color: #FEF3C7;
         border: 1px solid #F59E0B;
@@ -330,7 +388,7 @@ with st.expander("System Operating Manual", expanded=False):
         <ol>
             <li><b>Target Location:</b> Specify the city or region in the left sidebar configuration panel.</li>
             <li><b>Data Ingestion:</b> Upload the matching regional incident dataset CSV under Data Source.</li>
-            <li><b>Parameters:</b> Adjust time slider, weather intensity, patrol resources, and routing nodes.</li>
+            <li><b>Parameters:</b> Adjust time slider, weather intensity, patrol resources, and routing locations.</li>
             <li><b>SOS Simulator:</b> Activate Emergency SOS Alert to simulate real-time patrol re-routing.</li>
             <li><b>Output Analysis:</b> View path risk comparisons, fixed stations, patrol assignments, and QPU benchmarks across tabs.</li>
         </ol>
@@ -354,20 +412,39 @@ selected_day = st.sidebar.selectbox("Day of Week", options=[0,1,2,3,4,5,6], form
 rainfall_mm = st.sidebar.slider("Rainfall / Weather Intensity (mm/h)", 0.0, 50.0, 0.0, step=2.5)
 num_patrols = st.sidebar.slider("Emergency Patrol Units", 1, 5, 3)
 
+# DYNAMIC CITY MATCHING FOR ALL 11 CITIES
+city_query_lower = user_location_query.lower()
+matched_city_key = "mysuru"
+for c_key in CITY_LOCATIONS.keys():
+    if c_key in city_query_lower:
+        matched_city_key = c_key
+        break
+
+loc_dict = CITY_LOCATIONS[matched_city_key]
+location_names = list(loc_dict.keys())
+
+# Create internal mappings for graph computations
+area_to_id = {name: i for i, name in enumerate(location_names)}
+id_to_area = {i: name for i, name in enumerate(location_names)}
+node_coords = {i: loc_dict[name] for i, name in enumerate(location_names)}
+
 st.sidebar.markdown("---")
 st.sidebar.markdown("### 4. Emergency SOS Dispatch Simulator")
 sos_enabled = st.sidebar.checkbox("Activate Emergency SOS Alert", value=False)
-sos_node = st.sidebar.number_input("SOS Location Node ID (0-15)", min_value=0, max_value=15, value=7)
+sos_area = st.sidebar.selectbox("SOS Location", options=location_names, index=min(7, len(location_names)-1))
+sos_node = area_to_id[sos_area]
 
 st.sidebar.markdown("---")
+st.sidebar.markdown("### 5. Routing Location Selection")
+start_area = st.sidebar.selectbox("Start Location", options=location_names, index=min(3, len(location_names)-1))
+end_area = st.sidebar.selectbox("Destination Location", options=location_names, index=min(12, len(location_names)-1))
 
-st.sidebar.markdown("---")
-st.sidebar.markdown("### 5. Routing Grid Selection")
-start_node = st.sidebar.number_input("Start Node ID (0-15)", min_value=0, max_value=15, value=0)
-end_node = st.sidebar.number_input("Destination Node ID (0-15)", min_value=0, max_value=15, value=15)
+start_node = area_to_id[start_area]
+end_node = area_to_id[end_area]
 
 if start_node == end_node:
-    st.sidebar.error("Start and Destination nodes must be distinct.")
+    st.sidebar.error("Start and Destination locations must be distinct.")
+
 st.sidebar.markdown("---")
 st.sidebar.markdown("### 6. Quantum QAOA Setup")
 qaoa_gamma = st.sidebar.slider("Gamma (Phase Separator)", 0.1, 3.14, 1.2, step=0.1)
@@ -403,31 +480,17 @@ else:
     center_lat, center_lon = get_coordinates_from_location(user_location_query)
     df_incidents = generate_synthetic_incidents_around_location(user_location_query, center_lat, center_lon)
 
-# Fetch real physical police station locations
 police_stations = get_real_police_stations(user_location_query, center_lat, center_lon)
-
 risk_model = train_spatiotemporal_risk_model(df_incidents)
-
-min_lat, max_lat = center_lat - 0.02, center_lat + 0.02
-min_lon, max_lon = center_lon - 0.02, center_lon + 0.02
-
-# Widen geographic span to ensure full coverage across Vijayanagar and peripheral areas
-lat_center = (min_lat + max_lat) / 2.0
-lon_center = (min_lon + max_lon) / 2.0
-
-lats = np.linspace(lat_center - 0.035, lat_center + 0.035, 4)
-lons = np.linspace(lon_center - 0.042, lon_center + 0.042, 4)
-node_coords = {i * 4 + j: (lats[i], lons[j]) for i in range(4) for j in range(4)}
-# Map typed landmark addresses to closest grid nodes
 
 risk_scores = predict_route_risk(risk_model, node_coords, hour=selected_hour, day=selected_day, rainfall_mm=rainfall_mm)
 city_graph = build_city_graph(node_coords, risk_scores)
 
 safe_path, fast_path = classical_safe_route(city_graph, source=int(start_node), target=int(end_node))
-milp_path = compute_greedy_milp_baseline(city_graph, source=int(start_node), target=int(end_node))
+# NEW LINE (PASTE THIS)
+milp_patrols = compute_greedy_milp_baseline(risk_scores, node_coords, num_patrols=num_patrols)
 patrol_nodes, bitstring_probs, bitstring_details = quantum_qubo_resource_allocation(risk_scores, node_coords, num_patrols=num_patrols)
 
-# SOS Dispatch Routing Calculation
 dispatch_node = None
 dispatch_path = []
 if sos_enabled:
@@ -458,79 +521,76 @@ with tab1:
     if sos_enabled and dispatch_node is not None:
         st.markdown(f"""
         <div class="sos-banner">
-            CRITICAL SOS DISPATCH ACTIVE: Emergency call received at Node {sos_node}. 
-            Nearest Quantum Patrol Unit at Node {dispatch_node} re-routed! Interception distance: {len(dispatch_path)-1} grid hops.
+            CRITICAL SOS DISPATCH ACTIVE: Emergency call received at {sos_area}. 
+            Nearest Quantum Patrol Unit at {id_to_area[dispatch_node]} re-routed!
         </div>
         """, unsafe_allow_html=True)
         
     col1, col2 = st.columns([2.3, 1])
 
-with col1:
-    st.subheader(f"Spatial Map — {user_location_query}")
-    st.caption("Black Building Icons: Fixed Police Stations | Blue Shields: Mobile Patrol Units | Green Route: Safe Path")
+    with col1:
+        st.subheader(f"Spatial Map — {user_location_query}")
+        st.caption("Black Building Icons: Fixed Police Stations | Blue Shields: Mobile Patrol Units | Green Route: Safe Path")
 
-    m = folium.Map(location=[center_lat, center_lon], zoom_start=13, tiles="OpenStreetMap")
+        m = folium.Map(location=[center_lat, center_lon], zoom_start=13, tiles="OpenStreetMap")
 
-    heat_data = [[row['latitude'], row['longitude'], row['severity']] for _, row in df_incidents.iterrows()]
-    HeatMap(heat_data, radius=14, blur=18, min_opacity=0.45).add_to(m)
+        heat_data = [[row['latitude'], row['longitude'], row['severity']] for _, row in df_incidents.iterrows()]
+        HeatMap(heat_data, radius=14, blur=18, min_opacity=0.45).add_to(m)
 
-    fast_waypoints = [node_coords[n] for n in fast_path]
-    fast_road_coords = get_road_snapped_route(fast_waypoints)
-    folium.PolyLine(fast_road_coords, color="#DC2626", weight=5, opacity=0.85, tooltip="Fastest Path (High Risk)").add_to(m)
+        fast_waypoints = [node_coords[n] for n in fast_path]
+        fast_road_coords = get_road_snapped_route(fast_waypoints)
+        folium.PolyLine(fast_road_coords, color="#DC2626", weight=5, opacity=0.85, tooltip="Fastest Path (High Risk)").add_to(m)
 
-    safe_waypoints = [node_coords[n] for n in safe_path]
-    safe_road_coords = get_road_snapped_route(safe_waypoints)
-    folium.PolyLine(safe_road_coords, color="#16A344", weight=6, opacity=0.95, tooltip="Quantum Safe Path").add_to(m)
+        safe_waypoints = [node_coords[n] for n in safe_path]
+        safe_road_coords = get_road_snapped_route(safe_waypoints)
+        folium.PolyLine(safe_road_coords, color="#16A344", weight=6, opacity=0.95, tooltip="Quantum Safe Path").add_to(m)
 
-    folium.Marker(node_coords[int(start_node)], popup=f"Start (Node {start_node})", icon=folium.Icon(color="green", icon="play", prefix="fa")).add_to(m)
-    folium.Marker(node_coords[int(end_node)], popup=f"Destination (Node {end_node})", icon=folium.Icon(color="red", icon="flag", prefix="fa")).add_to(m)
+        folium.Marker(node_coords[int(start_node)], popup=f"Start: {start_area}", icon=folium.Icon(color="green", icon="play", prefix="fa")).add_to(m)
+        folium.Marker(node_coords[int(end_node)], popup=f"Destination: {end_area}", icon=folium.Icon(color="red", icon="flag", prefix="fa")).add_to(m)
 
-    active_stations = get_city_police_stations(user_location_query)
+        active_stations = get_city_police_stations(user_location_query)
 
-    # Draw Real Physical Police Stations
-    for ps in active_stations:
-        folium.Marker(
-            location=[ps["lat"], ps["lon"]],
-            popup=f"<b>Police Station:</b> {ps['name']}",
-            tooltip=f"Station: {ps['name']}",
-            icon=folium.Icon(color="black", icon="building", prefix="fa")
-        ).add_to(m)
+        # Draw Real Physical Police Stations
+        for ps in active_stations:
+            folium.Marker(
+                location=[ps["lat"], ps["lon"]],
+                popup=f"<b>Police Station:</b> {ps['name']}",
+                tooltip=f"Station: {ps['name']}",
+                icon=folium.Icon(color="black", icon="building", prefix="fa")
+            ).add_to(m)
 
-    # Draw Mobile Patrol Units
-    for p_node in patrol_nodes:
-        lat, lon = node_coords[p_node]
-        folium.Marker(
-            location=[lat, lon],
-            popup=f"Mobile Patrol Unit (Node {p_node})",
-            icon=folium.Icon(color="blue", icon="shield", prefix="fa")
-        ).add_to(m)
+        # Draw Mobile Patrol Units
+        for p_node in patrol_nodes:
+            lat, lon = node_coords[p_node]
+            p_name = id_to_area[p_node]
+            folium.Marker(
+                location=[lat, lon],
+                popup=f"Mobile Patrol Unit ({p_name})",
+                icon=folium.Icon(color="blue", icon="shield", prefix="fa")
+            ).add_to(m)
 
-    # Draw SOS Alert Overlay
-    if sos_enabled and dispatch_node is not None:
-        folium.Marker(
-            location=node_coords[int(sos_node)],
-            popup=f"EMERGENCY SOS ALERT (Node {sos_node})",
-            icon=folium.Icon(color="orange", icon="exclamation-triangle", prefix="fa")
-        ).add_to(m)
+        # Draw SOS Alert Overlay
+        if sos_enabled and dispatch_node is not None:
+            folium.Marker(
+                location=node_coords[int(sos_node)],
+                popup=f"EMERGENCY SOS ALERT ({sos_area})",
+                icon=folium.Icon(color="orange", icon="exclamation-triangle", prefix="fa")
+            ).add_to(m)
 
-        dispatch_waypoints = [node_coords[n] for n in dispatch_path]
-        dispatch_road_coords = get_road_snapped_route(dispatch_waypoints)
-        folium.PolyLine(
-            dispatch_road_coords,
+            dispatch_waypoints = [node_coords[n] for n in dispatch_path]
+            dispatch_road_coords = get_road_snapped_route(dispatch_waypoints)
+            folium.PolyLine(
+                dispatch_road_coords,
                 color="#D97706",
                 weight=5,
                 opacity=0.95,
                 dash_array="8, 8",
-                tooltip=f"Emergency Interception Route (Patrol {dispatch_node} -> SOS Node {sos_node})"
+                tooltip=f"Emergency Interception Route ({id_to_area[dispatch_node]} -> {sos_area})"
             ).add_to(m) 
 
-    
+        st_folium(m, width=850, height=520)
 
-    st_folium(m, width=850, height=520)
-
-with col2:
-
-
+    with col2:
         st.subheader("Performance Metrics")
         
         fast_risk_score = sum([risk_scores[n] for n in fast_path])
@@ -541,7 +601,7 @@ with col2:
         st.metric(label="Fixed Stations Found", value=f"{len(active_stations)} Stations")  
         
         if sos_enabled and dispatch_node is not None:
-            st.metric(label="Active SOS Dispatch", value=f"Node {sos_node}", delta=f"Assigned Patrol: Node {dispatch_node}")
+            st.metric(label="Active SOS Dispatch", value=sos_area, delta=f"Assigned Patrol: {id_to_area[dispatch_node]}")
         else:
             st.metric(label="Region", value=user_location_query)
         st.markdown("---")
@@ -555,8 +615,8 @@ with col2:
             hour=selected_hour,
             day_str=day_label,
             rainfall=rainfall_mm,
-            start_n=int(start_node),
-            end_n=int(end_node),
+            start_n=start_node,
+            end_n=end_node,
             fast_risk=fast_risk_score,
             safe_risk=safe_risk_score,
             risk_reduction=risk_reduction,
@@ -565,9 +625,10 @@ with col2:
             risk_scores=risk_scores,
             police_stations=active_stations,
             sos_enabled=sos_enabled,
-            sos_node=int(sos_node),
-            dispatch_node=dispatch_node
-        )
+            sos_node=sos_node,
+            dispatch_node=dispatch_node,
+            id_to_area=id_to_area  # <--- NEW PARAMETER
+        ) 
         
         st.download_button(
             label="Download Executive Dispatch Memo (.txt)",
@@ -579,18 +640,18 @@ with col2:
         st.markdown("---")
         st.markdown("#### Fixed Police Stations")
         for ps in active_stations:
-             st.write(f"• **{ps['name']}**")
+            st.write(f"• **{ps['name']}**")
             
         st.markdown("---")
         st.markdown("#### Patrol Assignments (QUBO)")
         for node_id in patrol_nodes:
-            lat, lon = node_coords[node_id]
+            node_area = id_to_area[node_id]
             is_dispatched = " [DISPATCHED]" if (sos_enabled and node_id == dispatch_node) else ""
-            st.write(f"• **Node {node_id}** (`{lat:.4f}, {lon:.4f}`): Risk = `{risk_scores[node_id]:.2f}`{is_dispatched}")
+            st.write(f"• **{node_area}**: Risk Penalty = `{risk_scores[node_id]:.2f}`{is_dispatched}")
 
 # TAB 2: QUANTUM QAOA ARCHITECTURE
 with tab2:
-    st.subheader("Quantum QAOA Circuit and QUBO State Execution")
+    st.subheader("QAOA Parameter Optimization & Quantum Statevector Distribution")
     st.caption(f"Quantum optimization mapping for {user_location_query}")
     
     col_q1, col_q2 = st.columns(2)
@@ -634,6 +695,8 @@ with tab2:
     st.dataframe(pd.DataFrame(bitstring_details), use_container_width=True)
 
 # TAB 3: PERFORMANCE BENCHMARKS
+# TAB 3: PERFORMANCE BENCHMARK
+# TAB 3: PERFORMANCE BENCHMARKS
 with tab3:
     st.subheader("Empirical Optimization Benchmarks")
     st.caption(f"Quantitative evaluation in {user_location_query}")
@@ -641,62 +704,45 @@ with tab3:
     col_b1, col_b2 = st.columns(2)
     
     fast_risk_val = sum([risk_scores[n] for n in fast_path])
-    milp_risk_val = sum([risk_scores[n] for n in milp_path])
+    milp_patrols = compute_greedy_milp_baseline(risk_scores, node_coords, num_patrols=num_patrols)
+    milp_risk_val = sum([risk_scores[n] for n in milp_patrols])
     safe_risk_val = sum([risk_scores[n] for n in safe_path])
 
     with col_b1:
         st.markdown("#### 1. Route Risk Exposure")
         fig_bench1, ax_b1 = plt.subplots(figsize=(7, 4.2))
-        fig_bench1.patch.set_facecolor('#FFFFFF')
-        ax_b1.set_facecolor('#FFFFFF')
         
-        methods = ['Dijkstra', 'MILP', 'Hybrid QAOA']
+        methods = ['Dijkstra', 'MILP Solver', 'QAOA (Ours)']
         m_risks = [fast_risk_val, milp_risk_val, safe_risk_val]
         colors = ['#DC2626', '#475569', '#16A34A']
         
         bars = ax_b1.bar(methods, m_risks, color=colors, width=0.45)
-        ax_b1.set_ylabel("Accumulated Risk Penalty", fontsize=10, color='#0F172A')
-        ax_b1.set_title("Safety Quality (Lower is Better)", fontsize=11, color='#0F172A')
+        ax_b1.set_ylabel("Accumulated Risk Penalty", fontsize=10)
+        ax_b1.set_title("Safety Quality (Lower is Better)", fontsize=11)
         ax_b1.grid(axis='y', linestyle='--', alpha=0.3)
         
         for bar in bars:
             yval = bar.get_height()
-            ax_b1.text(bar.get_x() + bar.get_width()/2.0, yval + 0.1, f"{yval:.2f}", ha='center', va='bottom', color='#0F172A', fontweight='bold')
+            ax_b1.text(bar.get_x() + bar.get_width()/2.0, yval + 0.1, f"{yval:.2f}", ha='center', va='bottom', fontweight='bold')
             
         st.pyplot(fig_bench1)
 
     with col_b2:
-        st.markdown("#### 2. Scalability Benchmark")
+        st.markdown("#### 2. Scalability Benchmark (Live Measured)")
+        
+        # Execute real dynamic benchmark
+        nodes_scale, classical_times, quantum_times = run_empirical_benchmark(risk_scores, node_coords)
+        
         fig_bench2, ax_b2 = plt.subplots(figsize=(7, 4.2))
-        fig_bench2.patch.set_facecolor('#FFFFFF')
-        ax_b2.set_facecolor('#FFFFFF')
-        
-        nodes_scale = [16, 64, 256, 1024]
-        classical_times = [0.01, 0.12, 1.85, 24.3]
-        quantum_times = [0.012, 0.045, 0.18, 0.65]
-        
-        ax_b2.plot(nodes_scale, classical_times, label='Classical MILP', marker='o', color='#DC2626', linewidth=1.8)
-        ax_b2.plot(nodes_scale, quantum_times, label='Hybrid QAOA', marker='s', color='#0F172A', linewidth=1.8)
-        ax_b2.set_xlabel("Grid Size (Locations)", fontsize=10, color='#0F172A')
-        ax_b2.set_ylabel("Execution Time (Seconds - Log Scale)", fontsize=10, color='#0F172A')
-        ax_b2.set_yscale("log")
-        ax_b2.set_title("Computational Complexity Scaling", fontsize=11, color='#0F172A')
-        ax_b2.legend(frameon=True, facecolor='#FFFFFF', edgecolor='#CBD5E1')
+        ax_b2.plot(nodes_scale, classical_times, label='Classical MILP (SciPy)', marker='o', color='#DC2626', linewidth=1.8)
+        ax_b2.plot(nodes_scale, quantum_times, label='QAOA Statevector Simulation', marker='s', color='#0F172A', linewidth=1.8)
+        ax_b2.set_xlabel("Grid Size (Locations)", fontsize=10)
+        ax_b2.set_ylabel("Execution Time (Seconds)", fontsize=10)
+        ax_b2.set_title("Measured Computational Complexity", fontsize=11)
+        ax_b2.legend(frameon=True)
         ax_b2.grid(True, linestyle='--', alpha=0.3)
         
-        st.pyplot(fig_bench2)
-
-    st.markdown("---")
-    st.markdown("#### Summary Matrix")
-    
-    benchmark_df = pd.DataFrame({
-        "Optimization Strategy": ["Classical Shortest Path", "Classical MILP Solver", "Hybrid QAOA (Ours)"],
-        "Safety Quality (Risk Score)": [f"{fast_risk_val:.2f}", f"{milp_risk_val:.2f}", f"{safe_risk_val:.2f}"],
-        "Detour Ratio": ["1.0x", f"{(len(milp_path)/len(fast_path)):.2f}x", f"{(len(safe_path)/len(fast_path)):.2f}x"],
-        "Execution Scalability": ["O(V²)", "NP-Hard", "Polynomial Hybrid QPU"],
-        "Target Region": [user_location_query, user_location_query, user_location_query]
-    })
-    st.table(benchmark_df)
+        st.pyplot(fig_bench2) 
 
 # TAB 4: DATASET PREVIEW
 with tab4:
