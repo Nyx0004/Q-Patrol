@@ -143,21 +143,7 @@ The QAOA circuit produces a probability distribution over possible patrol config
 
 After patrol locations are determined, the system uses the **Open Source Routing Machine (OSRM)** to calculate routes using real road-network geometry.
 
-Instead of using straight-line distance:
 
-
-A ───────────────── B
-
-
-the system follows available roads:
-
-
-A
-│
-├──── Road ────┐
-│              │
-└──── Road ────┤
-               B
 
 
 The routing component can be used to calculate:
@@ -298,22 +284,6 @@ The QAOA component currently operates as a **4-qubit statevector simulation**, s
 
 ---
 
-# Project Structure
 
-
-Q-Patrol/
-│
-├── app.py
-├── quantum_solver.py
-├── requirements.txt
-├── README.md
-│
-├── data/
-│   ├── bengaluru.csv
-│   ├── mysuru.csv
-│   └── ...
-│
-└── assets/
-    └── ...
 
 
