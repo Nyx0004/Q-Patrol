@@ -650,30 +650,27 @@ with tab1:
             st.write(f"• **{node_area}**: Risk Penalty = `{risk_scores[node_id]:.2f}`{is_dispatched}")
 
 # TAB 2: QUANTUM QAOA ARCHITECTURE
+# --- TAB 2: QUANTUM QAOA ARCHITECTURE ---
 with tab2:
     st.subheader("QAOA Parameter Optimization & Quantum Statevector Distribution")
     st.caption(f"Quantum optimization mapping for {user_location_query}")
     
     col_q1, col_q2 = st.columns(2)
-    plt.style.use('default')
     
+    # 1. Clean Matplotlib Circuit Rendering
     with col_q1:
         st.markdown("#### Qiskit Parameterized Circuit")
-        qc = build_qaoa_circuit(num_qubits=4, gamma=qaoa_gamma, beta=qaoa_beta)
-        
-        fig, ax = plt.subplots(figsize=(8, 4.5))
-        fig.patch.set_facecolor('#FFFFFF')
-        ax.set_facecolor('#FFFFFF')
         try:
-            qc.draw(output='mpl', ax=ax, style={'backgroundcolor': '#FFFFFF'})
-            st.pyplot(fig)
+            # Draw circuit cleanly using Matplotlib renderer instead of ASCII text
+            fig_qc = opt_qc.draw(output='mpl', style='iqp')
+            st.pyplot(fig_qc)
         except Exception:
-            st.text(qc.draw(output='text'))
+            # Fallback monospace block if Matplotlib drawing fails
+            st.code(str(opt_qc.draw(output='text')), language='text')
             
-        st.caption("4-Qubit QAOA circuit constructed via Qiskit.")
-
+    # 2. Correctly Titled & Formatted Probability Distribution
     with col_q2:
-        st.markdown("#### QUBO Energy Distribution")
+        st.markdown("#### QAOA Measurement Probability Distribution") # FIX: Renamed header
         
         fig2, ax2 = plt.subplots(figsize=(8, 4.5))
         fig2.patch.set_facecolor('#FFFFFF')
@@ -683,7 +680,12 @@ with tab2:
         probs = list(bitstring_probs.values())
         
         bars = ax2.bar(states, probs, color='#0F172A', edgecolor='#334155', linewidth=1.0)
-        ax2.set_xlabel("Qubit Bitstrings (|x3 x2 x1 x0⟩)", fontsize=10, color='#0F172A')
+        
+        # FIX: Rotate x-axis labels so bitstrings don't merge into each other
+        ax2.set_xticks(range(len(states)))
+        ax2.set_xticklabels(states, rotation=45, ha='right', fontsize=9, color='#0F172A')
+        
+        ax2.set_xlabel("Qubit Bitstrings (|q₃ q₂ q₁ q₀⟩)", fontsize=10, color='#0F172A') # FIX: Cleaned typo
         ax2.set_ylabel("Measurement Probability", fontsize=10, color='#0F172A')
         ax2.set_title(f"State Probabilities ({user_location_query})", fontsize=11, color='#0F172A')
         ax2.grid(axis='y', linestyle='--', alpha=0.3)
@@ -691,7 +693,7 @@ with tab2:
         st.pyplot(fig2)
 
     st.markdown("---")
-    st.markdown("#### Qubit Bitstring Mapping to Coordinates")
+    st.markdown("#### Qubit Bitstring Mapping to Candidate Localities")
     st.dataframe(pd.DataFrame(bitstring_details), use_container_width=True)
 
 # TAB 3: PERFORMANCE BENCHMARKS
