@@ -649,7 +649,6 @@ with tab1:
             is_dispatched = " [DISPATCHED]" if (sos_enabled and node_id == dispatch_node) else ""
             st.write(f"• **{node_area}**: Risk Penalty = `{risk_scores[node_id]:.2f}`{is_dispatched}")
 
-# TAB 2: QUANTUM QAOA ARCHITECTURE
 # --- TAB 2: QUANTUM QAOA ARCHITECTURE ---
 with tab2:
     st.subheader("QAOA Parameter Optimization & Quantum Statevector Distribution")
@@ -657,20 +656,31 @@ with tab2:
     
     col_q1, col_q2 = st.columns(2)
     
-    # 1. Clean Matplotlib Circuit Rendering
+    # Safely reconstruct circuit for display
+    from quantum_solver import build_qaoa_circuit, construct_qubo_matrix, qubo_to_ising
+    
+    nodes_list = list(risk_scores.keys())
+    N_disp = min(len(nodes_list), 4)
+    sub_risk_disp = {n: risk_scores[n] for n in nodes_list[:N_disp]}
+    sub_coords_disp = {n: node_coords[n] for n in nodes_list[:N_disp]}
+    
+    Q_disp = construct_qubo_matrix(sub_risk_disp, sub_coords_disp, num_patrols=num_patrols)
+    h_disp, J_disp = qubo_to_ising(Q_disp)
+    display_qc = build_qaoa_circuit(N_disp, h_disp, J_disp, qaoa_gamma, qaoa_beta)
+    
+    # 1. Circuit Rendering
     with col_q1:
         st.markdown("#### Qiskit Parameterized Circuit")
         try:
-            # Draw circuit cleanly using Matplotlib renderer instead of ASCII text
-            fig_qc = opt_qc.draw(output='mpl', style='iqp')
+            fig_qc = display_qc.draw(output='mpl', style='iqp')
             st.pyplot(fig_qc)
         except Exception:
-            # Fallback monospace block if Matplotlib drawing fails
-            st.code(str(opt_qc.draw(output='text')), language='text')
+            # Clean fallback using monospace text block
+            st.text(str(display_qc.draw(output='text')))
             
-    # 2. Correctly Titled & Formatted Probability Distribution
+    # 2. Probability Distribution Plot
     with col_q2:
-        st.markdown("#### QAOA Measurement Probability Distribution") # FIX: Renamed header
+        st.markdown("#### QAOA Measurement Probability Distribution")
         
         fig2, ax2 = plt.subplots(figsize=(8, 4.5))
         fig2.patch.set_facecolor('#FFFFFF')
@@ -679,13 +689,12 @@ with tab2:
         states = list(bitstring_probs.keys())
         probs = list(bitstring_probs.values())
         
-        bars = ax2.bar(states, probs, color='#0F172A', edgecolor='#334155', linewidth=1.0)
+        ax2.bar(states, probs, color='#0F172A', edgecolor='#334155', linewidth=1.0)
         
-        # FIX: Rotate x-axis labels so bitstrings don't merge into each other
         ax2.set_xticks(range(len(states)))
         ax2.set_xticklabels(states, rotation=45, ha='right', fontsize=9, color='#0F172A')
         
-        ax2.set_xlabel("Qubit Bitstrings (|q₃ q₂ q₁ q₀⟩)", fontsize=10, color='#0F172A') # FIX: Cleaned typo
+        ax2.set_xlabel("Qubit Bitstrings (|q₃ q₂ q₁ q₀⟩)", fontsize=10, color='#0F172A')
         ax2.set_ylabel("Measurement Probability", fontsize=10, color='#0F172A')
         ax2.set_title(f"State Probabilities ({user_location_query})", fontsize=11, color='#0F172A')
         ax2.grid(axis='y', linestyle='--', alpha=0.3)
@@ -694,7 +703,7 @@ with tab2:
 
     st.markdown("---")
     st.markdown("#### Qubit Bitstring Mapping to Candidate Localities")
-    st.dataframe(pd.DataFrame(bitstring_details), use_container_width=True)
+    st.dataframe(pd.DataFrame(bitstring_details), use_container_width=True) 
 
 # TAB 3: PERFORMANCE BENCHMARKS
 # TAB 3: PERFORMANCE BENCHMARK
