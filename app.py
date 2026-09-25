@@ -650,33 +650,41 @@ with tab1:
             st.write(f"• **{node_area}**: Risk Penalty = `{risk_scores[node_id]:.2f}`{is_dispatched}")
 
 # --- TAB 2: QUANTUM QAOA ARCHITECTURE ---
+# --- TAB 2: QUANTUM QAOA ARCHITECTURE ---
 with tab2:
     st.subheader("QAOA Parameter Optimization & Quantum Statevector Distribution")
     st.caption(f"Quantum optimization mapping for {user_location_query}")
     
     col_q1, col_q2 = st.columns(2)
     
-    # Safely reconstruct circuit for display
-    from quantum_solver import build_qaoa_circuit, construct_qubo_matrix, qubo_to_ising
-    
-    nodes_list = list(risk_scores.keys())
-    N_disp = min(len(nodes_list), 4)
-    sub_risk_disp = {n: risk_scores[n] for n in nodes_list[:N_disp]}
-    sub_coords_disp = {n: node_coords[n] for n in nodes_list[:N_disp]}
-    
-    Q_disp = construct_qubo_matrix(sub_risk_disp, sub_coords_disp, num_patrols=num_patrols)
-    h_disp, J_disp = qubo_to_ising(Q_disp)
-    display_qc = build_qaoa_circuit(N_disp, h_disp, J_disp, qaoa_gamma, qaoa_beta)
-    
-    # 1. Circuit Rendering
+    # 1. Circuit Rendering (Self-contained Qiskit Circuit)
     with col_q1:
         st.markdown("#### Qiskit Parameterized Circuit")
         try:
+            from qiskit import QuantumCircuit
+            from qiskit.circuit import Parameter
+            
+            g_param = Parameter('γ')
+            b_param = Parameter('β')
+            display_qc = QuantumCircuit(4, name="QAOA_Ansatz")
+            
+            display_qc.h(range(4))
+            display_qc.barrier()
+            
+            display_qc.rzz(g_param, 0, 1)
+            display_qc.rzz(g_param, 1, 2)
+            display_qc.rzz(g_param, 2, 3)
+            display_qc.barrier()
+            
+            for q in range(4):
+                display_qc.rx(b_param, q)
+                
+            display_qc.measure_all()
+            
             fig_qc = display_qc.draw(output='mpl', style='iqp')
             st.pyplot(fig_qc)
         except Exception:
-            # Clean fallback using monospace text block
-            st.text(str(display_qc.draw(output='text')))
+            st.code(str(display_qc.draw(output='text')), language='text')
             
     # 2. Probability Distribution Plot
     with col_q2:
@@ -703,7 +711,7 @@ with tab2:
 
     st.markdown("---")
     st.markdown("#### Qubit Bitstring Mapping to Candidate Localities")
-    st.dataframe(pd.DataFrame(bitstring_details), use_container_width=True) 
+    st.dataframe(pd.DataFrame(bitstring_details), use_container_width=True)
 
 # TAB 3: PERFORMANCE BENCHMARKS
 # TAB 3: PERFORMANCE BENCHMARK
